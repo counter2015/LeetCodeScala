@@ -24,8 +24,12 @@ Just implement it as number add.
 
 Note that there are following boundary conditions
 
+Total time complexity is O(max(m, n))
+
 - 0 + 0
 - 1 + 99999999999999
+
+## Run Time Info
 
 \- | \-
 ------------ | -------------

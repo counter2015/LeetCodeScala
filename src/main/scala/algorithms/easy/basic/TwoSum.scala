@@ -1,6 +1,8 @@
 package algorithms.easy.basic
 
 object TwoSum {
+
+  // 320 ms, 50.2 MB
   def twoSum(nums: Array[Int], target: Int): Array[Int] = {
     require(nums.length >= 2)
 
@@ -17,4 +19,22 @@ object TwoSum {
 
     solve(arr)
   }
+
+  // another solution: 308 ms, 51.8 MB
+  def twoSumE(nums: Array[Int], target: Int): Array[Int] = {
+    import scala.collection.immutable.HashMap
+    var map = HashMap.empty[Int, Int]
+    var indexa = -1
+    var indexb = -1
+    for (i <- nums.indices) {
+      if (map.contains(target - nums(i))) {
+        indexa = i
+        indexb = map(target - nums(i))
+      } else {
+        map += nums(i) -> i
+      }
+    }
+    Array(indexa, indexb)
+  }
+
 }

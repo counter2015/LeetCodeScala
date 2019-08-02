@@ -29,6 +29,7 @@ return [0, 1]. [1, 0] is also right answer.
   
 Total time complexity is O(nlogn)
 
+## Run Time Info
 
 \- | \-
 ------------ | -------------

@@ -4,6 +4,7 @@ import algorithms.struct.ListNode
 
 object AddTwoNumbers {
 
+  // 368 ms, 55.8 MB
   def addTwoNumbers(l1: ListNode, l2: ListNode): ListNode = {
     var head = new ListNode(0)
     var res = head
