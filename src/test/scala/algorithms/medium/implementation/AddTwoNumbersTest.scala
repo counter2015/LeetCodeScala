@@ -1,6 +1,6 @@
 package algorithms.medium.implementation
 
-import algorithms.medium.implementation.AddTwoNumbers.addTwoNumbers
+import algorithms.medium.implementation.AddTwoNumbers.{addTwoNumbers => solve}
 import algorithms.struct.ListNode
 import org.scalatest.FunSuite
 
@@ -32,7 +32,7 @@ class AddTwoNumbersTest extends FunSuite {
     val l2 = build(Array(5, 6, 4))
     val res = Array(7, 0, 8)
     assert(
-      get(addTwoNumbers(l1, l2)).zip(res).forall(x => x._1 == x._2)
+      get(solve(l1, l2)).zip(res).forall(x => x._1 == x._2)
     )
   }
 
@@ -41,7 +41,7 @@ class AddTwoNumbersTest extends FunSuite {
     val l2 = build(Array(0))
     val res = Array(0)
     assert(
-      get(addTwoNumbers(l1, l2)).zip(res).forall(x => x._1 == x._2)
+      get(solve(l1, l2)).zip(res).forall(x => x._1 == x._2)
     )
   }
 
@@ -51,7 +51,7 @@ class AddTwoNumbersTest extends FunSuite {
     val res = Array.fill(101)(0)
     res(100) = 1
     assert(
-      get(addTwoNumbers(l1, l2)).zip(res).forall(x => x._1 == x._2)
+      get(solve(l1, l2)).zip(res).forall(x => x._1 == x._2)
     )
   }
 
@@ -60,7 +60,7 @@ class AddTwoNumbersTest extends FunSuite {
     val l2 = build(Array(9, 0, 5, 7))
     val res = Array(0, 4, 0, 0, 0, 1)
     assert(
-      get(addTwoNumbers(l1, l2)).zip(res).forall(x => x._1 == x._2)
+      get(solve(l1, l2)).zip(res).forall(x => x._1 == x._2)
     )
   }
 }

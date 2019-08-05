@@ -1,35 +1,35 @@
 package algorithms.medium.string
 
-import algorithms.medium.string.LengthOfLongestSubstring.lengthOfLongestSubstring
+import algorithms.medium.string.LengthOfLongestSubstring.{lengthOfLongestSubstring => solve}
 import org.scalatest.FunSuite
 
 class LengthOfLongestSubstringTest extends FunSuite {
 
   test("test0: sample input") {
-    assert(lengthOfLongestSubstring("abcabcbb") == 3)
+    assert(solve("abcabcbb") == 3)
   }
 
   test("test1: sample input") {
-    assert(lengthOfLongestSubstring("bbbbb") == 1)
+    assert(solve("bbbbb") == 1)
   }
 
   test("test2: sample input") {
-    assert(lengthOfLongestSubstring("pwwkew") == 3)
+    assert(solve("pwwkew") == 3)
   }
 
   test("test3: one element") {
-    assert(lengthOfLongestSubstring("a") == 1)
+    assert(solve("a") == 1)
   }
 
   test("test4: dvdf") {
-    assert(lengthOfLongestSubstring("dvdf") == 3)
+    assert(solve("dvdf") == 3)
   }
 
   test("test5: abba") {
-    assert(lengthOfLongestSubstring("abba") == 2)
+    assert(solve("abba") == 2)
   }
 
   test("test6: tmmzuxt") {
-    assert(lengthOfLongestSubstring("tmmzuxt") == 5)
+    assert(solve("tmmzuxt") == 5)
   }
 }
