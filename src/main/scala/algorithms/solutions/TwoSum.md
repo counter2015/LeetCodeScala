@@ -29,6 +29,10 @@ return [0, 1]. [1, 0] is also right answer.
   
 Total time complexity is O(nlogn)
 
+Another solution `twoSumE` use `Map` to store information of char and index,
+
+That cost time complexity O(n)
+ 
 ## Run Time Info
 
 \- | \-
