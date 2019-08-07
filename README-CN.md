@@ -11,4 +11,30 @@
 
 -使用多种范例求解，命令式/函数式 Scala 风格。
 
+## Test
+使用SBT进行测试，下面是对某题进行测试的例子.
+```sbtshell
+> testOnly algorithms.medium.string.LongestPalindromeTest
+
+[info] - test0: sample input
+[info] - test1: sample input
+[info] - test2: sample input
+[info] - test3: cbbd
+[info] - test4: null string
+[info] - test5: one element
+[info] - test6: distinct element
+[info] Run completed in 660 milliseconds.
+[info] Total number of tests run: 7
+[info] Suites: completed 1, aborted 0
+[info] Tests: succeeded 7, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[success] Total time: 9 s, completed 2019-8-7 18:55:49
+
+```
+
+如果你需要的话，也可以轻松的使用自己的数据测试。
+
+## 题解
+位置在`src/main/scala/solutions`.
+
 施工中...
