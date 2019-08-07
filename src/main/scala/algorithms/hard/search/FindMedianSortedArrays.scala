@@ -2,7 +2,13 @@ package algorithms.hard.search
 
 
 object FindMedianSortedArrays {
-  // 440 ms, 62.5 MB
+  /** RunTime Info:
+    * 440ms, 62.5MB
+    *
+    * @param nums1 first input array
+    * @param nums2 second input array
+    * @return
+    */
   def findMedianSortedArrays(nums1: Array[Int], nums2: Array[Int]): Double = {
     val (a, b) = if (nums1.length > nums2.length) (nums2, nums1) else (nums1, nums2)
     val (m, n) = (a.length, b.length)

@@ -1,7 +1,7 @@
 # LeetCode Scala
 [English Version](./README.md)
 
-用Scala来刷Leetcode.
+Scala Leetcode 刷题记录.
 
 受到此项目的启发 https://github.com/Leibnizhu/LeetcodeScala
 
@@ -35,6 +35,6 @@
 如果你需要的话，也可以轻松的使用自己的数据测试。
 
 ## 题解
-位置在`src/main/scala/solutions`.
+位置在`src/main/scala/solutions`, 题解只提供英文版 <del>怠惰的我</del>
 
 施工中...
