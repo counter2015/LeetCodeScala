@@ -55,6 +55,10 @@ During the string iteration, append char str(i) at res(row), here res is a `Arra
 For **Example 2 ** 
 res = Array( "PIN", "ALSIG", "YAHR", "PI"), then the answer is easy to get by using `mkString` to contact the element of `Array[String]` 
 
+Be careful for the edge situation when numRows == 1, T = 0. 
+
+This solution cost time O(n).
+
 ## Run Time Info
 
 \- | \-
