@@ -5,7 +5,7 @@ object ZigZagConversion {
   /** RunTime Info:
     * 388 ms, 52.7MB
     *
-    * @param s       inpnut string
+    * @param s       input string
     * @param numRows the zig zag row number
     * @return converted string
     */

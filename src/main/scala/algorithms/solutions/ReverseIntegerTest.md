@@ -29,6 +29,12 @@ Output: 21
 
 ## Solution
 
+Use `long` and `String` type to store median result.
+
+- read Int, get its sign.
+- convert Int to String and reverse
+- filter noDigit character and convert to Long `result`
+- if the value overflow Integer, return 0, else return sign * result 
 
 ## Run Time Info
 
