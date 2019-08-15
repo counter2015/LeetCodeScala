@@ -12,7 +12,7 @@ If there is no common prefix, return an empty string `""`.
 
 All given inputs are in lowercase letters `a-z`.
 
-Time complexity O(mn), n is the length of array, m is the min length of string in the array.
+
 
 ## Example
 **Example 1:**
@@ -35,6 +35,7 @@ Explanation: There is no common prefix among the input strings.
 ## Solution
 Just implement it.
 
+Time complexity O(mn), n is the length of array, m is the min length of string in the array.
 
 ## Run Time Info
 
