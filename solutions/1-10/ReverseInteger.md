@@ -1,4 +1,4 @@
-# ZigZag Conversion
+# Reverse Integer
 
 ## Problem link
 https://leetcode.com/problems/reverse-integer/
