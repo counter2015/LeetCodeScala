@@ -33,6 +33,6 @@ Using sbt.
 It's easy to write your own test also.
 
 ## Solution
-See `src/main/scala/solutions`.
+See [Solution Index Page](https://github.com/counter2015/LeetCodeScala/blob/master/solutions/README.md).
 
 WIP...

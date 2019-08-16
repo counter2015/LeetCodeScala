@@ -35,6 +35,6 @@ Scala Leetcode 刷题记录.
 如果你需要的话，也可以轻松的使用自己的数据测试。
 
 ## 题解
-位置在`src/main/scala/solutions`, 题解只提供英文版 <del>怠惰的我</del>
+参见[题解索引页](https://github.com/counter2015/LeetCodeScala/blob/master/solutions/README.md) 题解只提供英文版 <del>怠惰的我</del>
 
 施工中...
