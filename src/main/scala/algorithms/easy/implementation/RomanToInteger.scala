@@ -1,4 +1,4 @@
-package algorithms.medium.implementation
+package algorithms.easy.implementation
 
 object RomanToInteger {
 

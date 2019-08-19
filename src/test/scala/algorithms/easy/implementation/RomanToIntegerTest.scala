@@ -1,6 +1,6 @@
-package algorithms.medium.implementation
+package algorithms.easy.implementation
 
-import algorithms.medium.implementation.RomanToInteger.{romanToInt => solve}
+import algorithms.easy.implementation.RomanToInteger.{romanToInt => solve}
 import org.scalatest.FunSuite
 
 class RomanToIntegerTest extends FunSuite {

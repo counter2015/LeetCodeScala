@@ -1,4 +1,4 @@
-# Roman To Integer
+# Roman to Integer
 
 ## Problem link
 https://leetcode.com/problems/roman-to-integer/
