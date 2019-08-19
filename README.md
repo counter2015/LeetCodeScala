@@ -1,4 +1,7 @@
 # LeetCode Scala
+[![Build Status](https://travis-ci.com/counter2015/LeetCodeScala.svg?branch=master)](https://travis-ci.com/counter2015/LeetCodeScala)
+
+
 [中文版](./README-CN.md)
 
 Solve LeetCode problem by scala.

@@ -1,4 +1,6 @@
 # LeetCode Scala
+[![Build Status](https://travis-ci.com/counter2015/LeetCodeScala.svg?branch=master)](https://travis-ci.com/counter2015/LeetCodeScala)
+
 [English Version](./README.md)
 
 Scala Leetcode 刷题记录.
