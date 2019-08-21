@@ -1,5 +1,6 @@
 # LeetCode Scala
 [![Build Status](https://travis-ci.com/counter2015/LeetCodeScala.svg?branch=master)](https://travis-ci.com/counter2015/LeetCodeScala)
+[![CodeFactor](https://www.codefactor.io/repository/github/counter2015/leetcodescala/badge)](https://www.codefactor.io/repository/github/counter2015/leetcodescala)
 
 [English Version](./README.md)
 
