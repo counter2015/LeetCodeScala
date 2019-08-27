@@ -17,3 +17,5 @@ scalacOptions ++= Seq(
   "-explaintypes", // Explain type errors in more detail.
   "-feature", // Emit warning and location for usages of features that should be imported explicitly.
 )
+
+testOptions in Test += Tests.Argument("-oDF")
