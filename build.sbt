@@ -18,4 +18,11 @@ scalacOptions ++= Seq(
   "-feature", // Emit warning and location for usages of features that should be imported explicitly.
 )
 
+
+/*
+  docs here: http://www.scalatest.org/user_guide/using_scalatest_with_sbt
+ -o[configs...]  - causes test results to be written back to sbt, which usually displays it on the standard output
+   -D - show all durations
+   -F - show full stack traces
+ */
 testOptions in Test += Tests.Argument("-oDF")
