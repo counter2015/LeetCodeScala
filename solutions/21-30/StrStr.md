@@ -41,5 +41,5 @@ See [RemoveDuplicates](https://github.com/counter2015/LeetCodeScala/blob/master/
 \- | \-
 ------------ | -------------
 Date | 2019-08-30
-Time | 	23.6 ms
+Time | 	236 ms
 Memory | 44.2 MB	
