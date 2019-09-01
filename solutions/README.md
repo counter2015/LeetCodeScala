@@ -25,6 +25,18 @@
 19. [Remove Nth Node From End of List][19-0]- [Code][19-1] / [Solution][19-2]
 20. [Valid Parentheses][20-0] - [Code][20-1] / [Solution][20-2]
 
+## 21~30
+21. [Merge Two Sorted Lists][21-0] - [Code][21-1] / [Solution][21-2]
+22. [Generate Parentheses][22-0] - [Code][22-1] / [Solution][22-2]
+23. [Merge k Sorted Lists][23-0] - [Code][23-1] / [Solution][23-2]
+24. [Swap Nodes in Pairs][24-0] - [Code][24-1] / [Solution][24-2]
+25. [Reverse Nodes in k-Group][25-0] - [Code][25-1] / [Solution][25-2]
+26. [Remove Duplicates from Sorted Array][26-0] - [Code][26-1] / [Solution][26-2]
+27. [Remove Element][27-0] - [Code][27-1] / [Solution][27-2]
+28. [Implement strStr][28-0] - [Code][28-1] / [Solution][28-2]
+29. [Divide Two Integers][29-0] - [Code][29-1] / [Solution][29-2]
+30. [Substring with Concatenation of All Words][30-0] - [Code][30-1] / [Solution][30-2]
+
 
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
@@ -104,4 +116,44 @@
 
 [20-0]: https://leetcode.com/problems/valid-parentheses/
 [20-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/string/ValidParentheses.scala
-[20-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/11-20/ValidParentheses.md
+[20-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/21-30/ValidParentheses.md
+
+[21-0]: https://leetcode.com/problems/merge-two-sorted-lists/
+[21-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/MergeTwoLists.scala
+[21-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/21-30/MergeTwoLists.md
+
+[22-0]: https://leetcode.com/problems/generate-parentheses/
+[22-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/GenerateParenthesis.scala
+[22-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/21-30/GenerateParenthesis.md
+
+[23-0]: https://leetcode.com/problems/merge-k-sorted-lists/
+[23-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/MergeKLists.scala
+[23-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/21-30/MergeKLists.md
+
+[24-0]: https://leetcode.com/problems/swap-nodes-in-pairs/
+[24-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SwapPairs.scala
+[24-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/21-30/SwapPairs.md
+
+[25-0]: https://leetcode.com/problems/reverse-nodes-in-k-group/
+[25-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/ReverseKGroup.scala
+[25-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/21-30/ReverseKGroup.md
+
+[26-0]: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+[26-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/RemoveDuplicates.scala
+[26-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/21-30/RemoveDuplicates.md
+
+[27-0]: https://leetcode.com/problems/remove-element/
+[27-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/RemoveElement.scala
+[27-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/21-30/RemoveElement.md
+
+[28-0]: https://leetcode.com/problems/implement-strstr/
+[28-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/StrStr.scala
+[28-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/21-30/StrStr.md
+
+[29-0]: https://leetcode.com/problems/divide-two-integers/
+[29-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/Divide.scala
+[29-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/21-30/Divide.md
+
+[30-0]: https://leetcode.com/problems/substring-with-concatenation-of-all-words/
+[30-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/FindSubstring.scala
+[30-2]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/FindSubstring.scala
