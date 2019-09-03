@@ -172,3 +172,7 @@
 [31-0]: https://leetcode.com/problems/next-permutation/
 [31-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/NextPermutation.scala
 [31-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/NextPermutation.scala
+
+[32-0]: https://leetcode.com/problems/longest-valid-parentheses/
+[32-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/LongestValidParentheses.scala
+[32-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/LongestValidParentheses.scala
