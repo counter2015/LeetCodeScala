@@ -41,7 +41,7 @@
 31. [Next Permutation][31-0] - [Code][31-1] / [Solution][31-2]
 32. [Longest Valid Parentheses][32-0] - [Code][32-1] / [Solution][32-2]
 33. [Search in Rotated Sorted Array][33-0] - [Code][33-1] / [Solution][33-2]
-34. [][34-0] - [Code][34-1] / [Solution][34-2]
+34. [Find First and Last Position of Element in Sorted Array][34-0] - [Code][34-1] / [Solution][34-2]
 35. [][35-0] - [Code][35-1] / [Solution][35-2]
 36. [][36-0] - [Code][36-1] / [Solution][36-2]
 37. [][37-0] - [Code][37-1] / [Solution][37-2]
@@ -180,3 +180,7 @@
 [33-0]: https://leetcode.com/problems/search-in-rotated-sorted-array/
 [33-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/SearchRotatedArray.scala
 [33-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/SearchRotatedArray.md
+
+[33-0]: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+[33-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/SearchRange.scala
+[33-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/SearchRange.md
