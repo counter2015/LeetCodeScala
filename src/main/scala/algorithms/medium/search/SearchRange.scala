@@ -3,7 +3,7 @@ package algorithms.medium.search
 object SearchRange {
 
   /** RunTime Info:
-    * 304 ms, 52.5 MB
+    * 296 ms, 52.4 MB
     *
     * @param nums   sorted array
     * @param target the number to find
@@ -20,7 +20,7 @@ object SearchRange {
         if (nums(m) == target) {
           if (fromLeft) {
             if (m == 0 || nums(m - 1) < target) m
-            else travel(l, m, fromLeft)
+            else travel(l, m - 1, fromLeft)
           } else {
             if (m == n - 1 || nums(m + 1) > target) m
             else travel(m + 1, r, fromLeft)
