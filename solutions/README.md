@@ -43,7 +43,7 @@
 33. [Search in Rotated Sorted Array][33-0] - [Code][33-1] / [Solution][33-2]
 34. [Find First and Last Position of Element in Sorted Array][34-0] - [Code][34-1] / [Solution][34-2]
 35. [Search Insert Position][35-0] - [Code][35-1] / [Solution][35-2]
-36. [][36-0] - [Code][36-1] / [Solution][36-2]
+36. [Valid Sudoku][36-0] - [Code][36-1] / [Solution][36-2]
 37. [][37-0] - [Code][37-1] / [Solution][37-2]
 38. [][38-0] - [Code][38-1] / [Solution][38-2]
 39. [][39-0] - [Code][39-1] / [Solution][39-2]
@@ -188,3 +188,7 @@
 [34-0]: https://leetcode.com/problems/search-insert-position/
 [34-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/SearchInsert.scala
 [34-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/SearchInsert.md
+
+[35-0]: https://leetcode.com/problems/valid-sudoku/
+[35-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/ValidSudoku.scala
+[35-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/ValidSudoku.md
