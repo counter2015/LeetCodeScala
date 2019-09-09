@@ -44,7 +44,7 @@
 34. [Find First and Last Position of Element in Sorted Array][34-0] - [Code][34-1] / [Solution][34-2]
 35. [Search Insert Position][35-0] - [Code][35-1] / [Solution][35-2]
 36. [Valid Sudoku][36-0] - [Code][36-1] / [Solution][36-2]
-37. [][37-0] - [Code][37-1] / [Solution][37-2]
+37. [Sudoku Solver][37-0] - [Code][37-1] / [Solution][37-2]
 38. [][38-0] - [Code][38-1] / [Solution][38-2]
 39. [][39-0] - [Code][39-1] / [Solution][39-2]
 40. [][40-0] - [Code][40-1] / [Solution][40-2]
@@ -181,14 +181,18 @@
 [33-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/SearchRotatedArray.scala
 [33-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/SearchRotatedArray.md
 
-[33-0]: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-[33-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/SearchRange.scala
-[33-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/SearchRange.md
+[34-0]: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+[34-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/SearchRange.scala
+[34-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/SearchRange.md
 
-[34-0]: https://leetcode.com/problems/search-insert-position/
-[34-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/SearchInsert.scala
-[34-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/SearchInsert.md
+[35-0]: https://leetcode.com/problems/search-insert-position/
+[35-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/SearchInsert.scala
+[35-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/SearchInsert.md
 
-[35-0]: https://leetcode.com/problems/valid-sudoku/
-[35-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/ValidSudoku.scala
-[35-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/ValidSudoku.md
+[36-0]: https://leetcode.com/problems/valid-sudoku/
+[36-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/ValidSudoku.scala
+[36-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/ValidSudoku.md
+
+[37-0]: https://leetcode.com/problems/sudoku-solver/
+[37-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/SolveSudoku.scala
+[37-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/SolveSudoku.md
