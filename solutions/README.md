@@ -49,6 +49,9 @@
 39. [Combination Sum][39-0] - [Code][39-1] / [Solution][39-2]
 40. [Combination Sum II][40-0] - [Code][40-1] / [Solution][40-2]
 
+## 41~50
+41. [First Missing Positive][41-0] - [Code][41-1] / [Solution][41-2]
+
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
 [1-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/1-10/TwoSum.md
@@ -208,3 +211,7 @@
 [40-0]: https://leetcode.com/problems/combination-sum-ii/
 [40-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/CombinationSum2.scala
 [40-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/CombinationSum2.md
+
+[41-0]: https://leetcode.com/problems/first-missing-positive/
+[41-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/FirstMissingPositive.scala
+[41-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/FirstMissingPositive.md
