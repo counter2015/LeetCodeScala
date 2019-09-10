@@ -46,7 +46,7 @@
 36. [Valid Sudoku][36-0] - [Code][36-1] / [Solution][36-2]
 37. [Sudoku Solver][37-0] - [Code][37-1] / [Solution][37-2]
 38. [Count and Say][38-0] - [Code][38-1] / [Solution][38-2]
-39. [][39-0] - [Code][39-1] / [Solution][39-2]
+39. [Combination Sum][39-0] - [Code][39-1] / [Solution][39-2]
 40. [][40-0] - [Code][40-1] / [Solution][40-2]
 
 [1-0]: https://leetcode.com/problems/two-sum/
@@ -200,3 +200,7 @@
 [38-0]: https://leetcode.com/problems/count-and-say/
 [38-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/CountAndSay.scala
 [38-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/CountAndSay.md
+
+[39-0]: https://leetcode.com/problems/combination-sum/
+[39-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/CombinationSum.scala
+[39-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/CombinationSum.md
