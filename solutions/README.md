@@ -51,6 +51,15 @@
 
 ## 41~50
 41. [First Missing Positive][41-0] - [Code][41-1] / [Solution][41-2]
+42. [Trapping Rain Water][42-0] - [Code][42-1] / [Solution][42-2]
+43. [][43-0] - [Code][43-1] / [Solution][43-2]
+44. [][44-0] - [Code][44-1] / [Solution][44-2]
+45. [][45-0] - [Code][45-1] / [Solution][45-2]
+46. [][46-0] - [Code][46-1] / [Solution][46-2]
+47. [][47-0] - [Code][47-1] / [Solution][47-2]
+48. [][48-0] - [Code][48-1] / [Solution][48-2]
+49. [][49-0] - [Code][49-1] / [Solution][49-2]
+50. [][50-0] - [Code][50-1] / [Solution][50-2]
 
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
@@ -215,3 +224,35 @@
 [41-0]: https://leetcode.com/problems/first-missing-positive/
 [41-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/FirstMissingPositive.scala
 [41-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/FirstMissingPositive.md
+
+[42-0]: https://leetcode.com/problems/trapping-rain-water/
+[42-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/TrappingRainWater.scala
+[42-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/TrappingRainWater.md 
+
+[43-0]: 
+[43-1]: 
+[43-2]: 
+
+[44-0]: 
+[44-1]: 
+[44-2]: 
+
+[45-0]: 
+[45-1]: 
+[45-2]: 
+
+[46-0]: 
+[46-1]: 
+[46-2]: 
+
+[47-0]: 
+[47-1]: 
+[47-2]: 
+
+[48-0]: 
+[48-1]: 
+[48-2]: 
+
+[49-0]: 
+[49-1]: 
+[49-2]: 
