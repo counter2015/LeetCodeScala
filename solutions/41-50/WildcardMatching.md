@@ -1,4 +1,4 @@
-# Multiply Strings
+# Wildcard Matching
 
 ## Problem link
 https://leetcode.com/problems/wildcard-matching/
