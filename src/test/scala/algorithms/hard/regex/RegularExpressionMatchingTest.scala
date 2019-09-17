@@ -1,6 +1,6 @@
-package algorithms.hard.implementation
+package algorithms.hard.regex
 
-import algorithms.hard.implementation.RegularExpressionMatching.{isMatch => solve}
+import algorithms.hard.regex.RegularExpressionMatching.{isMatch => solve}
 import org.scalatest.FunSuite
 
 class RegularExpressionMatchingTest extends FunSuite {

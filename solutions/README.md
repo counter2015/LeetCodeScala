@@ -53,7 +53,7 @@
 41. [First Missing Positive][41-0] - [Code][41-1] / [Solution][41-2]
 42. [Trapping Rain Water][42-0] - [Code][42-1] / [Solution][42-2]
 43. [Multiply Strings][43-0] - [Code][43-1] / [Solution][43-2]
-44. [][44-0] - [Code][44-1] / [Solution][44-2]
+44. [Wildcard Matching][44-0] - [Code][44-1] / [Solution][44-2]
 45. [][45-0] - [Code][45-1] / [Solution][45-2]
 46. [][46-0] - [Code][46-1] / [Solution][46-2]
 47. [][47-0] - [Code][47-1] / [Solution][47-2]
@@ -233,9 +233,9 @@
 [43-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/string/MultiplyStrings.scala
 [43-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/MultiplyStrings.md
 
-[44-0]: 
-[44-1]: 
-[44-2]: 
+[44-0]: https://leetcode.com/problems/wildcard-matching/
+[44-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/regex/WildcardMatching.scala
+[44-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/WildcardMatching.md
 
 [45-0]: 
 [45-1]: 

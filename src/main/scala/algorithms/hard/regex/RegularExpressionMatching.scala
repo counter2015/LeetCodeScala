@@ -1,4 +1,4 @@
-package algorithms.hard.implementation
+package algorithms.hard.regex
 
 object RegularExpressionMatching {
 
