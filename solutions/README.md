@@ -56,7 +56,7 @@
 44. [Wildcard Matching][44-0] - [Code][44-1] / [Solution][44-2]
 45. [Jump Game II][45-0] - [Code][45-1] / [Solution][45-2]
 46. [Permutations][46-0] - [Code][46-1] / [Solution][46-2]
-47. [][47-0] - [Code][47-1] / [Solution][47-2]
+47. [Permutations II][47-0] - [Code][47-1] / [Solution][47-2]
 48. [][48-0] - [Code][48-1] / [Solution][48-2]
 49. [][49-0] - [Code][49-1] / [Solution][49-2]
 50. [][50-0] - [Code][50-1] / [Solution][50-2]
@@ -245,9 +245,9 @@
 [46-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/Permutations.scala
 [46-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/Permutations.md
 
-[47-0]: 
-[47-1]: 
-[47-2]: 
+[47-0]: https://leetcode.com/problems/permutations-ii/
+[47-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/Permutations2.scala
+[47-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/Permutations2.md
 
 [48-0]: 
 [48-1]: 
