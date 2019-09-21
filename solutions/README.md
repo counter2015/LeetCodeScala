@@ -58,8 +58,20 @@
 46. [Permutations][46-0] - [Code][46-1] / [Solution][46-2]
 47. [Permutations II][47-0] - [Code][47-1] / [Solution][47-2]
 48. [Rotate Image][48-0] - [Code][48-1] / [Solution][48-2]
-49. [][49-0] - [Code][49-1] / [Solution][49-2]
+49. [Group Anagrams][49-0] - [Code][49-1] / [Solution][49-2]
 50. [][50-0] - [Code][50-1] / [Solution][50-2]
+
+## 51~60
+51. [][51-0] - [Code][51-1] / [Solution][51-2]
+52. [][52-0] - [Code][52-1] / [Solution][52-2]
+53. [][53-0] - [Code][53-1] / [Solution][53-2]
+54. [][54-0] - [Code][54-1] / [Solution][54-2]
+55. [][55-0] - [Code][55-1] / [Solution][55-2]
+56. [][56-0] - [Code][56-1] / [Solution][56-2]
+57. [][57-0] - [Code][57-1] / [Solution][57-2]
+58. [][58-0] - [Code][58-1] / [Solution][58-2]
+59. [][59-0] - [Code][59-1] / [Solution][59-2]
+60. [][60-0] - [Code][60-1] / [Solution][60-2]
 
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
@@ -253,6 +265,46 @@
 [48-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/RotateImage.scala
 [48-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/RotateImage.md
 
-[49-0]: 
-[49-1]: 
-[49-2]: 
+[49-0]: https://leetcode.com/problems/group-anagrams/
+[49-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/GroupAnagrams.scala
+[49-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/GroupAnagrams.md
+
+[50-0]: 
+[50-1]: 
+[50-2]: 
+
+[51-0]: 
+[51-1]: 
+[51-2]: 
+
+[52-0]: 
+[52-1]: 
+[52-2]: 
+
+[53-0]: 
+[53-1]: 
+[53-2]: 
+
+[54-0]: 
+[54-1]: 
+[54-2]: 
+
+[55-0]: 
+[55-1]: 
+[55-2]: 
+
+[56-0]: 
+[56-1]: 
+[56-2]: 
+
+[57-0]: 
+[57-1]: 
+[57-2]: 
+
+[58-0]: 
+[58-1]: 
+[58-2]: 
+
+[59-0]: 
+[59-1]: 
+[59-2]: 
