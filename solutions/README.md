@@ -59,7 +59,7 @@
 47. [Permutations II][47-0] - [Code][47-1] / [Solution][47-2]
 48. [Rotate Image][48-0] - [Code][48-1] / [Solution][48-2]
 49. [Group Anagrams][49-0] - [Code][49-1] / [Solution][49-2]
-50. [][50-0] - [Code][50-1] / [Solution][50-2]
+50. [Pow(x, n)][50-0] - [Code][50-1] / [Solution][50-2]
 
 ## 51~60
 51. [][51-0] - [Code][51-1] / [Solution][51-2]
@@ -269,9 +269,9 @@
 [49-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/GroupAnagrams.scala
 [49-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/GroupAnagrams.md
 
-[50-0]: 
-[50-1]: 
-[50-2]: 
+[50-0]: https://leetcode.com/problems/powx-n/
+[50-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/Pow.scala
+[50-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/Pow.md
 
 [51-0]: 
 [51-1]: 
