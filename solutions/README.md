@@ -62,7 +62,7 @@
 50. [Pow(x, n)][50-0] - [Code][50-1] / [Solution][50-2]
 
 ## 51~60
-51. [][51-0] - [Code][51-1] / [Solution][51-2]
+51. [N-Queens][51-0] - [Code][51-1] / [Solution][51-2]
 52. [][52-0] - [Code][52-1] / [Solution][52-2]
 53. [][53-0] - [Code][53-1] / [Solution][53-2]
 54. [][54-0] - [Code][54-1] / [Solution][54-2]
@@ -273,9 +273,9 @@
 [50-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/Pow.scala
 [50-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/41-50/Pow.md
 
-[51-0]: 
-[51-1]: 
-[51-2]: 
+[51-0]: https://leetcode.com/problems/n-queens/
+[51-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/NQueens.scala 
+[51-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/N-Queens.md
 
 [52-0]: 
 [52-1]: 
