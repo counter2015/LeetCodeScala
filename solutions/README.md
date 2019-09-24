@@ -63,7 +63,7 @@
 
 ## 51~60
 51. [N-Queens][51-0] - [Code][51-1] / [Solution][51-2]
-52. [][52-0] - [Code][52-1] / [Solution][52-2]
+52. [N-Queens II][52-0] - [Code][52-1] / [Solution][52-2]
 53. [][53-0] - [Code][53-1] / [Solution][53-2]
 54. [][54-0] - [Code][54-1] / [Solution][54-2]
 55. [][55-0] - [Code][55-1] / [Solution][55-2]
@@ -277,9 +277,9 @@
 [51-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/NQueens.scala 
 [51-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/N-Queens.md
 
-[52-0]: 
-[52-1]: 
-[52-2]: 
+[52-0]: https://leetcode.com/problems/n-queens-ii/
+[52-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/NQueens2.scala 
+[52-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/N-Queens2.md
 
 [53-0]: 
 [53-1]: 
