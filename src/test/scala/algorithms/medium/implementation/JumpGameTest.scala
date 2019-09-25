@@ -10,6 +10,6 @@ class JumpGameTest extends FunSuite with Matchers {
   }
 
   test("test1: sample input") {
-    solve(Array(3, 2, 1, 0, 4)) shouldBe true
+    solve(Array(3, 2, 1, 0, 4)) shouldBe false
   }
 }
