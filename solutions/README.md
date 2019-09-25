@@ -65,7 +65,7 @@
 51. [N-Queens][51-0] - [Code][51-1] / [Solution][51-2]
 52. [N-Queens II][52-0] - [Code][52-1] / [Solution][52-2]
 53. [Maximum Subarray][53-0] - [Code][53-1] / [Solution][53-2]
-54. [][54-0] - [Code][54-1] / [Solution][54-2]
+54. [Spiral Matrix][54-0] - [Code][54-1] / [Solution][54-2]
 55. [][55-0] - [Code][55-1] / [Solution][55-2]
 56. [][56-0] - [Code][56-1] / [Solution][56-2]
 57. [][57-0] - [Code][57-1] / [Solution][57-2]
@@ -285,9 +285,9 @@
 [53-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/MaximumSubarray.scala 
 [53-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/MaximumSubarray.md
 
-[54-0]: 
-[54-1]: 
-[54-2]: 
+[54-0]: https://leetcode.com/problems/spiral-matrix/
+[54-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SpiralMatrix.scala 
+[54-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/SpiralMatrix.md
 
 [55-0]: 
 [55-1]: 
