@@ -66,7 +66,7 @@
 52. [N-Queens II][52-0] - [Code][52-1] / [Solution][52-2]
 53. [Maximum Subarray][53-0] - [Code][53-1] / [Solution][53-2]
 54. [Spiral Matrix][54-0] - [Code][54-1] / [Solution][54-2]
-55. [][55-0] - [Code][55-1] / [Solution][55-2]
+55. [Jump Game][55-0] - [Code][55-1] / [Solution][55-2]
 56. [][56-0] - [Code][56-1] / [Solution][56-2]
 57. [][57-0] - [Code][57-1] / [Solution][57-2]
 58. [][58-0] - [Code][58-1] / [Solution][58-2]
@@ -289,9 +289,9 @@
 [54-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SpiralMatrix.scala 
 [54-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/SpiralMatrix.md
 
-[55-0]: 
-[55-1]: 
-[55-2]: 
+[55-0]: https://leetcode.com/problems/jump-game/
+[55-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/JumpGame.scala 
+[55-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/JumpGame.md
 
 [56-0]: 
 [56-1]: 
