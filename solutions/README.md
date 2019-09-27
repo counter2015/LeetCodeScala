@@ -68,7 +68,7 @@
 54. [Spiral Matrix][54-0] - [Code][54-1] / [Solution][54-2]
 55. [Jump Game][55-0] - [Code][55-1] / [Solution][55-2]
 56. [Merge Intervals ][56-0] - [Code][56-1] / [Solution][56-2]
-57. [][57-0] - [Code][57-1] / [Solution][57-2]
+57. [Insert Interval][57-0] - [Code][57-1] / [Solution][57-2]
 58. [][58-0] - [Code][58-1] / [Solution][58-2]
 59. [][59-0] - [Code][59-1] / [Solution][59-2]
 60. [][60-0] - [Code][60-1] / [Solution][60-2]
@@ -297,9 +297,9 @@
 [56-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/MergeIntervals.scala 
 [56-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/MergeIntervals.md
 
-[57-0]: 
-[57-1]: 
-[57-2]: 
+[57-0]: https://leetcode.com/problems/insert-interval/
+[57-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/InsertInterval.scala 
+[57-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/InsertInterval.md
 
 [58-0]: 
 [58-1]: 
