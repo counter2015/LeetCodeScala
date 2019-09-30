@@ -70,7 +70,7 @@
 56. [Merge Intervals ][56-0] - [Code][56-1] / [Solution][56-2]
 57. [Insert Interval][57-0] - [Code][57-1] / [Solution][57-2]
 58. [Length of Last Word][58-0] - [Code][58-1] / [Solution][58-2]
-59. [][59-0] - [Code][59-1] / [Solution][59-2]
+59. [Spiral Matrix II][59-0] - [Code][59-1] / [Solution][59-2]
 60. [][60-0] - [Code][60-1] / [Solution][60-2]
 
 [1-0]: https://leetcode.com/problems/two-sum/
@@ -305,6 +305,6 @@
 [58-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/LengthOfLastWord.scala 
 [58-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/LengthOfLastWord.md
 
-[59-0]: 
-[59-1]: 
-[59-2]: 
+[59-0]: https://leetcode.com/problems/spiral-matrix-ii/
+[59-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SpiralMatrix2.scala  
+[59-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/SpiralMatrix2.md
