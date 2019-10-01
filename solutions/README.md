@@ -74,7 +74,7 @@
 60. [Permutation Sequence][60-0] - [Code][60-1] / [Solution][60-2]
 
 ## 61~70
-61. [][61-0] - [Code][61-1] / [Solution][61-2]
+61. [Rotate List][61-0] - [Code][61-1] / [Solution][61-2]
 62. [][62-0] - [Code][62-1] / [Solution][62-2]
 63. [][63-0] - [Code][63-1] / [Solution][63-2]
 64. [][64-0] - [Code][64-1] / [Solution][64-2]
@@ -325,9 +325,9 @@
 [60-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/PermutationSequence.scala 
 [60-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/PermutationSequence.md
 
-[61-0]: 
-[61-1]: 
-[61-2]: 
+[61-0]: https://leetcode.com/problems/rotate-list/
+[61-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/RotateList.scala 
+[61-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/RotateList.md
 
 [62-0]: 
 [62-1]: 
