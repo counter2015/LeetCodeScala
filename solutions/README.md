@@ -71,7 +71,19 @@
 57. [Insert Interval][57-0] - [Code][57-1] / [Solution][57-2]
 58. [Length of Last Word][58-0] - [Code][58-1] / [Solution][58-2]
 59. [Spiral Matrix II][59-0] - [Code][59-1] / [Solution][59-2]
-60. [][60-0] - [Code][60-1] / [Solution][60-2]
+60. [Permutation Sequence][60-0] - [Code][60-1] / [Solution][60-2]
+
+## 61~70
+61. [][61-0] - [Code][61-1] / [Solution][61-2]
+62. [][62-0] - [Code][62-1] / [Solution][62-2]
+63. [][63-0] - [Code][63-1] / [Solution][63-2]
+64. [][64-0] - [Code][64-1] / [Solution][64-2]
+65. [][65-0] - [Code][65-1] / [Solution][65-2]
+66. [][66-0] - [Code][66-1] / [Solution][66-2]
+67. [][67-0] - [Code][67-1] / [Solution][67-2]
+68. [][68-0] - [Code][68-1] / [Solution][68-2]
+69. [][69-0] - [Code][69-1] / [Solution][69-2]
+70. [][70-0] - [Code][70-1] / [Solution][70-2]
 
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
@@ -308,3 +320,43 @@
 [59-0]: https://leetcode.com/problems/spiral-matrix-ii/
 [59-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SpiralMatrix2.scala  
 [59-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/SpiralMatrix2.md
+
+[60-0]: https://leetcode.com/problems/permutation-sequence/
+[60-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/PermutationSequence.scala 
+[60-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/51-60/PermutationSequence.md
+
+[61-0]: 
+[61-1]: 
+[61-2]: 
+
+[62-0]: 
+[62-1]: 
+[62-2]: 
+
+[63-0]: 
+[63-1]: 
+[63-2]: 
+
+[64-0]: 
+[64-1]: 
+[64-2]: 
+
+[65-0]: 
+[65-1]: 
+[65-2]: 
+
+[66-0]: 
+[66-1]: 
+[66-2]: 
+
+[67-0]: 
+[67-1]: 
+[67-2]: 
+
+[68-0]: 
+[68-1]: 
+[68-2]: 
+
+[69-0]: 
+[69-1]: 
+[69-2]: 
