@@ -75,7 +75,7 @@
 
 ## 61~70
 61. [Rotate List][61-0] - [Code][61-1] / [Solution][61-2]
-62. [][62-0] - [Code][62-1] / [Solution][62-2]
+62. [Unique Paths][62-0] - [Code][62-1] / [Solution][62-2]
 63. [][63-0] - [Code][63-1] / [Solution][63-2]
 64. [][64-0] - [Code][64-1] / [Solution][64-2]
 65. [][65-0] - [Code][65-1] / [Solution][65-2]
@@ -329,9 +329,9 @@
 [61-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/RotateList.scala 
 [61-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/RotateList.md
 
-[62-0]: 
-[62-1]: 
-[62-2]: 
+[62-0]: https://leetcode.com/problems/unique-paths/
+[62-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/math/UniquePaths.scala
+[62-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/UniquePaths.md
 
 [63-0]: 
 [63-1]: 
