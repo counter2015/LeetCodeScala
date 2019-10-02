@@ -1,7 +1,7 @@
-# Rotate List
+# Unique Paths
 
 ## Problem link
-https://leetcode.com/problems/rotate-list/
+https://leetcode.com/problems/unique-paths/
 
 ## Description
 A robot is located at the top-left corner of a *m* x *n* grid (marked 'Start' in the diagram below).
