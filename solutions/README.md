@@ -82,8 +82,21 @@
 66. [Plus One][66-0] - [Code][66-1] / [Solution][66-2]
 67. [Add Binary][67-0] - [Code][67-1] / [Solution][67-2]
 68. [Text Justification][68-0] - [Code][68-1] / [Solution][68-2]
-69. [][69-0] - [Code][69-1] / [Solution][69-2]
+69. [Sqrt(x)][69-0] - [Code][69-1] / [Solution][69-2]
 70. [][70-0] - [Code][70-1] / [Solution][70-2]
+
+## 71~80
+71. [][71-0] - [Code][71-1] / [Solution][71-2]
+72. [][72-0] - [Code][72-1] / [Solution][72-2]
+73. [][73-0] - [Code][73-1] / [Solution][73-2]
+74. [][74-0] - [Code][74-1] / [Solution][74-2]
+75. [][75-0] - [Code][75-1] / [Solution][75-2]
+76. [][76-0] - [Code][76-1] / [Solution][76-2]
+77. [][77-0] - [Code][77-1] / [Solution][77-2]
+78. [][78-0] - [Code][78-1] / [Solution][78-2]
+79. [][79-0] - [Code][79-1] / [Solution][79-2]
+80. [][80-0] - [Code][80-1] / [Solution][80-2]
+
 
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
@@ -357,6 +370,46 @@
 [68-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/TextJustification.scala
 [68-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/TextJustification.md
 
-[69-0]: 
-[69-1]: 
-[69-2]: 
+[69-0]: https://leetcode.com/problems/sqrtx/
+[69-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/MySqrt.scala
+[69-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/MySqrt.md
+
+[70-0]: 
+[70-1]: 
+[70-2]: 
+
+[71-0]: 
+[71-1]: 
+[71-2]: 
+
+[72-0]: 
+[72-1]: 
+[72-2]: 
+
+[73-0]: 
+[73-1]: 
+[73-2]: 
+
+[74-0]: 
+[74-1]: 
+[74-2]: 
+
+[75-0]: 
+[75-1]: 
+[75-2]: 
+
+[76-0]: 
+[76-1]: 
+[76-2]: 
+
+[77-0]: 
+[77-1]: 
+[77-2]: 
+
+[78-0]: 
+[78-1]: 
+[78-2]: 
+
+[79-0]: 
+[79-1]: 
+[79-2]: 
