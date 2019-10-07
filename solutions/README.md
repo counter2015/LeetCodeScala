@@ -79,7 +79,7 @@
 63. [Unique Paths II][63-0] - [Code][63-1] / [Solution][63-2]
 64. [Minimum Path Sum][64-0] - [Code][64-1] / [Solution][64-2]
 65. [Valid Number][65-0] - [Code][65-1] / [Solution][65-2]
-66. [][66-0] - [Code][66-1] / [Solution][66-2]
+66. [Plus One][66-0] - [Code][66-1] / [Solution][66-2]
 67. [][67-0] - [Code][67-1] / [Solution][67-2]
 68. [][68-0] - [Code][68-1] / [Solution][68-2]
 69. [][69-0] - [Code][69-1] / [Solution][69-2]
@@ -345,9 +345,9 @@
 [65-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/ValidNumber.scala
 [65-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/ValidNumber.md
 
-[66-0]: 
-[66-1]: 
-[66-2]: 
+[66-0]: https://leetcode.com/problems/plus-one/
+[66-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/PlusOne.scala
+[66-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/PlusOne.md
 
 [67-0]: 
 [67-1]: 
