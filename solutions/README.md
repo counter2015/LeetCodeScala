@@ -81,7 +81,7 @@
 65. [Valid Number][65-0] - [Code][65-1] / [Solution][65-2]
 66. [Plus One][66-0] - [Code][66-1] / [Solution][66-2]
 67. [Add Binary][67-0] - [Code][67-1] / [Solution][67-2]
-68. [][68-0] - [Code][68-1] / [Solution][68-2]
+68. [Text Justification][68-0] - [Code][68-1] / [Solution][68-2]
 69. [][69-0] - [Code][69-1] / [Solution][69-2]
 70. [][70-0] - [Code][70-1] / [Solution][70-2]
 
@@ -353,9 +353,9 @@
 [67-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/AddBinary.scala
 [67-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/AddBinary.md
 
-[68-0]: 
-[68-1]: 
-[68-2]: 
+[68-0]: https://leetcode.com/problems/text-justification/
+[68-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/TextJustification.scala
+[68-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/TextJustification.md
 
 [69-0]: 
 [69-1]: 
