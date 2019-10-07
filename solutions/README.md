@@ -78,7 +78,7 @@
 62. [Unique Paths][62-0] - [Code][62-1] / [Solution][62-2]
 63. [Unique Paths II][63-0] - [Code][63-1] / [Solution][63-2]
 64. [Minimum Path Sum][64-0] - [Code][64-1] / [Solution][64-2]
-65. [][65-0] - [Code][65-1] / [Solution][65-2]
+65. [Valid Number][65-0] - [Code][65-1] / [Solution][65-2]
 66. [][66-0] - [Code][66-1] / [Solution][66-2]
 67. [][67-0] - [Code][67-1] / [Solution][67-2]
 68. [][68-0] - [Code][68-1] / [Solution][68-2]
@@ -341,9 +341,9 @@
 [64-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/MinimumPathSum.scala
 [64-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/MinimumPathSum.md
 
-[65-0]: 
-[65-1]: 
-[65-2]: 
+[65-0]: https://leetcode.com/problems/valid-number/
+[65-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/ValidNumber.scala
+[65-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/ValidNumber.md
 
 [66-0]: 
 [66-1]: 
