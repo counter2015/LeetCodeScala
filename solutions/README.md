@@ -77,7 +77,7 @@
 61. [Rotate List][61-0] - [Code][61-1] / [Solution][61-2]
 62. [Unique Paths][62-0] - [Code][62-1] / [Solution][62-2]
 63. [Unique Paths II][63-0] - [Code][63-1] / [Solution][63-2]
-64. [][64-0] - [Code][64-1] / [Solution][64-2]
+64. [Minimum Path Sum][64-0] - [Code][64-1] / [Solution][64-2]
 65. [][65-0] - [Code][65-1] / [Solution][65-2]
 66. [][66-0] - [Code][66-1] / [Solution][66-2]
 67. [][67-0] - [Code][67-1] / [Solution][67-2]
@@ -337,9 +337,9 @@
 [63-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/math/UniquePaths2.scala
 [63-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/UniquePaths2.md
 
-[64-0]: 
-[64-1]: 
-[64-2]: 
+[64-0]: https://leetcode.com/problems/minimum-path-sum/
+[64-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/MinimumPathSum.scala
+[64-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/MinimumPathSum.md
 
 [65-0]: 
 [65-1]: 
