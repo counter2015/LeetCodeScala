@@ -80,7 +80,7 @@
 64. [Minimum Path Sum][64-0] - [Code][64-1] / [Solution][64-2]
 65. [Valid Number][65-0] - [Code][65-1] / [Solution][65-2]
 66. [Plus One][66-0] - [Code][66-1] / [Solution][66-2]
-67. [][67-0] - [Code][67-1] / [Solution][67-2]
+67. [Add Binary][67-0] - [Code][67-1] / [Solution][67-2]
 68. [][68-0] - [Code][68-1] / [Solution][68-2]
 69. [][69-0] - [Code][69-1] / [Solution][69-2]
 70. [][70-0] - [Code][70-1] / [Solution][70-2]
@@ -349,9 +349,9 @@
 [66-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/PlusOne.scala
 [66-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/PlusOne.md
 
-[67-0]: 
-[67-1]: 
-[67-2]: 
+[67-0]: https://leetcode.com/problems/add-binary/
+[67-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/AddBinary.scala
+[67-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/AddBinary.md
 
 [68-0]: 
 [68-1]: 
