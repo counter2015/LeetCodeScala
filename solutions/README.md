@@ -83,7 +83,7 @@
 67. [Add Binary][67-0] - [Code][67-1] / [Solution][67-2]
 68. [Text Justification][68-0] - [Code][68-1] / [Solution][68-2]
 69. [Sqrt(x)][69-0] - [Code][69-1] / [Solution][69-2]
-70. [][70-0] - [Code][70-1] / [Solution][70-2]
+70. [Climbing Stairs][70-0] - [Code][70-1] / [Solution][70-2]
 
 ## 71~80
 71. [][71-0] - [Code][71-1] / [Solution][71-2]
@@ -374,9 +374,9 @@
 [69-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/MySqrt.scala
 [69-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/MySqrt.md
 
-[70-0]: 
-[70-1]: 
-[70-2]: 
+[70-0]: https://leetcode.com/problems/climbing-stairs/
+[70-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/ClimbingStairs.scala
+[70-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/ClimbingStairs.md
 
 [71-0]: 
 [71-1]: 
