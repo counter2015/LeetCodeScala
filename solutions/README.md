@@ -86,7 +86,7 @@
 70. [Climbing Stairs][70-0] - [Code][70-1] / [Solution][70-2]
 
 ## 71~80
-71. [][71-0] - [Code][71-1] / [Solution][71-2]
+71. [Simplify Path][71-0] - [Code][71-1] / [Solution][71-2]
 72. [][72-0] - [Code][72-1] / [Solution][72-2]
 73. [][73-0] - [Code][73-1] / [Solution][73-2]
 74. [][74-0] - [Code][74-1] / [Solution][74-2]
@@ -378,9 +378,9 @@
 [70-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/ClimbingStairs.scala
 [70-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/61-70/ClimbingStairs.md
 
-[71-0]: 
-[71-1]: 
-[71-2]: 
+[71-0]: https://leetcode.com/problems/simplify-path/
+[71-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SimplifyPath.scala
+[71-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/SimplifyPath.md
 
 [72-0]: 
 [72-1]: 
