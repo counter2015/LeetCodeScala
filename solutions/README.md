@@ -88,7 +88,7 @@
 ## 71~80
 71. [Simplify Path][71-0] - [Code][71-1] / [Solution][71-2]
 72. [Edit Distance][72-0] - [Code][72-1] / [Solution][72-2]
-73. [][73-0] - [Code][73-1] / [Solution][73-2]
+73. [Set Matrix Zeroes][73-0] - [Code][73-1] / [Solution][73-2]
 74. [][74-0] - [Code][74-1] / [Solution][74-2]
 75. [][75-0] - [Code][75-1] / [Solution][75-2]
 76. [][76-0] - [Code][76-1] / [Solution][76-2]
@@ -386,9 +386,9 @@
 [72-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/EditDistance.scala
 [72-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/EditDistance.md
 
-[73-0]: 
-[73-1]: 
-[73-2]: 
+[73-0]: https://leetcode.com/problems/set-matrix-zeroes/
+[73-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SetMatrixZeros.scala 
+[73-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/SetMatrixZeros.md
 
 [74-0]: 
 [74-1]: 
