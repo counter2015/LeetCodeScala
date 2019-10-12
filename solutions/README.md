@@ -87,7 +87,7 @@
 
 ## 71~80
 71. [Simplify Path][71-0] - [Code][71-1] / [Solution][71-2]
-72. [][72-0] - [Code][72-1] / [Solution][72-2]
+72. [Edit Distance][72-0] - [Code][72-1] / [Solution][72-2]
 73. [][73-0] - [Code][73-1] / [Solution][73-2]
 74. [][74-0] - [Code][74-1] / [Solution][74-2]
 75. [][75-0] - [Code][75-1] / [Solution][75-2]
@@ -382,9 +382,9 @@
 [71-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SimplifyPath.scala
 [71-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/SimplifyPath.md
 
-[72-0]: 
-[72-1]: 
-[72-2]: 
+[72-0]: https://leetcode.com/problems/edit-distance/
+[72-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/EditDistance.scala
+[72-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/EditDistance.md
 
 [73-0]: 
 [73-1]: 
