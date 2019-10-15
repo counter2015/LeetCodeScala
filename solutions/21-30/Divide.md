@@ -40,7 +40,7 @@ Output: -2
 
 ## Solution
 Just implement it . 
-See [RemoveDuplicates](https://github.com/counter2015/LeetCodeScala/blob/master/solutions/21-30/RemoveDuplicates.md#solution)
+
 
 
 
