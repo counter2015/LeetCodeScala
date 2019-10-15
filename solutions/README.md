@@ -90,7 +90,7 @@
 72. [Edit Distance][72-0] - [Code][72-1] / [Solution][72-2]
 73. [Set Matrix Zeroes][73-0] - [Code][73-1] / [Solution][73-2]
 74. [Search a 2D Matrix][74-0] - [Code][74-1] / [Solution][74-2]
-75. [][75-0] - [Code][75-1] / [Solution][75-2]
+75. [Sort Colors][75-0] - [Code][75-1] / [Solution][75-2]
 76. [][76-0] - [Code][76-1] / [Solution][76-2]
 77. [][77-0] - [Code][77-1] / [Solution][77-2]
 78. [][78-0] - [Code][78-1] / [Solution][78-2]
@@ -394,9 +394,9 @@
 [74-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/SearchMatrix.scala  
 [74-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/SearchMatrix.scala  
 
-[75-0]: 
-[75-1]: 
-[75-2]: 
+[75-0]: https://leetcode.com/problems/sort-colors/
+[75-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/SortColors.scala 
+[75-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/SortColors.scala
 
 [76-0]: 
 [76-1]: 
