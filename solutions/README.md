@@ -91,7 +91,7 @@
 73. [Set Matrix Zeroes][73-0] - [Code][73-1] / [Solution][73-2]
 74. [Search a 2D Matrix][74-0] - [Code][74-1] / [Solution][74-2]
 75. [Sort Colors][75-0] - [Code][75-1] / [Solution][75-2]
-76. [][76-0] - [Code][76-1] / [Solution][76-2]
+76. [Minimum Window Substring][76-0] - [Code][76-1] / [Solution][76-2]
 77. [][77-0] - [Code][77-1] / [Solution][77-2]
 78. [][78-0] - [Code][78-1] / [Solution][78-2]
 79. [][79-0] - [Code][79-1] / [Solution][79-2]
@@ -392,15 +392,15 @@
 
 [74-0]: https://leetcode.com/problems/search-a-2d-matrix/
 [74-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/SearchMatrix.scala  
-[74-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/SearchMatrix.scala  
+[74-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/SearchMatrix.md
 
 [75-0]: https://leetcode.com/problems/sort-colors/
 [75-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/SortColors.scala 
-[75-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/SortColors.scala
+[75-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/SortColors.md
 
-[76-0]: 
-[76-1]: 
-[76-2]: 
+[76-0]: https://leetcode.com/problems/minimum-window-substring/
+[76-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/MinimumWindowSubstring.scala 
+[76-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/MinimumWindowSubstring.md
 
 [77-0]: 
 [77-1]: 
