@@ -93,7 +93,7 @@
 75. [Sort Colors][75-0] - [Code][75-1] / [Solution][75-2]
 76. [Minimum Window Substring][76-0] - [Code][76-1] / [Solution][76-2]
 77. [Combinations][77-0] - [Code][77-1] / [Solution][77-2]
-78. [][78-0] - [Code][78-1] / [Solution][78-2]
+78. [Subsets][78-0] - [Code][78-1] / [Solution][78-2]
 79. [][79-0] - [Code][79-1] / [Solution][79-2]
 80. [][80-0] - [Code][80-1] / [Solution][80-2]
 
@@ -406,9 +406,9 @@
 [77-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/Combinations.scala
 [77-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/Combinations.md
 
-[78-0]: 
-[78-1]: 
-[78-2]: 
+[78-0]: https://leetcode.com/problems/subsets/
+[78-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/Subsets.scala
+[78-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/SubSets.md
 
 [79-0]: 
 [79-1]: 
