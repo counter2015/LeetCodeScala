@@ -94,8 +94,20 @@
 76. [Minimum Window Substring][76-0] - [Code][76-1] / [Solution][76-2]
 77. [Combinations][77-0] - [Code][77-1] / [Solution][77-2]
 78. [Subsets][78-0] - [Code][78-1] / [Solution][78-2]
-79. [][79-0] - [Code][79-1] / [Solution][79-2]
+79. [Word Search][79-0] - [Code][79-1] / [Solution][79-2]
 80. [][80-0] - [Code][80-1] / [Solution][80-2]
+
+## 81~90
+81. [][81-0] - [Code][81-1] / [Solution][81-2]
+82. [][82-0] - [Code][82-1] / [Solution][82-2]
+83. [][83-0] - [Code][83-1] / [Solution][83-2]
+84. [][84-0] - [Code][84-1] / [Solution][84-2]
+85. [][85-0] - [Code][85-1] / [Solution][85-2]
+86. [][86-0] - [Code][86-1] / [Solution][86-2]
+87. [][87-0] - [Code][87-1] / [Solution][87-2]
+88. [][88-0] - [Code][88-1] / [Solution][88-2]
+89. [][89-0] - [Code][89-1] / [Solution][89-2]
+90. [][90-0] - [Code][90-1] / [Solution][90-2]
 
 
 [1-0]: https://leetcode.com/problems/two-sum/
@@ -410,6 +422,46 @@
 [78-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/Subsets.scala
 [78-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/SubSets.md
 
-[79-0]: 
-[79-1]: 
-[79-2]: 
+[79-0]: https://leetcode.com/problems/word-search/
+[79-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/WordSearch.scala
+[79-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/WordSearch.md
+
+[80-0]: 
+[80-1]: 
+[80-2]: 
+
+[81-0]: 
+[81-1]: 
+[81-2]: 
+
+[82-0]: 
+[82-1]: 
+[82-2]: 
+
+[83-0]: 
+[83-1]: 
+[83-2]: 
+
+[84-0]: 
+[84-1]: 
+[84-2]: 
+
+[85-0]: 
+[85-1]: 
+[85-2]: 
+
+[86-0]: 
+[86-1]: 
+[86-2]: 
+
+[87-0]: 
+[87-1]: 
+[87-2]: 
+
+[88-0]: 
+[88-1]: 
+[88-2]: 
+
+[89-0]: 
+[89-1]: 
+[89-2]: 
