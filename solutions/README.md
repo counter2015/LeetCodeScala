@@ -95,7 +95,7 @@
 77. [Combinations][77-0] - [Code][77-1] / [Solution][77-2]
 78. [Subsets][78-0] - [Code][78-1] / [Solution][78-2]
 79. [Word Search][79-0] - [Code][79-1] / [Solution][79-2]
-80. [][80-0] - [Code][80-1] / [Solution][80-2]
+80. [Remove Duplicates from Sorted Array II][80-0] - [Code][80-1] / [Solution][80-2]
 
 ## 81~90
 81. [][81-0] - [Code][81-1] / [Solution][81-2]
@@ -426,9 +426,9 @@
 [79-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/WordSearch.scala
 [79-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/WordSearch.md
 
-[80-0]: 
-[80-1]: 
-[80-2]: 
+[80-0]: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+[80-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/RemoveDuplicates2.scala 
+[80-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/RemoveDuplicates2.md
 
 [81-0]: 
 [81-1]: 
