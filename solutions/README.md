@@ -98,7 +98,7 @@
 80. [Remove Duplicates from Sorted Array II][80-0] - [Code][80-1] / [Solution][80-2]
 
 ## 81~90
-81. [][81-0] - [Code][81-1] / [Solution][81-2]
+81. [Search in Rotated Sorted Array II][81-0] - [Code][81-1] / [Solution][81-2]
 82. [][82-0] - [Code][82-1] / [Solution][82-2]
 83. [][83-0] - [Code][83-1] / [Solution][83-2]
 84. [][84-0] - [Code][84-1] / [Solution][84-2]
@@ -430,9 +430,9 @@
 [80-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/RemoveDuplicates2.scala 
 [80-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/71-80/RemoveDuplicates2.md
 
-[81-0]: 
-[81-1]: 
-[81-2]: 
+[81-0]: https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
+[81-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search.scala
+[81-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/31-40/SearchRotatedArray2.md
 
 [82-0]: 
 [82-1]: 
