@@ -39,7 +39,7 @@ Just implement it.
 \- | \-
 ------------ | -------------
 Date | 2019-11-04
-Time | ms
-Memory | MB	
+Time | 332 ms
+Memory | 50.9 MB	
 
 
