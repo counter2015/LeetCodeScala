@@ -102,7 +102,7 @@
 82. [Remove Duplicates from Sorted List II][82-0] - [Code][82-1] / [Solution][82-2]
 83. [Remove Duplicates from Sorted List][83-0] - [Code][83-1] / [Solution][83-2]
 84. [Largest Rectangle in Histogram][84-0] - [Code][84-1] / [Solution][84-2]
-85. [][85-0] - [Code][85-1] / [Solution][85-2]
+85. [Maximal Rectangle][85-0] - [Code][85-1] / [Solution][85-2]
 86. [][86-0] - [Code][86-1] / [Solution][86-2]
 87. [][87-0] - [Code][87-1] / [Solution][87-2]
 88. [][88-0] - [Code][88-1] / [Solution][88-2]
@@ -446,9 +446,9 @@
 [84-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/LargestRectangleHistogram.scala 
 [84-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/LargestRectangleHistogram.md
 
-[85-0]: 
-[85-1]: 
-[85-2]: 
+[85-0]: https://leetcode.com/problems/maximal-rectangle/ 
+[85-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/MaximalRectangle.scala 
+[85-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/MaximalRectangle.md
 
 [86-0]: 
 [86-1]: 
