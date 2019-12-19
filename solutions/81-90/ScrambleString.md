@@ -78,8 +78,8 @@ Just implement it.
 
 \- | \-
 ------------ | -------------
-Date | 2019-11-
-Time | ms
-Memory | MB	
+Date | 2019-12-19
+Time | 312 ms
+Memory | 53.8 MB	
 
 
