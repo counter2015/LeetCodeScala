@@ -450,13 +450,13 @@
 [85-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/MaximalRectangle.scala 
 [85-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/MaximalRectangle.md
 
-[86-0]: https://leetcode.com/problems/scramble-string/ 
-[86-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/ScrambleString.scala 
-[86-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/ScrambleString.md
+[86-0]: https://leetcode.com/problems/partition-list/ 
+[86-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/PartitionList.scala 
+[86-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/PartitionList.md
 
-[87-0]: 
-[87-1]: 
-[87-2]: 
+[87-0]: https://leetcode.com/problems/scramble-string/ 
+[87-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/ScrambleString.scala 
+[87-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/ScrambleString.md
 
 [88-0]: 
 [88-1]: 
