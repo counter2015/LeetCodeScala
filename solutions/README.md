@@ -106,7 +106,7 @@
 86. [Partition List][86-0] - [Code][86-1] / [Solution][86-2]
 87. [Scramble String][87-0] - [Code][87-1] / [Solution][87-2]
 88. [Merge Sorted Array][88-0] - [Code][88-1] / [Solution][88-2]
-89. [][89-0] - [Code][89-1] / [Solution][89-2]
+89. [Gray Code][89-0] - [Code][89-1] / [Solution][89-2]
 90. [][90-0] - [Code][90-1] / [Solution][90-2]
 
 
@@ -462,6 +462,6 @@
 [88-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/MergeSortedArray.scala 
 [88-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/MergeSortedArray.md
 
-[89-0]: 
-[89-1]: 
-[89-2]: 
+[89-0]: https://leetcode.com/problems/gray-code/ 
+[89-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/GrayCode.scala 
+[89-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/GrayCode.md
