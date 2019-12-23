@@ -107,7 +107,7 @@
 87. [Scramble String][87-0] - [Code][87-1] / [Solution][87-2]
 88. [Merge Sorted Array][88-0] - [Code][88-1] / [Solution][88-2]
 89. [Gray Code][89-0] - [Code][89-1] / [Solution][89-2]
-90. [][90-0] - [Code][90-1] / [Solution][90-2]
+90. [Subsets II][90-0] - [Code][90-1] / [Solution][90-2]
 
 
 [1-0]: https://leetcode.com/problems/two-sum/
@@ -465,3 +465,35 @@
 [89-0]: https://leetcode.com/problems/gray-code/ 
 [89-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/GrayCode.scala 
 [89-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/GrayCode.md
+
+[90-0]: https://leetcode.com/problems/subsets-ii/ 
+[90-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SubSets2.scala 
+[90-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/SubSets2.md
+
+[91-0]:
+[91-1]:
+[91-2]:
+[92-0]:
+[92-1]:
+[92-2]:
+[93-0]:
+[93-1]:
+[93-2]:
+[94-0]:
+[94-1]:
+[94-2]:
+[95-0]:
+[95-1]:
+[95-2]:
+[96-0]:
+[96-1]:
+[96-2]:
+[97-0]:
+[97-1]:
+[97-2]:
+[98-0]:
+[98-1]:
+[98-2]:
+[99-0]:
+[99-1]:
+[99-2]:
