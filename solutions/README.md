@@ -109,6 +109,30 @@
 89. [Gray Code][89-0] - [Code][89-1] / [Solution][89-2]
 90. [Subsets II][90-0] - [Code][90-1] / [Solution][90-2]
 
+## 91~100
+91. [Decode Ways][81-0] - [Code][81-1] / [Solution][81-2]
+92. [][82-0] - [Code][82-1] / [Solution][82-2]
+93. [][83-0] - [Code][83-1] / [Solution][83-2]
+94. [][84-0] - [Code][84-1] / [Solution][84-2]
+95. [][85-0] - [Code][85-1] / [Solution][85-2]
+96. [][86-0] - [Code][86-1] / [Solution][86-2]
+97. [][87-0] - [Code][87-1] / [Solution][87-2]
+98. [][88-0] - [Code][88-1] / [Solution][88-2]
+99. [][89-0] - [Code][89-1] / [Solution][89-2]
+100. [][90-0] - [Code][90-1] / [Solution][90-2]
+
+## 101~110
+101. [][101-0] - [Code][101-1] / [Solution][101-2]
+102. [][102-0] - [Code][102-1] / [Solution][102-2]
+103. [][103-0] - [Code][103-1] / [Solution][103-2]
+104. [][104-0] - [Code][104-1] / [Solution][104-2]
+105. [][105-0] - [Code][105-1] / [Solution][105-2]
+106. [][106-0] - [Code][106-1] / [Solution][106-2]
+107. [][107-0] - [Code][107-1] / [Solution][107-2]
+108. [][108-0] - [Code][108-1] / [Solution][108-2]
+109. [][109-0] - [Code][109-1] / [Solution][109-2]
+110. [][110-0] - [Code][110-1] / [Solution][110-2]
+
 
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
@@ -470,9 +494,10 @@
 [90-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SubSets2.scala 
 [90-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/SubSets2.md
 
-[91-0]:
-[91-1]:
-[91-2]:
+[91-0]: https://leetcode.com/problems/decode-ways/ 
+[91-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/DecodeWay.scala 
+[91-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/DecodeWay.md
+
 [92-0]:
 [92-1]:
 [92-2]:
