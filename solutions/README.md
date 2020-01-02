@@ -110,16 +110,16 @@
 90. [Subsets II][90-0] - [Code][90-1] / [Solution][90-2]
 
 ## 91~100
-91. [Decode Ways][81-0] - [Code][81-1] / [Solution][81-2]
-92. [][82-0] - [Code][82-1] / [Solution][82-2]
-93. [][83-0] - [Code][83-1] / [Solution][83-2]
-94. [][84-0] - [Code][84-1] / [Solution][84-2]
-95. [][85-0] - [Code][85-1] / [Solution][85-2]
-96. [][86-0] - [Code][86-1] / [Solution][86-2]
-97. [][87-0] - [Code][87-1] / [Solution][87-2]
-98. [][88-0] - [Code][88-1] / [Solution][88-2]
-99. [][89-0] - [Code][89-1] / [Solution][89-2]
-100. [][90-0] - [Code][90-1] / [Solution][90-2]
+91. [Decode Ways][91-0] - [Code][91-1] / [Solution][91-2]
+92. [Reverse Linked List II][92-0] - [Code][92-1] / [Solution][92-2]
+93. [][93-0] - [Code][93-1] / [Solution][93-2]
+94. [][94-0] - [Code][94-1] / [Solution][94-2]
+95. [][95-0] - [Code][95-1] / [Solution][95-2]
+96. [][96-0] - [Code][96-1] / [Solution][96-2]
+97. [][97-0] - [Code][97-1] / [Solution][97-2]
+98. [][98-0] - [Code][98-1] / [Solution][98-2]
+99. [][99-0] - [Code][99-1] / [Solution][99-2]
+100. [][100-0] - [Code][100-1] / [Solution][100-2]
 
 ## 101~110
 101. [][101-0] - [Code][101-1] / [Solution][101-2]
@@ -498,9 +498,10 @@
 [91-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/DecodeWay.scala 
 [91-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/DecodeWay.md
 
-[92-0]:
-[92-1]:
-[92-2]:
+[92-0]: https://leetcode.com/problems/reverse-linked-list-ii/ 
+[92-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/ReverseBetween.scala 
+[92-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/ReverseBetween.md
+
 [93-0]:
 [93-1]:
 [93-2]:
