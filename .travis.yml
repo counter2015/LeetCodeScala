@@ -14,3 +14,4 @@ jdk:
 
 script:
   - sbt test
+  - sbt scalastyle
