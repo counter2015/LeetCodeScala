@@ -9,7 +9,6 @@ object LengthOfLastWord {
     * @return length of last word
     */
   def lengthOfLastWord(s: String): Int = {
-    if (s.filter(_ != ' ').length == 0) 0
-    else s.split(" ").last.length
+    if (s.filter(_ != ' ').length == 0) 0 else s.split(" ").last.length
   }
 }

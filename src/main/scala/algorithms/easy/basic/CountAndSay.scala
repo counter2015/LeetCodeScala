@@ -23,7 +23,6 @@ object CountAndSay {
       split(str).map(x => s"${x.length}${x.head}").mkString
     }
 
-    if (n == 1) "1"
-    else spell(countAndSay(n - 1).toList)
+    if (n == 1) "1" else spell(countAndSay(n - 1).toList)
   }
 }

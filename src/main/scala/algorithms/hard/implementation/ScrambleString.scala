@@ -10,9 +10,11 @@ object ScrambleString {
     * @return whether the s1, s2 is co-scramble
     */
   def isScramble(s1: String, s2: String): Boolean = {
-    if (s1.length != s2.length || s1.sorted != s2.sorted) false
-    else if (s1 == s2 || s1.length == 0) true
-    else {
+    if (s1.length != s2.length || s1.toSeq.sorted.unwrap != s2.toSeq.sorted.unwrap) {
+      false
+    } else if (s1 == s2 || s1.length == 0) {
+      true
+    } else {
       for (i <- 1 until s1.length) {
         val s11 = s1.substring(0, i)
         val s12 = s1.substring(i, s1.length)

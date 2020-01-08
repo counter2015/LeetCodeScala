@@ -16,8 +16,9 @@ object LongestValidParentheses {
     val stack = mutable.Stack.empty[Int]
     s.zipWithIndex.foreach(x => {
       val (ch, index) = (x._1, x._2)
-      if (ch == '(') stack.push(index)
-      else {
+      if (ch == '(') {
+        stack.push(index)
+      } else {
         if (stack.nonEmpty) {
           val item = stack.pop()
           mark(item) = true
@@ -28,8 +29,9 @@ object LongestValidParentheses {
 
     var cnt, res = 0
     for (m <- mark) {
-      if (m) cnt += 1
-      else {
+      if (m) {
+        cnt += 1
+      } else {
         res = math.max(res, cnt)
         cnt = 0
       }

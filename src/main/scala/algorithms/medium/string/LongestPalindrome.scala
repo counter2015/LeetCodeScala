@@ -40,9 +40,10 @@ object LongestPalindrome {
     * @param s input string
     * @return the longest palindrome substring of s
     */
-  def ManachersAlgorithm(s: String): String = {
+  def manachersAlgorithm(s: String): String = {
 
     import scala.collection.mutable.ArrayBuffer
+
 
     if (s.length <= 1) return s
 

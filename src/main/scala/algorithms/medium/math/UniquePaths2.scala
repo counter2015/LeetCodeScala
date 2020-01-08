@@ -16,9 +16,11 @@ object UniquePaths2 {
     val res = Array.fill(m, n)(0)
 
     for (i <- 0 until m; j <- 0 until n) {
-      if (obstacleGrid(i)(j) == 1) res(i)(j) = 0
-      else if (i == 0 && j == 0) res(i)(j) = 1
-      else {
+      if (obstacleGrid(i)(j) == 1) {
+        res(i)(j) = 0
+      } else if (i == 0 && j == 0) {
+        res(i)(j) = 1
+      } else {
         if (i - 1 >= 0) res(i)(j) += res(i - 1)(j)
         if (j - 1 >= 0) res(i)(j) += res(i)(j - 1)
       }

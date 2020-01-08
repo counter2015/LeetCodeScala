@@ -25,8 +25,9 @@ object NextPermutation {
 
     val n = nums.length
     val index = n - 1 - (n - 2 to 0 by -1).takeWhile(i => nums(i) >= nums(i + 1)).length
-    if (index == 0) reverse(0, n - 1)
-    else {
+    if (index == 0) {
+      reverse(0, n - 1)
+    } else {
       val l = index - 1
       val r = n - 1 - (n - 1 to l + 1 by -1).takeWhile(i => nums(i) <= nums(l)).length
       swap(l, r)

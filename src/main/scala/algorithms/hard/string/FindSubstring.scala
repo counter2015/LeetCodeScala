@@ -14,24 +14,28 @@ object FindSubstring {
     def empty(wc: Map[String, Int]): Boolean = wc.keys.forall(wc(_) == 0)
 
     def travel(wc: Map[String, Int], str: String): Boolean = {
-      if (wc.isEmpty || empty(wc)) true
-      else if (str.length == 0 || wc.values.sum * wc.keys.head.length > str.length) false
+      if (wc.isEmpty || empty(wc)) {
+        true
+      } else if (str.length == 0 || wc.values.sum * wc.keys.head.length > str.length) {
+        false
+      }
       else {
         wc.keys.filter(key => str.startsWith(key) && wc(key) > 0).map(key => {
           var wcc = wc
           wcc += key -> (wcc(key) - 1)
           travel(wcc, str.substring(key.length))
-        }).exists(_ == true)
+        }).toSeq.contains(true)
       }
     }
 
     @scala.annotation.tailrec
     def getAllIndexes(source: String, target: String, index: Int = 0, res: List[Int]): List[Int] = {
       val targetIndex = source.indexOf(target, index)
-      if (targetIndex != -1)
+      if (targetIndex != -1) {
         getAllIndexes(source, target, targetIndex + 1, targetIndex :: res)
-      else
+      } else {
         res
+      }
     }
 
     var indexMap = Map.empty[String, List[Int]]

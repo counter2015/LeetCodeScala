@@ -1,5 +1,6 @@
 package algorithms.medium.basic
 
+// scalastyle:off magic.number
 object ValidSudoku {
 
   /** RunTime Info:

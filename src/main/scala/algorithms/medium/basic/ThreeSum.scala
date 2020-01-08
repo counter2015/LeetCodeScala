@@ -26,8 +26,11 @@ object ThreeSum {
           while (b < c && arr(c) == arr(c - 1)) c -= 1
           b += 1
           c -= 1
-        } else if (sum < 0) b += 1
-        else c -= 1
+        } else if (sum < 0) {
+          b += 1
+        } else {
+          c -= 1
+        }
       }
       while (a + 1 < arr.length - 2 && arr(a) == arr(a + 1)) a += 1
       a += 1

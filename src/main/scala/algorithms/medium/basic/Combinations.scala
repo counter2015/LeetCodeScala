@@ -25,7 +25,9 @@ object Combinations {
     */
   def combine2(n: Int, k: Int): List[List[Int]] = {
     def travel(cur: List[Int], res: List[List[Int]], takeNumber: Int): List[List[Int]] =
-      if (takeNumber == 0) res
+      if (takeNumber == 0) {
+        res
+      }
       else {
         val nextCurs: Seq[(Int, List[Int])] = for (c <- 0 to cur.length - takeNumber) yield (cur(c), cur.patch(0, Nil, c + 1))
         nextCurs.flatMap(x =>

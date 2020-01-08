@@ -10,10 +10,10 @@ object UniquePaths {
     * @return paths number
     */
   def uniquePaths(m: Int, n: Int): Int = {
-    def C(M: Int, N: Int): Int = {
+    def c(M: Int, N: Int): Int = {
       (1 to N).foldLeft(1L)((ans, i) => ans * (M - N + i) / i).toInt
     }
 
-    C(m + n - 2, m - 1)
+    c(m + n - 2, m - 1)
   }
 }

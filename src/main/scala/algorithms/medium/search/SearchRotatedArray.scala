@@ -19,14 +19,13 @@ object SearchRotatedArray {
       // Preventing integer overflow
       if (l > r) return -1
       val m = (r - l) / 2 + l
-      if (nums(m) == target) m
-      else {
+      if (nums(m) == target) {
+        m
+      } else {
         if (nums(l) <= nums(m)) {
-          if (target < nums(m) && target >= nums(l)) travel(l, m - 1)
-          else travel(m + 1, r)
+          if (target < nums(m) && target >= nums(l)) travel(l, m - 1) else travel(m + 1, r)
         } else {
-          if (target <= nums(r) && target > nums(m)) travel(m + 1, r)
-          else travel(l, m - 1)
+          if (target <= nums(r) && target > nums(m)) travel(m + 1, r) else travel(l, m - 1)
         }
       }
     }

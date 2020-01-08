@@ -16,10 +16,11 @@ object InorderTraversal {
     var ans: ListBuffer[Int] = new ListBuffer[Int]()
 
     def travel(node: TreeNode): Unit = {
-      if (node == null) return
-      if (node.left != null) travel(node.left)
-      ans += node.value
-      if (node.right != null) travel(node.right)
+      if (node != null) {
+        if (node.left != null) travel(node.left)
+        ans += node.value
+        if (node.right != null) travel(node.right)
+      }
     }
 
     travel(root)

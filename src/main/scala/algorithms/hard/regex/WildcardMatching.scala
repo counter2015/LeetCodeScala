@@ -24,7 +24,9 @@ object WildcardMatching {
         ipos += 1
         i = ipos
         j = jpos + 1
-      } else return false
+      } else {
+        return false
+      }
     }
     while (j < p.length && p(j) == '*') j += 1
     j == p.length

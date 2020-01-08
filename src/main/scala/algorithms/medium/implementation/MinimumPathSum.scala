@@ -16,8 +16,7 @@ object MinimumPathSum {
     for (i <- 0 until m; j <- 0 until n) {
       val top = if (i - 1 >= 0) res(i - 1)(j) else Int.MaxValue
       val left = if (j - 1 >= 0) res(i)(j - 1) else Int.MaxValue
-      if (i == 0 && j == 0) res(i)(j) = grid(i)(j)
-      else res(i)(j) = grid(i)(j) + math.min(top, left)
+      if (i == 0 && j == 0) res(i)(j) = grid(i)(j) else res(i)(j) = grid(i)(j) + math.min(top, left)
     }
     res(m - 1)(n - 1)
   }

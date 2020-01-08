@@ -20,8 +20,7 @@ object ThreeSumClosest {
       var c = n - 1
       while (b < c) {
         val sum = arr(a) + arr(b) + arr(c)
-        if (sum > target) c -= 1
-        else b += 1
+        if (sum > target) c -= 1 else b += 1
         res = if (Math.abs(sum - target) < Math.abs(res - target)) sum else res
       }
       a += 1

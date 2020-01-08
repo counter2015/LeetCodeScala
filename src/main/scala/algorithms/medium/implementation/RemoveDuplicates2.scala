@@ -10,8 +10,9 @@ object RemoveDuplicates2 {
     */
   def removeDuplicates(nums: Array[Int]): Int = {
     val n = nums.length
-    if (n <= 1) n
-    else {
+    if (n <= 1) {
+      n
+    } else {
       var (res, state, num) = (0, 0, 0)
       for (i <- 0 until n) {
         if (i == 0) {

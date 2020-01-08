@@ -9,8 +9,9 @@ object SubSets {
     * @return
     */
   def subsets(nums: Array[Int]): List[List[Int]] = {
-    if (nums.isEmpty) List(List())
-    else {
+    if (nums.isEmpty) {
+      List(List())
+    } else {
       val excludeResult = subsets(nums.tail)
       excludeResult ++ excludeResult.map(nums.head +: _)
     }

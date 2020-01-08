@@ -11,9 +11,11 @@ object RegularExpressionMatching {
     */
   def isMatch(s: String, p: String): Boolean = {
 
-    if (p.length == 0) s.length == 0
-    else if (p.length == 1) s.length == 1 && (s == p || p == ".")
-    else {
+    if (p.length == 0) {
+      s.length == 0
+    } else if (p.length == 1) {
+      s.length == 1 && (s == p || p == ".")
+    } else {
       if (p(1) != '*') {
         s.length > 0 && (s.head == p.head || p.head == '.') && isMatch(s.tail, p.tail)
       } else {

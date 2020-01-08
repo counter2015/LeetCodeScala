@@ -31,8 +31,11 @@ object FourSum {
                 while (c < d && arr(d) == arr(d - 1)) d -= 1
                 c += 1
                 d -= 1
-              } else if (sum < target) c += 1
-              else d -= 1
+              } else if (sum < target) {
+                c += 1
+              } else {
+                d -= 1
+              }
             }
           }
           while (b + 1 < n - 2 && arr(b) == arr(b + 1)) b += 1

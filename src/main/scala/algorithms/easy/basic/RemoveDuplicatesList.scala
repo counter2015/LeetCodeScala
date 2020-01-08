@@ -14,14 +14,17 @@ object RemoveDuplicatesList {
     var h = head
     val dummy = new ListNode(-1)
     var nodes = dummy
-    if (head == null || head.next == null) return head
-    while (h != null) {
-      val n = h
-      nodes.next = n
-      nodes = nodes.next
-      while (h != null && n.x == h.x) h = h.next
+    if (head == null || head.next == null) {
+      head
+    } else {
+      while (h != null) {
+        val n = h
+        nodes.next = n
+        nodes = nodes.next
+        while (h != null && n.x == h.x) h = h.next
+      }
+      nodes.next = null
+      dummy.next
     }
-    nodes.next = null
-    dummy.next
   }
 }

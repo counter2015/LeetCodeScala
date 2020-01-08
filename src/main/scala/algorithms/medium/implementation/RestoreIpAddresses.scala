@@ -29,7 +29,8 @@ object RestoreIpAddresses {
       }
     }
 
-    travel(0, 4, ListBuffer())
+    val ipNumber = 4
+    travel(0, remainMatch = ipNumber, ListBuffer())
     res.toList.distinct
   }
 }

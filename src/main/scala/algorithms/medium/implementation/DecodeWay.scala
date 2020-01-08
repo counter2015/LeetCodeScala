@@ -31,14 +31,14 @@ object DecodeWay {
     */
   def numDecodingsSlow(s: String): Int = {
     if (s.length <= 1) {
-      if (s == "0") 0
-      else 1
+      if (s == "0") 0 else 1
     }
-    else if (s.head == '1' || (s.head == '2' && s(1) <= '6'))
+    else if (s.head == '1' || (s.head == '2' && s(1) <= '6')) {
       numDecodings(s.tail) + numDecodings(s.substring(2))
-    else if (s.head != '0')
+    } else if (s.head != '0') {
       numDecodings(s.tail)
-    else
+    } else {
       0
+    }
   }
 }

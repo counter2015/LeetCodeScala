@@ -9,7 +9,7 @@ object RomanToInteger {
     * @return the integer which stand for input Roman string
     */
   def romanToInt(s: String): Int = {
-
+    // scalastyle:off magic.number
     def convert(c: Char): Int = c match {
       case 'I' => 1
       case 'V' => 5
@@ -19,14 +19,16 @@ object RomanToInteger {
       case 'D' => 500
       case 'M' => 1000
     }
+    // scalastyle:on magic.number
 
     def travel(s: String): Int = {
-      if (s.length == 0) 0
-      else if (s.length == 1) convert(s.head)
-      else {
+      if (s.length == 0) {
+        0
+      } else if (s.length == 1) {
+        convert(s.head)
+      } else {
         val (a, b) = (convert(s(0)), convert(s(1)))
-        if (a < b) travel(s.substring(2)) + b - a
-        else travel(s.substring(1)) + a
+        if (a < b) travel(s.substring(2)) + b - a else travel(s.substring(1)) + a
       }
     }
 

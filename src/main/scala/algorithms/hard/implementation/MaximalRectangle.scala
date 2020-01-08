@@ -33,25 +33,28 @@ object MaximalRectangle {
 
 
     val m = matrix.length
-    if (m == 0) return 0
-    val n = matrix.head.length
-    val dp = Array.fill(m, n)(0)
-    dp(0)(0) = matrix(0)(0) - '0'
-    for (j <- 0 until n) {
-      for (i <- 0 until m) {
-        dp(i)(j) =
-          if (i == 0) matrix(i)(j) - '0'
-          else {
-            if (matrix(i)(j) - '0' == 0) 0
-            else 1 + dp(i - 1)(j)
-          }
+    if (m == 0) {
+      0
+    } else {
+      val n = matrix.head.length
+      val dp = Array.fill(m, n)(0)
+      dp(0)(0) = matrix(0)(0) - '0'
+      for (j <- 0 until n) {
+        for (i <- 0 until m) {
+          dp(i)(j) =
+            if (i == 0) {
+              matrix(i)(j) - '0'
+            } else {
+              if (matrix(i)(j) - '0' == 0) 0 else 1 + dp(i - 1)(j)
+            }
+        }
       }
-    }
 
-    var res = 0
-    for (i <- 0 until m) {
-      res = res max largestRectangleArea(dp(i))
+      var res = 0
+      for (i <- 0 until m) {
+        res = res max largestRectangleArea(dp(i))
+      }
+      res
     }
-    res
   }
 }

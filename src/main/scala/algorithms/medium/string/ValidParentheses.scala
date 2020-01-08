@@ -12,15 +12,17 @@ object ValidParentheses {
 
     @scala.annotation.tailrec
     def travel(s: String, stack: String): Boolean = {
-      if (s.length == 0) stack.length == 0
+      if (s.length == 0) {
+        stack.length == 0
+      }
       else {
+        val leftBraces = Array('[', '(', '{')
+        val rightBraces = Array(']', ')', '}')
         s.head match {
-          case '[' => travel(s.tail, stack + '[')
-          case ']' => stack.length > 0 && stack.last == '[' && travel(s.tail, stack.init)
-          case '(' => travel(s.tail, stack + '(')
-          case ')' => stack.length > 0 && stack.last == '(' && travel(s.tail, stack.init)
-          case '{' => travel(s.tail, stack + '{')
-          case '}' => stack.length > 0 && stack.last == '{' && travel(s.tail, stack.init)
+          case c: Char if leftBraces.contains(c) =>
+            travel(s.tail, stack + c)
+          case c: Char if rightBraces.contains(c) =>
+            stack.length > 0 && stack.last == leftBraces(rightBraces.indexOf(c)) && travel(s.tail, stack.init)
         }
       }
     }

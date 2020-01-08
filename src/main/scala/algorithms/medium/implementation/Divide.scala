@@ -10,7 +10,6 @@ object Divide {
     */
   def divide(dividend: Int, divisor: Int): Int = {
     val res = BigInt(dividend) / BigInt(divisor)
-    if (res > Int.MaxValue || res < Int.MinValue) Int.MaxValue
-    else res.toInt
+    if (res > Int.MaxValue || res < Int.MinValue) Int.MaxValue else res.toInt
   }
 }

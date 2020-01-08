@@ -9,7 +9,6 @@ object FirstMissingPositive {
     * @return the first positive that `nums` doesn't contains
     */
   def firstMissingPositive(nums: Array[Int]): Int = {
-    if (nums.length == 0) 1
-    else (1 to nums.max).view.takeWhile(nums.contains).toIndexedSeq.length + 1
+    if (nums.length == 0) 1 else (1 to nums.max).view.takeWhile(nums.contains).toIndexedSeq.length + 1
   }
 }

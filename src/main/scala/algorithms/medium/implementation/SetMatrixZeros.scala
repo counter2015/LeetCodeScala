@@ -25,12 +25,8 @@ object SetMatrixZeros {
          if matrix(i)(0) == 0 || matrix(0)(j) == 0)
       matrix(i)(j) = 0
 
-    if (matrix(0)(0) == 0)
-      for (j <- 0 until n)
-        matrix(0)(j) = 0
+    if (matrix(0)(0) == 0) for (j <- 0 until n) matrix(0)(j) = 0
 
-    if (flag)
-      for (i <- 0 until m)
-        matrix(i)(0) = 0
+    if (flag) for (i <- 0 until m) matrix(i)(0) = 0
   }
 }

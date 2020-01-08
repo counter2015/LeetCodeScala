@@ -15,12 +15,17 @@ object TwoSum {
     // Data preprocessing, transform data into sorted with index array.
     val arr: IndexedSeq[(Int, Int)] = nums.indices.zip(nums).sortBy(_._2)
 
+    @scala.annotation.tailrec
     def solve(arr: IndexedSeq[(Int, Int)]) : Array[Int] = {
       val head = arr.head
       val last = arr.last
-      if (head._2 + last._2 == target) Array(head._1, last._1)
-      else if (head._2 + last._2 < target) solve(arr.tail)
-      else solve(arr.init)
+      if (head._2 + last._2 == target) {
+        Array(head._1, last._1)
+      } else if (head._2 + last._2 < target) {
+        solve(arr.tail)
+      } else {
+        solve(arr.init)
+      }
     }
 
     solve(arr)

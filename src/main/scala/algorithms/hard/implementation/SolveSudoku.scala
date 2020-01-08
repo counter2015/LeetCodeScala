@@ -2,7 +2,8 @@ package algorithms.hard.implementation
 
 
 object SolveSudoku {
-
+  // scalastyle:off method.length
+  // scalastyle:off magic.number
   /** RunTime Info:
     * 1272 ms, 57.6 MB
     *

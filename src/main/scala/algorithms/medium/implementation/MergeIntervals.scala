@@ -21,8 +21,11 @@ object MergeIntervals {
           List((l, r))
         case head :: tail =>
           val (node_l, node_r) = (head._1, head._2)
-          if (node_l <= r && node_l >= l) travel(tail, l, math.max(node_r, r))
-          else (l, r) :: travel(tail, node_l, node_r)
+          if (node_l <= r && node_l >= l) {
+            travel(tail, l, math.max(node_r, r))
+          } else {
+            (l, r) :: travel(tail, node_l, node_r)
+          }
       }
     }
 
@@ -43,7 +46,9 @@ object MergeIntervals {
     var R = data(0)._2
     val res = ArrayBuffer.empty[(Int, Int)]
     for ((l, r) <- data.tail) {
-      if (l <= R && l >= L) R = math.max(R, r)
+      if (l <= R && l >= L) {
+        R = math.max(R, r)
+      }
       else {
         res += ((L, R))
         L = l

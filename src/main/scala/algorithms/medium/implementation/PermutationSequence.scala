@@ -22,8 +22,12 @@ object PermutationSequence {
       val x = factor(xn)
       val a = k / x
       val b = k % x
-      if (b != 0) travel(remain.patch(a, Nil, 1), res :+ remain(a), b)
-      else (res :+ remain(a - 1)) ++ remain.patch(a - 1, Nil, 1).reverse
+      if (b != 0) {
+        travel(remain.patch(a, Nil, 1), res :+ remain(a), b)
+      }
+      else {
+        (res :+ remain(a - 1)) ++ remain.patch(a - 1, Nil, 1).reverse
+      }
     }
 
     travel((1 to n).toList, List(), k).mkString

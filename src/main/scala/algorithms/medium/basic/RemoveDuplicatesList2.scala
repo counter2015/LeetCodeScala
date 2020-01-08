@@ -15,7 +15,9 @@ object RemoveDuplicatesList2 {
     val dummy = new ListNode(-1)
     var nodes = dummy
 
-    if (head == null || head.next == null) return head
+    if (head == null || head.next == null) {
+      head
+    }
     else {
       while (h != null && h.next != null) {
         val (a, b) = (h, h.next)
@@ -32,7 +34,8 @@ object RemoveDuplicatesList2 {
         nodes = nodes.next
       }
       nodes.next = null
+      dummy.next
     }
-    dummy.next
+
   }
 }

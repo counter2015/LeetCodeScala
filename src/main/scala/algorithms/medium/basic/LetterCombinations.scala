@@ -32,8 +32,9 @@ object LetterCombinations {
     var res = List[String]()
 
     def travel(str: Array[String], headStr: String): Unit = {
-      if (str.length == 0) res = headStr :: res
-      else {
+      if (str.length == 0) {
+        res = headStr :: res
+      } else {
         for (c <- str.head)
           travel(str.tail, headStr + c)
       }

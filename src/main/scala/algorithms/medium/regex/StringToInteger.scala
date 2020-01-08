@@ -14,9 +14,13 @@ object StringToInteger {
     str match {
       case pattern(sign, num) =>
         val bigInt = if (sign == "-") -BigInt(num) else BigInt(num)
-        if (bigInt > Integer.MAX_VALUE) Integer.MAX_VALUE
-        else if (bigInt < Integer.MIN_VALUE) Integer.MIN_VALUE
-        else bigInt.toInt
+        if (bigInt > Integer.MAX_VALUE) {
+          Integer.MAX_VALUE
+        } else if (bigInt < Integer.MIN_VALUE) {
+          Integer.MIN_VALUE
+        } else {
+          bigInt.toInt
+        }
       case _ => 0
     }
   }

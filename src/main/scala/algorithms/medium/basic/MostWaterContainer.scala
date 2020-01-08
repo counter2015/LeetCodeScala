@@ -26,13 +26,15 @@ object MostWaterContainer {
     */
   def maxArea(height: Array[Int]): Int = {
 
+    @scala.annotation.tailrec
     def travel(left: Int, right: Int, res: Int): Int = {
-      if (left == right)
+      if (left == right) {
         res
-      else if (height(left) <= height(right))
+      } else if (height(left) <= height(right)) {
         travel(left + 1, right, math.max(res, (right - left) * height(left)))
-      else
+      } else {
         travel(left, right - 1, math.max(res, (right - left) * height(right)))
+      }
     }
 
     travel(0, height.length - 1, 0)

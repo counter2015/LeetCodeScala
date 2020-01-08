@@ -14,21 +14,19 @@ object SearchRange {
 
     @scala.annotation.tailrec
     def travel(l: Int, r: Int, fromLeft: Boolean): Int = {
-      if (l > r) -1
-      else {
+      if (l > r) {
+        -1
+      } else {
         val m = (r - l) / 2 + l
         if (nums(m) == target) {
           if (fromLeft) {
-            if (m == 0 || nums(m - 1) < target) m
-            else travel(l, m - 1, fromLeft)
+            if (m == 0 || nums(m - 1) < target) m else travel(l, m - 1, fromLeft)
           } else {
-            if (m == n - 1 || nums(m + 1) > target) m
-            else travel(m + 1, r, fromLeft)
+            if (m == n - 1 || nums(m + 1) > target) m else travel(m + 1, r, fromLeft)
           }
         }
         else {
-          if (nums(m) < target) travel(m + 1, r, fromLeft)
-          else travel(l, m - 1, fromLeft)
+          if (nums(m) < target) travel(m + 1, r, fromLeft) else travel(l, m - 1, fromLeft)
         }
       }
     }

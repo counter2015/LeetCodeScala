@@ -11,9 +11,11 @@ object CombinationSum {
     */
   def combinationSum(candidates: Array[Int], target: Int): List[List[Int]] = {
     def combAcc(nums: List[Int], left: Int, acc: List[Int]): List[List[Int]] =
-      if (left < 0) Nil
-      else if (left == 0) List(acc)
-      else {
+      if (left < 0) {
+        Nil
+      } else if (left == 0) {
+        List(acc)
+      } else {
         nums match {
           case Nil => Nil
           case x :: xs => combAcc(x :: xs, left - x, x :: acc) ::: combAcc(xs, left, acc)

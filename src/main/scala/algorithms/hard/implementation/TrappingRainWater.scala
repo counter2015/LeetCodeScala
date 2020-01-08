@@ -15,20 +15,24 @@ object TrappingRainWater {
       var (l, r) = (0, height.length - 1)
       while (l < r) {
         if (height(l) < height(r)) {
-          if (leftWall < height(l))
+          if (leftWall < height(l)) {
             leftWall = height(l)
-          else
+          } else {
             sum += math.min(leftWall, height(r)) - height(l)
+          }
           l += 1
         } else {
-          if (rightWall < height(r))
+          if (rightWall < height(r)) {
             rightWall = height(r)
-          else
+          } else {
             sum += math.min(rightWall, height(l)) - height(r)
+          }
           r -= 1
         }
       }
       sum
-    } else 0
+    } else {
+      0
+    }
   }
 }

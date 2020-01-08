@@ -1,5 +1,6 @@
 package algorithms.medium.search
 
+
 object WordSearch {
 
   /** RunTime Info:
@@ -17,8 +18,9 @@ object WordSearch {
     def travel(x: Int, y: Int, target: String): Boolean = {
       if (target.isEmpty) return true
       val (h, t) = (target.head, target.tail)
-      if (board(x)(y) != h) false
-      else {
+      if (board(x)(y) != h) {
+        false
+      } else {
         if (t.isEmpty) return true
         val dx = Array(0, 1, 0, -1)
         val dy = Array(1, 0, -1, 0)
@@ -27,8 +29,7 @@ object WordSearch {
           val vy = y + dy(i)
           if (vx >= 0 && vx < m && vy >= 0 && vy < n && !visit(vx)(vy)) {
             visit(vx)(vy) = true
-            if (travel(vx, vy, t))
-              return true
+            if (travel(vx, vy, t)) return true
             visit(vx)(vy) = false
           }
         }
