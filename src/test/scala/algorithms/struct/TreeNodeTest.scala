@@ -49,4 +49,11 @@ trait TreeNodeTest {
     }
     root
   }
+
+  def sameElement(a: TreeNode, b: TreeNode): Boolean = {
+    if (a == null && b == null) true
+    else if (a != null && b != null) {
+      a.value == b.value && sameElement(a.left, b.left) && sameElement(a.right, b.right)
+    } else false
+  }
 }

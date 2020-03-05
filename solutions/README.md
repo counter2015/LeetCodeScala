@@ -114,9 +114,9 @@
 92. [Reverse Linked List II][92-0] - [Code][92-1] / [Solution][92-2]
 93. [Restore IP Addresses][93-0] - [Code][93-1] / [Solution][93-2]
 94. [Binary Tree Inorder Traversal][94-0] - [Code][94-1] / [Solution][94-2]
-95. [][95-0] - [Code][95-1] / [Solution][95-2]
-96. [][96-0] - [Code][96-1] / [Solution][96-2]
-97. [][97-0] - [Code][97-1] / [Solution][97-2]
+95. [Unique Binary Search Trees II][95-0] - [Code][95-1] / [Solution][95-2]
+96. [Unique Binary Search Trees][96-0] - [Code][96-1] / [Solution][96-2]
+97. [][97-0] - [Code][97-1] / [Solution][97-2]3
 98. [][98-0] - [Code][98-1] / [Solution][98-2]
 99. [][99-0] - [Code][99-1] / [Solution][99-2]
 100. [][100-0] - [Code][100-1] / [Solution][100-2]
@@ -510,12 +510,14 @@
 [94-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/InorderTraversal.scala
 [94-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/InorderTraversal.md
 
-[95-0]:
-[95-1]:
-[95-2]:
-[96-0]:
-[96-1]:
-[96-2]:
+[95-0]: https://leetcode.com/problems/unique-binary-search-trees-ii/
+[95-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/NumTrees2.scala
+[95-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/NumTrees2.md
+
+[96-0]: https://leetcode.com/problems/unique-binary-search-trees/ 
+[96-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/math/NumTrees.scala
+[96-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/NumTrees.md
+
 [97-0]:
 [97-1]:
 [97-2]:
