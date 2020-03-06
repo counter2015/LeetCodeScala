@@ -116,7 +116,7 @@
 94. [Binary Tree Inorder Traversal][94-0] - [Code][94-1] / [Solution][94-2]
 95. [Unique Binary Search Trees II][95-0] - [Code][95-1] / [Solution][95-2]
 96. [Unique Binary Search Trees][96-0] - [Code][96-1] / [Solution][96-2]
-97. [][97-0] - [Code][97-1] / [Solution][97-2]3
+97. [Interleaving String][97-0] - [Code][97-1] / [Solution][97-2]3
 98. [][98-0] - [Code][98-1] / [Solution][98-2]
 99. [][99-0] - [Code][99-1] / [Solution][99-2]
 100. [][100-0] - [Code][100-1] / [Solution][100-2]
@@ -518,9 +518,10 @@
 [96-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/math/NumTrees.scala
 [96-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/NumTrees.md
 
-[97-0]:
-[97-1]:
-[97-2]:
+[97-0]: https://leetcode.com/problems/interleaving-string/
+[97-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/IsInterleave.scala
+[97-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/IsInterleave.md
+
 [98-0]:
 [98-1]:
 [98-2]:
