@@ -1,4 +1,4 @@
-# Decode Ways
+# Interleaving String
 
 ## Problem link
 https://leetcode.com/problems/interleaving-string/
