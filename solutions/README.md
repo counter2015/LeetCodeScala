@@ -118,7 +118,7 @@
 96. [Unique Binary Search Trees][96-0] - [Code][96-1] / [Solution][96-2]
 97. [Interleaving String][97-0] - [Code][97-1] / [Solution][97-2]3
 98. [Validate Binary Search Tree][98-0] - [Code][98-1] / [Solution][98-2]
-99. [][99-0] - [Code][99-1] / [Solution][99-2]
+99. [Recover Binary Search Tree][99-0] - [Code][99-1] / [Solution][99-2]
 100. [][100-0] - [Code][100-1] / [Solution][100-2]
 
 ## 101~110
@@ -526,6 +526,6 @@
 [98-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/IsValidBST.scala
 [98-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/IsValidBST.md
 
-[99-0]:
-[99-1]:
-[99-2]:
+[99-0]: https://leetcode.com/problems/recover-binary-search-tree
+[99-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/tree/RecoverTree.scala
+[99-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/RecoverTree.md
