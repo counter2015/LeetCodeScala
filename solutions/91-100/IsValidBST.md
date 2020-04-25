@@ -50,5 +50,5 @@ Just implement it.
 \- | \-
 ------------ | -------------
 Date | 2020-03-06
-Time | ms
-Memory | MB
+Time | 1420 ms
+Memory | 52.7 MB
