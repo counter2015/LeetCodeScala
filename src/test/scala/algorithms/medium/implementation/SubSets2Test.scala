@@ -1,9 +1,10 @@
 package algorithms.medium.implementation
 
 import algorithms.medium.implementation.SubSets2.{subsetsWithDup => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class SubSets2Test extends FunSuite with Matchers {
+class SubSets2Test extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val input = Array(1, 2, 2)

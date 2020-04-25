@@ -1,9 +1,10 @@
 package algorithms.medium.search
 
 import algorithms.medium.search.SearchRotatedArray.{search => sovle}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class SearchRotatedArrayTest extends FunSuite with Matchers {
+class SearchRotatedArrayTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val nums = Array(4, 5, 6, 7, 0, 1, 2)

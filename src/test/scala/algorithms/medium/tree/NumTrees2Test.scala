@@ -2,9 +2,10 @@ package algorithms.medium.tree
 
 import algorithms.medium.tree.NumTrees2.{generateTrees => solve}
 import algorithms.struct.{TreeNode, TreeNodeTest}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class NumTrees2Test extends FunSuite with Matchers with TreeNodeTest {
+class NumTrees2Test extends AnyFunSuite with Matchers with TreeNodeTest {
 
   test("test0: sample input") {
     val tree1 = new TreeNode(1)

@@ -1,5 +1,7 @@
 package algorithms.struct
 
+import scala.language.implicitConversions
+
 trait TreeNodeTest {
 
   implicit def StringToLeft(s: String): Left[String, Int] = Left(s)

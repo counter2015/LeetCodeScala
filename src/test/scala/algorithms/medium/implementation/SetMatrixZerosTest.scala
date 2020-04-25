@@ -1,9 +1,10 @@
 package algorithms.medium.implementation
 
 import algorithms.medium.implementation.SetMatrixZeros.{setZeroes => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class SetMatrixZerosTest extends FunSuite with Matchers {
+class SetMatrixZerosTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val matrix = Array(

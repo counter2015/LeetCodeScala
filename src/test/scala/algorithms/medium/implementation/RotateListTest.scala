@@ -2,9 +2,10 @@ package algorithms.medium.implementation
 
 import algorithms.medium.implementation.RotateList.{rotateRight => solve}
 import algorithms.struct.ListNodeTest
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class RotateListTest extends FunSuite with Matchers with ListNodeTest {
+class RotateListTest extends AnyFunSuite with Matchers with ListNodeTest {
 
   test("test0: sample input") {
     val arr = generateListNodesWithData(Array(1, 2, 3, 4, 5))

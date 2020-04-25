@@ -1,9 +1,10 @@
 package algorithms.medium.string
 
 import algorithms.medium.string.MultiplyStrings.{multiply => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class MultiplyStringsTest extends FunSuite with Matchers {
+class MultiplyStringsTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val str1 = "2"

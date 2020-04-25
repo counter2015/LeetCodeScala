@@ -1,9 +1,9 @@
 package algorithms.easy.implementation
 
 import algorithms.easy.implementation.RomanToInteger.{romanToInt => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class RomanToIntegerTest extends FunSuite {
+class RomanToIntegerTest extends AnyFunSuite {
 
   test("test0: sample input") {
     assert(solve("III") == 3)

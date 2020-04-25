@@ -1,9 +1,10 @@
 package algorithms.hard.implementation
 
 import algorithms.hard.implementation.SolveSudoku.{solveSudoku => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class SovleSudokuTest extends FunSuite with Matchers {
+class SovleSudokuTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val arr = Array(

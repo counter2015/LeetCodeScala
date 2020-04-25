@@ -1,9 +1,10 @@
 package algorithms.medium.implementation
 
 import algorithms.medium.implementation.CombinationSum2.{combinationSum2 => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class CombinationSum2Test extends FunSuite with Matchers {
+class CombinationSum2Test extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val candidates = Array(10, 1, 2, 7, 6, 1, 5)

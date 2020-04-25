@@ -1,9 +1,9 @@
 package algorithms.easy.basic
 
 import algorithms.easy.basic.TwoSum.{twoSum => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class TwoSumTest extends FunSuite {
+class TwoSumTest extends AnyFunSuite {
 
   test("test0: sample input") {
     val nums = Array(2, 7, 11, 15)

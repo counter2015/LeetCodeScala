@@ -2,9 +2,9 @@ package algorithms.hard.implementation
 
 import algorithms.hard.implementation.MergeKLists.{mergeKLists => solve}
 import algorithms.struct.ListNodeTest
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class MergeKListsTest extends FunSuite with ListNodeTest {
+class MergeKListsTest extends AnyFunSuite with ListNodeTest {
 
   test("test0: sample input") {
     val data = Array(Array(1, 4, 5), Array(1, 3, 4), Array(2, 6))

@@ -1,9 +1,9 @@
 package algorithms.medium.string
 
 import algorithms.medium.string.LongestPalindrome.{longestPalindrome => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class LongestPalindromeTest extends FunSuite {
+class LongestPalindromeTest extends AnyFunSuite {
 
   test("test0: sample input") {
     val result = Array("bab", "aba")

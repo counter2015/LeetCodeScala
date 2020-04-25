@@ -1,9 +1,10 @@
 package algorithms.medium.implementation
 
 import algorithms.medium.implementation.Divide.{divide => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class DivideTest extends FunSuite with Matchers {
+class DivideTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     solve(10, 3) shouldBe 3

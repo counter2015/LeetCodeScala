@@ -1,9 +1,10 @@
 package algorithms.easy.implementation
 
 import algorithms.easy.implementation.StrStr.{strStr => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class StrStrTest extends FunSuite with Matchers {
+class StrStrTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     solve("hello", "ll") should be(2)

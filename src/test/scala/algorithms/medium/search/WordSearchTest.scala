@@ -1,11 +1,12 @@
 package algorithms.medium.search
 
 import algorithms.medium.search.WordSearch.{exist => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class WordSearchTest extends FunSuite with Matchers {
+class WordSearchTest extends AnyFunSuite with Matchers {
 
-  val board = Array(
+  val board: Array[Array[Char]] = Array(
     Array('A', 'B', 'C', 'E'),
     Array('S', 'F', 'C', 'S'),
     Array('A', 'D', 'E', 'E')

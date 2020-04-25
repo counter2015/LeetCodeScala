@@ -2,9 +2,9 @@ package algorithms.medium.implementation
 
 import algorithms.medium.implementation.RemoveNthFromEnd.{removeNthFromEnd => solve}
 import algorithms.struct.ListNodeTest
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class RemoveNthFromEndTest extends FunSuite with ListNodeTest {
+class RemoveNthFromEndTest extends AnyFunSuite with ListNodeTest {
 
   test("test0: sample input") {
     val arr = generateListNodesWithData(Array(1, 2, 3, 4, 5))

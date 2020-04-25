@@ -2,9 +2,10 @@ package algorithms.medium.tree
 
 import algorithms.medium.tree.InorderTraversal.{inorderTraversal => solve}
 import algorithms.struct.TreeNodeTest
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class InorderTraversalTest extends FunSuite with Matchers with TreeNodeTest {
+class InorderTraversalTest extends AnyFunSuite with Matchers with TreeNodeTest {
 
   test("test0: sample input") {
 

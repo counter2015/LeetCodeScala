@@ -1,9 +1,9 @@
 package algorithms.easy.basic
 
 import algorithms.easy.basic.ReverseInteger.{reverse => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class ReverseIntegerTest extends FunSuite {
+class ReverseIntegerTest extends AnyFunSuite {
 
   test("test0: sample input") {
     assert(solve(123) == 321)

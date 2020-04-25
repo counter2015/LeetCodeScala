@@ -1,9 +1,10 @@
 package algorithms.medium.basic
 
 import algorithms.medium.basic.ValidSudoku.{isValidSudoku => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class ValidSudokuTest extends FunSuite with Matchers {
+class ValidSudokuTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val boards = Array(

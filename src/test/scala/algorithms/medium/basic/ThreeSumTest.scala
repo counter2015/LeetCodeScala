@@ -1,9 +1,9 @@
 package algorithms.medium.basic
 
 import algorithms.medium.basic.ThreeSum.{threeSum => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class ThreeSumTest extends FunSuite {
+class ThreeSumTest extends AnyFunSuite {
 
   test("test0: sample input") {
     assert(solve(Array(-1, 0, 1, 2, -1, -4)).toSet == List(List(-1, 0, 1), List(-1, -1, 2)).toSet)

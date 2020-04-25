@@ -2,11 +2,11 @@ package algorithms.medium.implementation
 
 import algorithms.medium.implementation.AddTwoNumbers.{addTwoNumbers => solve}
 import algorithms.struct.ListNode
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
 import scala.collection.mutable.ArrayBuffer
 
-class AddTwoNumbersTest extends FunSuite {
+class AddTwoNumbersTest extends AnyFunSuite {
   def build(xs: Array[Int]): ListNode = {
     var res = new ListNode(0)
     var head = res

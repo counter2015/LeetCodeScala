@@ -1,9 +1,9 @@
 package algorithms.medium.basic
 
 import algorithms.medium.basic.ZigZagConversion.{convert => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class ZigZagConversionTest extends FunSuite {
+class ZigZagConversionTest extends AnyFunSuite {
   test("test0: sample input") {
     assert(solve("PAYPALISHIRING", 3) == "PAHNAPLSIIGYIR")
   }

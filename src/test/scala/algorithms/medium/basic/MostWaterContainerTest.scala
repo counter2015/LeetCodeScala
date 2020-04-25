@@ -1,9 +1,9 @@
 package algorithms.medium.basic
 
 import algorithms.medium.basic.MostWaterContainer.{maxArea => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class MostWaterContainerTest extends FunSuite {
+class MostWaterContainerTest extends AnyFunSuite {
 
   test("test0: sample test") {
     assert(solve(Array(1, 8, 6, 2, 5, 4, 8, 3, 7)) == 49)

@@ -1,9 +1,10 @@
 package algorithms.hard.implementation
 
 import algorithms.hard.implementation.ValidNumber.{isNumber => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class ValidNumberTest extends FunSuite with Matchers {
+class ValidNumberTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     solve("0") shouldBe true

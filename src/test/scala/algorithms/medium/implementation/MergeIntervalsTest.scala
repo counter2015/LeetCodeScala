@@ -1,9 +1,10 @@
 package algorithms.medium.implementation
 
 import algorithms.medium.implementation.MergeIntervals.{merge => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class MergeIntervalsTest extends FunSuite with Matchers {
+class MergeIntervalsTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val input = Array(Array(1, 3), Array(2, 6), Array(8, 10), Array(15, 18))

@@ -1,9 +1,10 @@
 package algorithms.medium.implementation
 
 import algorithms.medium.implementation.Permutations.{permute => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class PermutationsTest extends FunSuite with Matchers {
+class PermutationsTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val res = Seq(

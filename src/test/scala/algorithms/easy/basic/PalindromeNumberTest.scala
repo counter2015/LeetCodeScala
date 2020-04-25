@@ -1,9 +1,9 @@
 package algorithms.easy.basic
 
 import algorithms.easy.basic.PalindromeNumber.{isPalindrome => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class PalindromeNumberTest extends FunSuite {
+class PalindromeNumberTest extends AnyFunSuite {
 
   test("test0: sample input") {
     assert(solve(121))

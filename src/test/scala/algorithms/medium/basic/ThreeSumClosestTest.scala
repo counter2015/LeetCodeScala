@@ -1,9 +1,9 @@
 package algorithms.medium.basic
 
 import algorithms.medium.basic.ThreeSumClosest.{threeSumClosest => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class ThreeSumClosestTest extends FunSuite {
+class ThreeSumClosestTest extends AnyFunSuite {
 
   test("test0: sample input") {
     assert(solve(Array(-1, 2, 1, -4), 1) == 2)

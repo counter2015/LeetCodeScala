@@ -1,9 +1,10 @@
 package algorithms.hard.string
 
 import algorithms.hard.string.LongestValidParentheses.{longestValidParentheses => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class LongestValidParenthesesTest extends FunSuite with Matchers {
+class LongestValidParenthesesTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     solve("(()") should be(2)

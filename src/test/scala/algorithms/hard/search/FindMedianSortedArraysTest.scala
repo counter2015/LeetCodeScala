@@ -1,9 +1,9 @@
 package algorithms.hard.search
 
 import algorithms.hard.search.FindMedianSortedArrays.{findMedianSortedArrays => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class FindMedianSortedArraysTest extends FunSuite {
+class FindMedianSortedArraysTest extends AnyFunSuite {
 
   test("test0: sample input") {
     val nums1 = Array(1, 3)

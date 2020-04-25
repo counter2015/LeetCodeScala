@@ -2,9 +2,10 @@ package algorithms.medium.basic
 
 import algorithms.medium.basic.RemoveDuplicatesList2.{deleteDuplicates => solve}
 import algorithms.struct.ListNodeTest
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class RemoveDuplicatesList2Test extends FunSuite with Matchers with ListNodeTest {
+class RemoveDuplicatesList2Test extends AnyFunSuite with Matchers with ListNodeTest {
 
   test("test0: sample input") {
     val input = generateListNodesWithData(Array(1, 2, 3, 3, 4, 4, 5))

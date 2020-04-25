@@ -1,9 +1,10 @@
 package algorithms.medium.implementation
 
 import algorithms.medium.implementation.GroupAnagrams.{groupAnagrams => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class GroupAnagramsTest extends FunSuite with Matchers {
+class GroupAnagramsTest extends AnyFunSuite with Matchers {
 
   test("test0: sample test") {
     val strs = Array("eat", "tea", "tan", "ate", "nat", "bat")

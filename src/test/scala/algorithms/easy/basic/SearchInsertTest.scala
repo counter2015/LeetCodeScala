@@ -1,9 +1,10 @@
 package algorithms.easy.basic
 
 import algorithms.easy.basic.SearchInsert.{searchInsert => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class SearchInsertTest extends FunSuite with Matchers {
+class SearchInsertTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val arr = Array(1, 3, 5, 6)

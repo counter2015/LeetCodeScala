@@ -1,9 +1,10 @@
 package algorithms.medium.search
 
 import algorithms.medium.search.SearchRange.{searchRange => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class SearchRangeTest extends FunSuite with Matchers {
+class SearchRangeTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val arr = Array(5, 7, 7, 8, 8, 10)

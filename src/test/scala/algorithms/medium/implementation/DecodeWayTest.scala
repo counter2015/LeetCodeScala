@@ -1,9 +1,10 @@
 package algorithms.medium.implementation
 
 import algorithms.medium.implementation.DecodeWay.{numDecodings => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class DecodeWayTest extends FunSuite with Matchers {
+class DecodeWayTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     solve("12") shouldBe 2

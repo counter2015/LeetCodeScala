@@ -3,9 +3,9 @@ package algorithms.hard.implementation
 
 import algorithms.hard.implementation.ReverseKGroup.{reverseKGroup => solve}
 import algorithms.struct.ListNodeTest
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class ReverseKGroupTest extends FunSuite with ListNodeTest {
+class ReverseKGroupTest extends AnyFunSuite with ListNodeTest {
 
   test("test0: sample input") {
     val arr = generateListNodesWithData(Array(1, 2, 3, 4, 5))

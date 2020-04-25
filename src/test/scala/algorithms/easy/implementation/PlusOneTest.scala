@@ -1,9 +1,10 @@
 package algorithms.easy.implementation
 
 import algorithms.easy.implementation.PlusOne.{plusOne => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class PlusOneTest extends FunSuite with Matchers {
+class PlusOneTest extends AnyFunSuite with Matchers {
 
   test("test0: sample test") {
     solve(Array(1, 2, 3)) shouldBe Array(1, 2, 4)

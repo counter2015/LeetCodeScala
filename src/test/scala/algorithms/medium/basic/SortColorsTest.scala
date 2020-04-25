@@ -1,9 +1,10 @@
 package algorithms.medium.basic
 
 import algorithms.medium.basic.SortColors.{sortColors => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class SortColorsTest extends FunSuite with Matchers {
+class SortColorsTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val arr = Array(2, 0, 2, 1, 1, 0)

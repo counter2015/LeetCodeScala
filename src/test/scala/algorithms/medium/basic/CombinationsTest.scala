@@ -1,9 +1,10 @@
 package algorithms.medium.basic
 
 import algorithms.medium.basic.Combinations.{combine => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class CombinationsTest extends FunSuite with Matchers {
+class CombinationsTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val res = List(

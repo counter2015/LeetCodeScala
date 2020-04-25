@@ -1,9 +1,10 @@
 package algorithms.easy.basic
 
 import algorithms.easy.basic.CountAndSay.{countAndSay => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class CountAndSayTest extends FunSuite with Matchers {
+class CountAndSayTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     solve(1) shouldBe "1"

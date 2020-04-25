@@ -1,9 +1,10 @@
 package algorithms.hard.implementation
 
 import algorithms.hard.implementation.InsertInterval.{insert => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class InsertIntervalTest extends FunSuite with Matchers {
+class InsertIntervalTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val input = Array(Array(1, 3), Array(6, 9))

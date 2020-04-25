@@ -1,9 +1,9 @@
 package algorithms.medium.basic
 
 import algorithms.medium.basic.LetterCombinations.{letterCombinations => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class LetterCombinationsTest extends FunSuite {
+class LetterCombinationsTest extends AnyFunSuite {
 
   test("test0: sample input") {
     assert(solve("23").toSet == Set("ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"))

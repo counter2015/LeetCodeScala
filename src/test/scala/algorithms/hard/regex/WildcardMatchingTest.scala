@@ -1,9 +1,10 @@
 package algorithms.hard.regex
 
 import algorithms.hard.regex.WildcardMatching.{isMatch => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class WildcardMatchingTest extends FunSuite with Matchers {
+class WildcardMatchingTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val s = "aa"

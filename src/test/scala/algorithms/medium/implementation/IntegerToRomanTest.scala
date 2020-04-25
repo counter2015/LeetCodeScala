@@ -1,9 +1,9 @@
 package algorithms.medium.implementation
 
 import algorithms.medium.implementation.IntegerToRoman.{intToRoman => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class IntegerToRomanTest extends FunSuite {
+class IntegerToRomanTest extends AnyFunSuite {
 
   test("test0: sample input") {
     assert(solve(3) == "III")

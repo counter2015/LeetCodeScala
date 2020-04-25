@@ -1,9 +1,9 @@
 package algorithms.medium.regex
 
 import algorithms.medium.regex.StringToInteger.{myAtoi => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class StringToIntegerTest extends FunSuite {
+class StringToIntegerTest extends AnyFunSuite {
 
   test("test0: sample input") {
     assert(solve("42") == 42)

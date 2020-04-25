@@ -1,9 +1,10 @@
 package algorithms.easy.implementation
 
 import algorithms.easy.implementation.MySqrt.{mySqrt => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class MySqrtTest extends FunSuite with Matchers {
+class MySqrtTest extends AnyFunSuite with Matchers {
 
   test("test0: sample test") {
     solve(4) shouldBe 2

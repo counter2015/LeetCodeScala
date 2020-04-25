@@ -1,9 +1,10 @@
 package algorithms.hard.string
 
 import algorithms.hard.string.FindSubstring.{findSubstring => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class FindSubstringTest extends FunSuite with Matchers {
+class FindSubstringTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     solve("barfoothefoobarman", Array("foo", "bar")) should contain theSameElementsAs Seq(0, 9)
@@ -19,7 +20,7 @@ class FindSubstringTest extends FunSuite with Matchers {
 
   test("test3: long string") {
     val s = "ab" * 1000
-    val words = Array.fill(1000)("ab", "ba").map(x => Array(x._1, x._2)).flatten
+    val words = Array.fill(1000)("ab", "ba").flatMap(x => Array(x._1, x._2))
     solve(s, words) should contain theSameElementsAs Nil
   }
 }

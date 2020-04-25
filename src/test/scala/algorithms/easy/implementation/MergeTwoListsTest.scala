@@ -2,9 +2,9 @@ package algorithms.easy.implementation
 
 import algorithms.easy.implementation.MergeTwoLists.{mergeTwoLists => solve}
 import algorithms.struct.ListNodeTest
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class MergeTwoListsTest extends FunSuite with ListNodeTest {
+class MergeTwoListsTest extends AnyFunSuite with ListNodeTest {
 
   test("test0: sample input") {
     val a = generateListNodesWithData(Array(1, 2, 4))

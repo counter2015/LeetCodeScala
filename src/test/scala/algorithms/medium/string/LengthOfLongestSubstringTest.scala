@@ -1,9 +1,9 @@
 package algorithms.medium.string
 
 import algorithms.medium.string.LengthOfLongestSubstring.{lengthOfLongestSubstring => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class LengthOfLongestSubstringTest extends FunSuite {
+class LengthOfLongestSubstringTest extends AnyFunSuite {
 
   test("test0: sample input") {
     assert(solve("abcabcbb") == 3)

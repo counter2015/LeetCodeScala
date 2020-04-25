@@ -1,9 +1,9 @@
 package algorithms.easy.basic
 
 import algorithms.easy.basic.LongestCommonPrefix.{longestCommonPrefix => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class LongestCommonPrefixTest extends FunSuite {
+class LongestCommonPrefixTest extends AnyFunSuite {
 
   test("test0: sample input") {
     assert(solve(Array("flower", "flow", "flight")) == "fl")

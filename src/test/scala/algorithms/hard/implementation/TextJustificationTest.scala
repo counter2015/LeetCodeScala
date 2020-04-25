@@ -1,9 +1,10 @@
 package algorithms.hard.implementation
 
 import algorithms.hard.implementation.TextJustification.{fullJustify => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class TextJustificationTest extends FunSuite with Matchers {
+class TextJustificationTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val text = Array("This", "is", "an", "example", "of", "text", "justification.")

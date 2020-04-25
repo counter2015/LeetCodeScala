@@ -1,9 +1,10 @@
 package algorithms.hard.string
 
 import algorithms.hard.string.MinimumWindowSubstring.{minWindow => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class MinimumWindowSubstringTest extends FunSuite with Matchers {
+class MinimumWindowSubstringTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     solve("ADOBECODEBANC", "ABC") shouldBe "BANC"

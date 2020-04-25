@@ -2,9 +2,10 @@ package algorithms.medium.implementation
 
 import algorithms.medium.implementation.PartitionList.{partition => solve}
 import algorithms.struct.ListNodeTest
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class PartitionListTest extends FunSuite with Matchers with ListNodeTest {
+class PartitionListTest extends AnyFunSuite with Matchers with ListNodeTest {
 
   test("test 0: sample input") {
     val input = generateListNodesWithData(Array(1, 4, 3, 2, 5, 2))

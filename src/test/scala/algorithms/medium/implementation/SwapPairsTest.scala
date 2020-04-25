@@ -2,9 +2,9 @@ package algorithms.medium.implementation
 
 import algorithms.medium.implementation.SwapPairs.{swapPairs => solve}
 import algorithms.struct.ListNodeTest
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class SwapPairsTest extends FunSuite with ListNodeTest {
+class SwapPairsTest extends AnyFunSuite with ListNodeTest {
 
   test("test0: sample input") {
     val arr = generateListNodesWithData(Array(1, 2, 3, 4))

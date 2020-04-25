@@ -1,9 +1,10 @@
 package algorithms.easy.implementation
 
 import algorithms.easy.implementation.RemoveDuplicates.{removeDuplicates => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class RemoveDuplicatesTest extends FunSuite with Matchers {
+class RemoveDuplicatesTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val arr = Array(1, 1, 2)

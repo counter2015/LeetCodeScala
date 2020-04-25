@@ -1,9 +1,10 @@
 package algorithms.easy.implementation
 
 import algorithms.easy.implementation.MaximumSubarray.{maxSubArray => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class MaximumSubarrayTest extends FunSuite with Matchers {
+class MaximumSubarrayTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     solve(Array(-2, 1, -3, 4, -1, 2, 1, -5, 4)) shouldBe 6

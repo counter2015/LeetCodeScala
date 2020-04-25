@@ -1,9 +1,10 @@
 package algorithms.easy.implementation
 
 import algorithms.easy.implementation.MergeSortedArray.{merge => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class MergeSortedArrayTest extends FunSuite with Matchers {
+class MergeSortedArrayTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val arr1 = Array(1, 2, 3, 0, 0, 0)

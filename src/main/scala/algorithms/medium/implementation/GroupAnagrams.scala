@@ -9,8 +9,6 @@ object GroupAnagrams {
     * @return grouped array of string
     */
   def groupAnagrams(strs: Array[String]): List[List[String]] = {
-    strs.groupBy(_.sorted).values.map(_.toList).toList
-    // for scala 2.13
-    // strs.groupBy(_.toSeq.sorted.unwrap).values.map(_.toList).toList
+    strs.groupBy(_.toSeq.sorted.unwrap).values.map(_.toList).toList
   }
 }

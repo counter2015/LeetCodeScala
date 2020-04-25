@@ -1,9 +1,10 @@
 package algorithms.medium.math
 
 import algorithms.medium.math.UniquePaths2.{uniquePathsWithObstacles => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class UniquePaths2Test extends FunSuite with Matchers {
+class UniquePaths2Test extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val grids = Array(

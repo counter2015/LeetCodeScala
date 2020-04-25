@@ -1,9 +1,9 @@
 package algorithms.medium.implementation
 
 import algorithms.medium.implementation.GenerateParenthesis.{generateParenthesis => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class GenerateParenthesisTest extends FunSuite {
+class GenerateParenthesisTest extends AnyFunSuite {
 
   test("test0: sample input") {
     val res = List[String](

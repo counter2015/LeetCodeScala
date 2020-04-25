@@ -1,9 +1,9 @@
 package algorithms.hard.regex
 
 import algorithms.hard.regex.RegularExpressionMatching.{isMatch => solve}
-import org.scalatest.FunSuite
+import org.scalatest.funsuite.AnyFunSuite
 
-class RegularExpressionMatchingTest extends FunSuite {
+class RegularExpressionMatchingTest extends AnyFunSuite {
 
   test("test0: sample test") {
     assert(!solve("aa", "a"))

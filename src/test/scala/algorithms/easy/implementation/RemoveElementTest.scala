@@ -1,9 +1,10 @@
 package algorithms.easy.implementation
 
 import algorithms.easy.implementation.RemoveElement.{removeElement => solve}
-import org.scalatest.{FunSuite, Matchers}
+import org.scalatest.funsuite.AnyFunSuite
+import org.scalatest.matchers.should.Matchers
 
-class RemoveElementTest extends FunSuite with Matchers {
+class RemoveElementTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val arr = Array(3, 2, 2, 3)
