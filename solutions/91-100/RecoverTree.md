@@ -62,9 +62,30 @@ Another solution is Morris Traversal
 Reference:
 https://www.educative.io/edpresso/what-is-morris-traversal
 https://www.cnblogs.com/AnnieKim/archive/2013/06/15/MorrisTraversal.html
-
-todo Morris 遍历
 https://www.cnblogs.com/grandyang/p/4298069.html
+
+Morris traversal is algorithm cost O(1) place and O(n) time
+After traversal the tree's struct doesn't change.
+
+First we use morris inorder traversal to find the swapped nodes in the BST.
+We use two pointer to record `cur` and `pre` nodes.
+
+In the traversal, the first node we want to recover will satisfy
+- `pre` is greater than `cur`
+
+Then we find the first node is `pre`. Where is the second node?
+
+Consider corner condition
+- Only two nodes
+- Change the first nodes
+- Change the last nodes
+
+In all above the conditions, the second node is just the successive node of first node.
+
+In other condition, since the swapped nodes are not neighbor. We can always find another pair nodes in traversal
+that `pre` is greater than `cur`, then we find `cur` node as the second node.
+
+The last thing is just change the value of first and second nodes.
 
 ## Run Time Info
 
