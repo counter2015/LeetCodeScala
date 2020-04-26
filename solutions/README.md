@@ -119,7 +119,7 @@
 97. [Interleaving String][97-0] - [Code][97-1] / [Solution][97-2]3
 98. [Validate Binary Search Tree][98-0] - [Code][98-1] / [Solution][98-2]
 99. [Recover Binary Search Tree][99-0] - [Code][99-1] / [Solution][99-2]
-100. [][100-0] - [Code][100-1] / [Solution][100-2]
+100. [Same Tree][100-0] - [Code][100-1] / [Solution][100-2]
 
 ## 101~110
 101. [][101-0] - [Code][101-1] / [Solution][101-2]
@@ -529,3 +529,35 @@
 [99-0]: https://leetcode.com/problems/recover-binary-search-tree
 [99-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/tree/RecoverTree.scala
 [99-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/RecoverTree.md
+
+[100-0]: https://leetcode.com/problems/same-tree/
+[100-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/tree/SameTree.scala
+[100-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/SameTree.md
+
+[101-0]:
+[101-1]:
+[101-2]:
+[102-0]:
+[102-1]:
+[102-2]:
+[103-0]:
+[103-1]:
+[103-2]:
+[104-0]:
+[104-1]:
+[104-2]:
+[105-0]:
+[105-1]:
+[105-2]:
+[106-0]:
+[106-1]:
+[106-2]:
+[107-0]:
+[107-1]:
+[107-2]:
+[108-0]:
+[108-1]:
+[108-2]:
+[109-0]:
+[109-1]:
+[109-2]:
