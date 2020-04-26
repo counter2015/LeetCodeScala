@@ -48,6 +48,7 @@ object RecoverTree {
     var pre: TreeNode = null
     var isFisrtMeet = true
 
+    @scala.annotation.tailrec
     def morrisInOrderTraversal(node: TreeNode): Unit = {
       def findLessNode(_n: TreeNode): TreeNode = {
         var n = _n
