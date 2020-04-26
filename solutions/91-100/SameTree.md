@@ -1,54 +1,51 @@
-# Recover Binary Search Tree
+# SameTree
 
 ## Problem link
-https://leetcode.com/problems/recover-binary-search-tree
+https://leetcode.com/problems/same-tree/
 
 ## Description
 
-Two elements of a binary search tree (BST) are swapped by mistake.
+Given two binary trees, write a function to check if they are the same or not.
 
-Recover the tree without changing its structure.
+Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
+
 
 ## Example
 
 **Example 1:**
 
 ```
-Input: [1,3,null,null,2]
+Input:     1         1
+          / \       / \
+         2   3     2   3
 
-   1
-  /
- 3
-  \
-   2
+        [1,2,3],   [1,2,3]
 
-Output: [3,1,null,null,2]
-
-   3
-  /
- 1
-  \
-   2
+Output: true
 ```
 
 **Example 2:**
 
 ```
-Input: [3,1,4,null,null,2]
+Input:     1         1
+          /           \
+         2             2
 
-  3
- / \
-1   4
-   /
-  2
+        [1,2],     [1,null,2]
 
-Output: [2,1,4,null,null,3]
+Output: false
+```
 
-  2
- / \
-1   4
-   /
-  3
+**Example 3:**
+
+```
+Input:     1         1
+          / \       / \
+         2   1     1   2
+
+        [1,2,1],   [1,1,2]
+
+Output: false
 ```
 
 ## Solution
