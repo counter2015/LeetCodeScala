@@ -122,7 +122,7 @@
 100. [Same Tree][100-0] - [Code][100-1] / [Solution][100-2]
 
 ## 101~110
-101. [][101-0] - [Code][101-1] / [Solution][101-2]
+101. [Symmetric Tree][101-0] - [Code][101-1] / [Solution][101-2]
 102. [][102-0] - [Code][102-1] / [Solution][102-2]
 103. [][103-0] - [Code][103-1] / [Solution][103-2]
 104. [][104-0] - [Code][104-1] / [Solution][104-2]
@@ -534,9 +534,10 @@
 [100-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/tree/SameTree.scala
 [100-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/91-100/SameTree.md
 
-[101-0]:
-[101-1]:
-[101-2]:
+[101-0]: https://leetcode.com/problems/symmetric-tree/
+[101-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/tree/SymmetricTree.scala
+[101-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/SymmetricTree.md
+
 [102-0]:
 [102-1]:
 [102-2]:
