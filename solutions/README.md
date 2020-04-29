@@ -123,7 +123,7 @@
 
 ## 101~110
 101. [Symmetric Tree][101-0] - [Code][101-1] / [Solution][101-2]
-102. [][102-0] - [Code][102-1] / [Solution][102-2]
+102. [Binary Tree Level Order Traversal][102-0] - [Code][102-1] / [Solution][102-2]
 103. [][103-0] - [Code][103-1] / [Solution][103-2]
 104. [][104-0] - [Code][104-1] / [Solution][104-2]
 105. [][105-0] - [Code][105-1] / [Solution][105-2]
@@ -538,9 +538,10 @@
 [101-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/tree/SymmetricTree.scala
 [101-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/SymmetricTree.md
 
-[102-0]:
-[102-1]:
-[102-2]:
+[102-0]: https://leetcode.com/problems/binary-tree-level-order-traversal/
+[102-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/LevelOrderTraversal.scala
+[102-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/LevelOrderTraversal.md
+
 [103-0]:
 [103-1]:
 [103-2]:
