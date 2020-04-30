@@ -124,7 +124,7 @@
 ## 101~110
 101. [Symmetric Tree][101-0] - [Code][101-1] / [Solution][101-2]
 102. [Binary Tree Level Order Traversal][102-0] - [Code][102-1] / [Solution][102-2]
-103. [][103-0] - [Code][103-1] / [Solution][103-2]
+103. [Binary Tree Zigzag Level Order Traversal][103-0] - [Code][103-1] / [Solution][103-2]
 104. [][104-0] - [Code][104-1] / [Solution][104-2]
 105. [][105-0] - [Code][105-1] / [Solution][105-2]
 106. [][106-0] - [Code][106-1] / [Solution][106-2]
@@ -542,12 +542,14 @@
 [102-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/LevelOrderTraversal.scala
 [102-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/LevelOrderTraversal.md
 
-[103-0]:
-[103-1]:
-[103-2]:
+[103-0]: https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+[103-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/ZigzagTraversal.scala
+[103-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/ZigzagTraversal.md
+
 [104-0]:
 [104-1]:
 [104-2]:
+
 [105-0]:
 [105-1]:
 [105-2]:
