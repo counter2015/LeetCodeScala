@@ -127,7 +127,7 @@
 103. [Binary Tree Zigzag Level Order Traversal][103-0] - [Code][103-1] / [Solution][103-2]
 104. [Maximum Depth of Binary Tree][104-0] - [Code][104-1] / [Solution][104-2]
 105. [Construct Binary Tree from Preorder and Inorder Traversal][105-0] - [Code][105-1] / [Solution][105-2]
-106. [][106-0] - [Code][106-1] / [Solution][106-2]
+106. [Construct Binary Tree from Inorder and Postorder Traversal][106-0] - [Code][106-1] / [Solution][106-2]
 107. [][107-0] - [Code][107-1] / [Solution][107-2]
 108. [][108-0] - [Code][108-1] / [Solution][108-2]
 109. [][109-0] - [Code][109-1] / [Solution][109-2]
@@ -554,15 +554,18 @@
 [105-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/PreInOrderBuild.scala
 [105-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/PreInOrderBuild.md
 
-[106-0]:
-[106-1]:
-[106-2]:
+[106-0]: https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+[106-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/PostInOrderBuild.scala
+[106-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/PostInOrderBuild.md
+
 [107-0]:
 [107-1]:
 [107-2]:
+
 [108-0]:
 [108-1]:
 [108-2]:
+
 [109-0]:
 [109-1]:
 [109-2]:

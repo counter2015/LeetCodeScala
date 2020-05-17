@@ -1,21 +1,23 @@
-# Construct Binary Tree from Preorder and Inorder Traversal
+# Construct Binary Tree from Inorder and Postorder Traversal
 
 ## Problem link
-https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 
 ## Description
-Given preorder and inorder traversal of a tree, construct the binary tree.
+Given inorder and postorder traversal of a tree, construct the binary tree.
 
 **Note:**
 You may assume that duplicates do not exist in the tree.
 
 
 ## Example
+
+
 For example, given
 
 ```
-preorder = [3,9,20,15,7]
 inorder = [9,3,15,20,7]
+postorder = [9,15,7,20,3]
 ```
 
 Return the following binary tree:
@@ -29,7 +31,6 @@ Return the following binary tree:
 ```
 
 
-
 ## Solution
 Just implement it.
 
@@ -38,5 +39,5 @@ Just implement it.
 \- | \-
 ------------ | -------------
 Date | 2020-05-17
-Time |  668 ms
-Memory |  80.1 MB
+Time |  620 ms
+Memory |  70.2 MB
