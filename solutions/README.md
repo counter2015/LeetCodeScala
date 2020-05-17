@@ -126,7 +126,7 @@
 102. [Binary Tree Level Order Traversal][102-0] - [Code][102-1] / [Solution][102-2]
 103. [Binary Tree Zigzag Level Order Traversal][103-0] - [Code][103-1] / [Solution][103-2]
 104. [Maximum Depth of Binary Tree][104-0] - [Code][104-1] / [Solution][104-2]
-105. [][105-0] - [Code][105-1] / [Solution][105-2]
+105. [Construct Binary Tree from Preorder and Inorder Traversal][105-0] - [Code][105-1] / [Solution][105-2]
 106. [][106-0] - [Code][106-1] / [Solution][106-2]
 107. [][107-0] - [Code][107-1] / [Solution][107-2]
 108. [][108-0] - [Code][108-1] / [Solution][108-2]
@@ -550,9 +550,10 @@
 [104-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/tree/MaxDepth.scala
 [104-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/MaxDepth.md
 
-[105-0]:
-[105-1]:
-[105-2]:
+[105-0]: https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+[105-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/PreInOrderBuild.scala
+[105-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/PreInOrderBuild.md
+
 [106-0]:
 [106-1]:
 [106-2]:
