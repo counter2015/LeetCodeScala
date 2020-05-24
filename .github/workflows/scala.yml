@@ -25,5 +25,3 @@ jobs:
           fail_ci_if_error: true
       - name: Format check
         run: sbt scalastyle
-        with:
-          fail_ci_if_error: true
