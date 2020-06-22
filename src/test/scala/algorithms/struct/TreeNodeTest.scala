@@ -58,4 +58,36 @@ trait TreeNodeTest {
       a.value == b.value && sameElement(a.left, b.left) && sameElement(a.right, b.right)
     } else false
   }
+
+  def elements(root: TreeNode): List[Int] = {
+    import algorithms.medium.tree.InorderTraversal.inorderTraversal
+    inorderTraversal(root)
+  }
+
+  def isSored(root: TreeNode)(implicit ordering: Ordering[Int]): Boolean = {
+    elements(root).sliding(2).forall { case Seq(a, b) => ordering.lteq(a, b) }
+  }
+
+  def cloneTreeNode(root: TreeNode): TreeNode = {
+    val node = new TreeNode()
+    if (root == null) node
+    else {
+      node.value = root.value
+      if (root.left != null)
+        node.left = cloneTreeNode(root.left)
+
+      if (root.right != null)
+        node.right = cloneTreeNode(root.right)
+      node
+    }
+  }
+
+  def isBalanced(root: TreeNode): Boolean = {
+    import algorithms.easy.tree.MaxDepth.{maxDepth => depth}
+    (root == null) || (
+      isBalanced(root.left) &&
+        isBalanced(root.right) &&
+        (depth(root.left) - depth(root.right)).abs <= 1
+      )
+  }
 }
