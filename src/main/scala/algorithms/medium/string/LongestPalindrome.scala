@@ -56,7 +56,9 @@ object LongestPalindrome {
     for (i <- t.indices) {
 
       var res = if (r > i) math.min(p(2 * c - i), r - i) else 0
-      while (t.indices.contains(i) && t(i + res) == t(i - res))
+      while ((i + res) < t.length
+        && (i - res) >= 0
+        && t(i + res) == t(i - res))
         res += 1
 
       if (r < i + res) {
