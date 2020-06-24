@@ -14,6 +14,6 @@ class MinDepthTest extends AnyFunSuite with Matchers with TreeNodeTest {
 
   test("test0: [1, 2]") {
     val tree = generateTreeNodesWithLevelOrderData(Array(1, 2))
-    solve(tree) shouldBe 2
+    solve(tree) shouldBe 1
   }
 }
