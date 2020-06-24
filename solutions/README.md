@@ -131,7 +131,7 @@
 107. [Binary Tree Inorder Traversal II][107-0] - [Code][107-1] / [Solution][107-2]
 108. [Convert Sorted Array to Binary Search Tree][108-0] - [Code][108-1] / [Solution][108-2]
 109. [Convert Sorted List to Binary Search Tree][109-0] - [Code][109-1] / [Solution][109-2]
-110. [][110-0] - [Code][110-1] / [Solution][110-2]
+110. [Balanced Binary Tree][110-0] - [Code][110-1] / [Solution][110-2]
 
 ## 111~120
 111. [][101-0] - [Code][101-1] / [Solution][101-2]
@@ -582,9 +582,9 @@
 [109-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/ListToBST.scala
 [109-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/ListToBST.md
 
-[110-0]:
-[110-1]:
-[110-2]:
+[110-0]: https://leetcode.com/problems/balanced-binary-tree/
+[110-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/tree/BalancedTree.scala
+[110-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/BalancedTree.md
 
 [111-0]:
 [111-1]:
