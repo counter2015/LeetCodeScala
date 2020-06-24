@@ -586,9 +586,9 @@
 [110-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/tree/BalancedTree.scala
 [110-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/101-110/BalancedTree.md
 
-[111-0]:
-[111-1]:
-[111-2]:
+[111-0]: https://leetcode.com/problems/minimum-depth-of-binary-tree/
+[111-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/tree/MinDepth.scala
+[111-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/111-120/MinDepth.md
 
 [112-0]:
 [112-1]:
