@@ -34,9 +34,9 @@ object DecodeWay {
       if (s == "0") 0 else 1
     }
     else if (s.head == '1' || (s.head == '2' && s(1) <= '6')) {
-      numDecodings(s.tail) + numDecodings(s.substring(2))
+      numDecodingsSlow(s.tail) + numDecodingsSlow(s.substring(2))
     } else if (s.head != '0') {
-      numDecodings(s.tail)
+      numDecodingsSlow(s.tail)
     } else {
       0
     }
