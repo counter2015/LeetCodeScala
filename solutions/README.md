@@ -136,7 +136,7 @@
 ## 111~120
 111. [Minimum Depth of Binary Tree][101-0] - [Code][101-1] / [Solution][101-2]
 112. [Path Sum][102-0] - [Code][102-1] / [Solution][102-2]
-113. [][103-0] - [Code][103-1] / [Solution][103-2]
+113. [Path Sum II][103-0] - [Code][103-1] / [Solution][103-2]
 114. [][104-0] - [Code][104-1] / [Solution][104-2]
 115. [][105-0] - [Code][105-1] / [Solution][105-2]
 116. [][106-0] - [Code][106-1] / [Solution][106-2]
@@ -594,9 +594,9 @@
 [112-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/tree/PathSum.scala
 [112-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/111-120/PathSum.md
 
-[113-0]:
-[113-1]:
-[113-2]:
+[113-0]: https://leetcode.com/problems/path-sum-ii/
+[113-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/PathSum2.scala
+[113-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/111-120/PathSum2.md
 
 [114-0]:
 [114-1]:
