@@ -134,16 +134,16 @@
 110. [Balanced Binary Tree][110-0] - [Code][110-1] / [Solution][110-2]
 
 ## 111~120
-111. [Minimum Depth of Binary Tree][101-0] - [Code][101-1] / [Solution][101-2]
-112. [Path Sum][102-0] - [Code][102-1] / [Solution][102-2]
-113. [Path Sum II][103-0] - [Code][103-1] / [Solution][103-2]
-114. [Flatten Binary Tree to Linked List][104-0] - [Code][104-1] / [Solution][104-2]
-115. [Distinct Subsequences][105-0] - [Code][105-1] / [Solution][105-2]
-116. [][106-0] - [Code][106-1] / [Solution][106-2]
-117. [][107-0] - [Code][107-1] / [Solution][107-2]
-118. [][108-0] - [Code][108-1] / [Solution][108-2]
-119. [][109-0] - [Code][109-1] / [Solution][109-2]
-120. [][110-0] - [Code][110-1] / [Solution][110-2]
+111. [Minimum Depth of Binary Tree][111-0] - [Code][111-1] / [Solution][111-2]
+112. [Path Sum][112-0] - [Code][112-1] / [Solution][112-2]
+113. [Path Sum II][113-0] - [Code][113-1] / [Solution][113-2]
+114. [Flatten Binary Tree to Linked List][114-0] - [Code][114-1] / [Solution][114-2]
+115. [Distinct Subsequences][115-0] - [Code][115-1] / [Solution][115-2]
+116. [Populating Next Right Pointers in Each Node][116-0] - [Code][116-1] / [Solution][116-2]
+117. [][117-0] - [Code][117-1] / [Solution][117-2]
+118. [][118-0] - [Code][118-1] / [Solution][118-2]
+119. [][119-0] - [Code][119-1] / [Solution][119-2]
+120. [][120-0] - [Code][120-1] / [Solution][120-2]
 
 
 [1-0]: https://leetcode.com/problems/two-sum/
@@ -606,9 +606,9 @@
 [115-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/DistinctSubsequences.scala
 [115-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/111-120/DistinctSubsequences.md
 
-[116-0]:
-[116-1]:
-[116-2]:
+[116-0]: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
+[116-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/ConnectNodes.scala
+[116-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/111-120/ConnectNodes.md
 
 [117-0]:
 [117-1]:
