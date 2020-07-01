@@ -138,7 +138,7 @@
 112. [Path Sum][102-0] - [Code][102-1] / [Solution][102-2]
 113. [Path Sum II][103-0] - [Code][103-1] / [Solution][103-2]
 114. [Flatten Binary Tree to Linked List][104-0] - [Code][104-1] / [Solution][104-2]
-115. [][105-0] - [Code][105-1] / [Solution][105-2]
+115. [Distinct Subsequences][105-0] - [Code][105-1] / [Solution][105-2]
 116. [][106-0] - [Code][106-1] / [Solution][106-2]
 117. [][107-0] - [Code][107-1] / [Solution][107-2]
 118. [][108-0] - [Code][108-1] / [Solution][108-2]
@@ -602,9 +602,9 @@
 [114-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/FlattenTree.scala
 [114-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/111-120/FlattenTree.md
 
-[115-0]:
-[115-1]:
-[115-2]:
+[115-0]: https://leetcode.com/problems/distinct-subsequences/
+[115-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/DistinctSubsequences.scala
+[115-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/111-120/DistinctSubsequences.md
 
 [116-0]:
 [116-1]:
