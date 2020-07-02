@@ -3,7 +3,7 @@ package algorithms.easy.basic
 object PascalTriangle {
 
   /** RunTime Info:
-    * 684 ms, 59.8MB
+    * 684 ms, 59.8 MB
     *
     * @param numRows the size of pascal triangle
     * @return the triangle
@@ -28,5 +28,15 @@ object PascalTriangle {
 
     arr.map(_.takeWhile(_ > 0).toList).toList
 
+  }
+
+  /** RunTime Info:
+    * 584 ms, 65.1 MB
+    *
+    * @param numRows the size of pascal triangle
+    * @return the triangle
+    */
+  def generateF(numRows: Int): List[List[Int]] = {
+    LazyList.iterate(Vector(1))(v => (0 +: v :+ 0).sliding(2).map(_.sum).toVector).take(numRows).toList.map(_.toList)
   }
 }

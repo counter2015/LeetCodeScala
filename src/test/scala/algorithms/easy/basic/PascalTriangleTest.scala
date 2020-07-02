@@ -1,6 +1,6 @@
 package algorithms.easy.basic
 
-import algorithms.easy.basic.PascalTriangle.{generate => solve}
+import algorithms.easy.basic.PascalTriangle.{generate => solve, generateF => solve2}
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers
 
@@ -8,6 +8,7 @@ class PascalTriangleTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val res = solve(5)
+    val res2 = solve2(5)
     val ans = List(
       List(1),
       List(1, 1),
@@ -16,5 +17,6 @@ class PascalTriangleTest extends AnyFunSuite with Matchers {
       List(1, 4, 6, 4, 1)
     )
     res should contain theSameElementsAs ans
+    res2 should contain theSameElementsAs ans
   }
 }
