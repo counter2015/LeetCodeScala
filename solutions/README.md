@@ -143,7 +143,7 @@
 117. [Populating Next Right Pointers in Each Node II][117-0] - [Code][117-1] / [Solution][117-2]
 118. [Pascal's Triangle][118-0] - [Code][118-1] / [Solution][118-2]
 119. [Pascal's Triangle II][119-0] - [Code][119-1] / [Solution][119-2]
-120. [][120-0] - [Code][120-1] / [Solution][120-2]
+120. [Triangle][120-0] - [Code][120-1] / [Solution][120-2]
 
 
 [1-0]: https://leetcode.com/problems/two-sum/
@@ -621,3 +621,35 @@
 [119-0]: https://leetcode.com/problems/pascals-triangle-ii/
 [119-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/PascalTriangle2.scala
 [119-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/111-120/PascalTriangle2.md
+
+[120-0]: https://leetcode.com/problems/triangle/
+[120-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/Triangle.scala
+[120-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/111-120/Triangle.md
+
+[121-0]: 
+[121-1]: 
+[121-2]: 
+[122-0]: 
+[122-1]: 
+[122-2]: 
+[123-0]: 
+[123-1]: 
+[123-2]: 
+[124-0]: 
+[124-1]: 
+[124-2]: 
+[125-0]: 
+[125-1]: 
+[125-2]: 
+[126-0]: 
+[126-1]: 
+[126-2]: 
+[127-0]: 
+[127-1]: 
+[127-2]: 
+[128-0]: 
+[128-1]: 
+[128-2]: 
+[129-0]: 
+[129-1]: 
+[129-2]: 
