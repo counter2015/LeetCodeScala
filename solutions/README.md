@@ -142,7 +142,7 @@
 116. [Populating Next Right Pointers in Each Node][116-0] - [Code][116-1] / [Solution][116-2]
 117. [Populating Next Right Pointers in Each Node II][117-0] - [Code][117-1] / [Solution][117-2]
 118. [Pascal's Triangle][118-0] - [Code][118-1] / [Solution][118-2]
-119. [][119-0] - [Code][119-1] / [Solution][119-2]
+119. [Pascal's Triangle II][119-0] - [Code][119-1] / [Solution][119-2]
 120. [][120-0] - [Code][120-1] / [Solution][120-2]
 
 
@@ -618,6 +618,6 @@
 [118-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/PascalTriangle.scala
 [118-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/111-120/PascalTriangle.md
 
-[119-0]:
-[119-1]:
-[119-2]:
+[119-0]: https://leetcode.com/problems/pascals-triangle-ii/
+[119-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/PascalTriangle2.scala
+[119-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/111-120/PascalTriangle2.md
