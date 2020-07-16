@@ -29,4 +29,33 @@ object SellStock3 {
     }
     res
   }
+
+  /** RunTime Info:
+    * 552 ms, 53.4 MB
+    *
+    * @param prices the prices of days
+    * @return the max profit with at most two transaction
+    */
+  def maxProfitBetter(prices: Array[Int]): Int = {
+    if (prices.isEmpty) 0
+    else {
+      val leftProfits = prices.foldLeft((List.empty[Int], prices.head)) {
+        case ((acc, min), price) =>
+          val lastProfit = acc.headOption.getOrElse(0)
+          val profit = lastProfit.max(price - min)
+          val newMin = min.min(price)
+          (profit :: acc, newMin)
+      }._1
+
+      val rightProfits = prices.foldRight((List.empty[Int], prices.last)) {
+        case (price, (acc, max)) =>
+          val lastProfit = acc.headOption.getOrElse(0)
+          val profit = lastProfit.max(max - price)
+          val newMax = max.max(price)
+          (profit :: acc, newMax)
+      }._1.reverse
+
+      leftProfits.zip(rightProfits).map { case (left, right) => left + right }.max
+    }
+  }
 }
