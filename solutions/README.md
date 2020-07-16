@@ -146,16 +146,16 @@
 120. [Triangle][120-0] - [Code][120-1] / [Solution][120-2]
 
 ## 121~130
-121. [Best Time to Buy and Sell Stock][121-0] - [][121-1] / [][121-2]
-122. [Best Time to Buy and Sell Stock II][122-0] - [][122-1] / [][122-2]
-123. [Best Time to Buy and Sell Stock III][123-0] - [][123-1] / [][123-2]
-124. [][124-0] - [][124-1] / [][124-2]
-125. [][125-0] - [][125-1] / [][125-2]
-126. [][126-0] - [][126-1] / [][126-2]
-127. [][127-0] - [][127-1] / [][127-2]
-128. [][128-0] - [][128-1] / [][128-2]
-129. [][129-0] - [][129-1] / [][129-2]
-130. [][130-0] - [][130-1] / [][130-2]
+121. [Best Time to Buy and Sell Stock][121-0] - [Code][121-1] / [Solution][121-2]
+122. [Best Time to Buy and Sell Stock II][122-0] - [Code][122-1] / [Solution][122-2]
+123. [Best Time to Buy and Sell Stock III][123-0] - [Code][123-1] / [Solution][123-2]
+124. [Binary Tree Maximum Path Sum][124-0] - [Code][124-1] / [Solution][124-2]
+125. [][125-0] - [Code][125-1] / [Solution][125-2]
+126. [][126-0] - [Code][126-1] / [Solution][126-2]
+127. [][127-0] - [Code][127-1] / [Solution][127-2]
+128. [][128-0] - [Code][128-1] / [Solution][128-2]
+129. [][129-0] - [Code][129-1] / [Solution][129-2]
+130. [][130-0] - [Code][130-1] / [Solution][130-2]
 
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
@@ -649,9 +649,10 @@
 [123-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/SellStock3.scala
 [123-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/121-130/SellStock3.md
 
-[124-0]: 
-[124-1]: 
-[124-2]: 
+[124-0]: https://leetcode.com/problems/binary-tree-maximum-path-sum/
+[124-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/tree/MaxPathSum.scala
+[124-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/121-130/MaxPathSum.md
+
 [125-0]: 
 [125-1]: 
 [125-2]: 
