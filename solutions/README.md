@@ -147,7 +147,7 @@
 
 ## 121~130
 121. [Best Time to Buy and Sell Stock][121-0] - [][121-1] / [][121-2]
-122. [][122-0] - [][122-1] / [][122-2]
+122. [Best Time to Buy and Sell Stock II][122-0] - [][122-1] / [][122-2]
 123. [][123-0] - [][123-1] / [][123-2]
 124. [][124-0] - [][124-1] / [][124-2]
 125. [][125-0] - [][125-1] / [][125-2]
@@ -641,9 +641,10 @@
 [121-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/SellStock.scala
 [121-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/121-130/SellStock.md
 
-[122-0]: 
-[122-1]: 
-[122-2]: 
+[122-0]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+[122-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/SellStock2.scala
+[122-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/121-130/SellStock2.md
+
 [123-0]: 
 [123-1]: 
 [123-2]: 
