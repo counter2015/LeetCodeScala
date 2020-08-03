@@ -151,8 +151,8 @@
 123. [Best Time to Buy and Sell Stock III][123-0] - [Code][123-1] / [Solution][123-2]
 124. [Binary Tree Maximum Path Sum][124-0] - [Code][124-1] / [Solution][124-2]
 125. [Valid Palindrome][125-0] - [Code][125-1] / [Solution][125-2]
-126. [][126-0] - [Code][126-1] / [Solution][126-2]
-127. [][127-0] - [Code][127-1] / [Solution][127-2]
+126. [Word Ladder II][126-0] - [Code][126-1] / [Solution][126-2]
+127. [Word Ladder][127-0] - [Code][127-1] / [Solution][127-2]
 128. [][128-0] - [Code][128-1] / [Solution][128-2]
 129. [][129-0] - [Code][129-1] / [Solution][129-2]
 130. [][130-0] - [Code][130-1] / [Solution][130-2]
@@ -657,13 +657,13 @@
 [125-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/ValidPalindrome.scala
 [125-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/121-130/ValidPalindrome.md
 
-[126-0]: 
-[126-1]: 
-[126-2]: 
+[126-0]: https://leetcode.com/problems/word-ladder-ii/
+[126-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/search/WordLadder2.scala
+[126-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/121-130/WordLadder2.md
 
-[127-0]: 
-[127-1]: 
-[127-2]: 
+[127-0]: https://leetcode.com/problems/word-ladder/
+[127-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/WordLadder.scala
+[127-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/121-130/WordLadder.md
 
 [128-0]: 
 [128-1]: 

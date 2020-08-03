@@ -25,4 +25,4 @@ scalacOptions ++= Seq(
    -D - show all durations
    -F - show full stack traces
  */
-testOptions in Test += Tests.Argument("-oDF")
+testOptions in Test += Tests.Argument("-oD")
