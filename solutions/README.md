@@ -153,7 +153,7 @@
 125. [Valid Palindrome][125-0] - [Code][125-1] / [Solution][125-2]
 126. [Word Ladder II][126-0] - [Code][126-1] / [Solution][126-2]
 127. [Word Ladder][127-0] - [Code][127-1] / [Solution][127-2]
-128. [][128-0] - [Code][128-1] / [Solution][128-2]
+128. [Longest Consecutive Sequence][128-0] - [Code][128-1] / [Solution][128-2]
 129. [][129-0] - [Code][129-1] / [Solution][129-2]
 130. [][130-0] - [Code][130-1] / [Solution][130-2]
 
@@ -665,9 +665,9 @@
 [127-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/WordLadder.scala
 [127-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/121-130/WordLadder.md
 
-[128-0]: 
-[128-1]: 
-[128-2]: 
+[128-0]: https://leetcode.com/problems/longest-consecutive-sequence/
+[128-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/LongestConsecutive.scala
+[128-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/121-130/LongestConsecutive.md
 
 [129-0]: 
 [129-1]: 

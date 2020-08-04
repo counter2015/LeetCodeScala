@@ -38,7 +38,7 @@ object WordLadder2 {
     distance.put(beginWord, 0)
 
     while (queue.nonEmpty) {
-      val word = queue.dequeue
+      val word = queue.dequeue()
       if (!seen.contains(word)) {
         seen.add(word)
         if (word == endWord) return
