@@ -14,8 +14,6 @@ are not flipped to `'X'`. Any `'O'` that is not on the border and it is not conn
 the border will be flipped to `'X'`. Two cells are connected if they are adjacent cells connected horizontally or vertically.
 
 
-**Note:** A leaf is a node with no children.
-
 ## Example
 
 ```
