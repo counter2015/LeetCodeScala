@@ -159,7 +159,7 @@
 
 ## 131~140
 131. [Palindrome  Partitioning][131-0] - [Code][131-1] / [Solution][131-2]
-132. [][132-0] - [Code][132-1] / [Solution][132-2]
+132. [Palindrome Partitioning II][132-0] - [Code][132-1] / [Solution][132-2]
 133. [][133-0] - [Code][133-1] / [Solution][133-2]
 134. [][134-0] - [Code][134-1] / [Solution][134-2]
 135. [][135-0] - [Code][135-1] / [Solution][135-2]
@@ -693,9 +693,9 @@
 [131-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/string/PalindromePartition.scala
 [131-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/PalindromePartition.md
 
-[132-0]: 
-[132-1]: 
-[132-2]: 
+[132-0]: https://leetcode.com/problems/palindrame-partitioning-ii/
+[132-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/PalindromePartition2.scala
+[132-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/PalindromePartition2.md
 
 [133-0]: 
 [133-1]: 
