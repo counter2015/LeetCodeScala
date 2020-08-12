@@ -160,7 +160,7 @@
 ## 131~140
 131. [Palindrome  Partitioning][131-0] - [Code][131-1] / [Solution][131-2]
 132. [Palindrome Partitioning II][132-0] - [Code][132-1] / [Solution][132-2]
-133. [][133-0] - [Code][133-1] / [Solution][133-2]
+133. [Clone Graph][133-0] - [Code][133-1] / [Solution][133-2]
 134. [][134-0] - [Code][134-1] / [Solution][134-2]
 135. [][135-0] - [Code][135-1] / [Solution][135-2]
 136. [][136-0] - [Code][136-1] / [Solution][136-2]
@@ -697,9 +697,9 @@
 [132-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/PalindromePartition2.scala
 [132-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/PalindromePartition2.md
 
-[133-0]: 
-[133-1]: 
-[133-2]: 
+[133-0]: https://leetcode.com/problems/clone-graph
+[133-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/graph/CloneGraph.scala
+[133-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/CloneGraph.md
 
 [134-0]: 
 [134-1]: 
