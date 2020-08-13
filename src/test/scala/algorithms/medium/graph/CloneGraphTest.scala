@@ -25,7 +25,7 @@ class CloneGraphTest extends AnyFunSuite with Matchers with GraphNodeTest {
     val g = new GraphNode(1)
     val ng = solve(g)
     ng.value = ng.value + 1
-    assert(ng.value != g.value, "graph show be deep copy")
+    assert(ng.value != g.value, "graph should be deep copy")
   }
 
   test("test2: sample input") {
@@ -42,6 +42,6 @@ class CloneGraphTest extends AnyFunSuite with Matchers with GraphNodeTest {
 
     graphToEdges(g) should contain theSameElementsInOrderAs graphToEdges(ng)
     ng.value = ng.value + 1
-    assert(ng.value != g.value, "graph show be deep copy")
+    assert(ng.value != g.value, "graph should be deep copy")
   }
 }
