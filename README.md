@@ -43,3 +43,9 @@ It's easy to write your own test also.
 See [Solution Index Page](https://github.com/counter2015/LeetCodeScala/blob/master/solutions/README.md).
 
 WIP...
+
+
+## Other
+
+Q: Why scala solutions so slow ?
+A: The unit test cost time is normal, but it seems the time of environment initialization is calculated incorrectly.

@@ -45,3 +45,8 @@ Scala Leetcode 刷题记录.
 参见[题解索引页](https://github.com/counter2015/LeetCodeScala/blob/master/solutions/README.md) 题解只提供英文版 <del>怠惰的我</del>
 
 施工中...
+
+## 其他
+
+问: 为什么Scala写的代码这么慢 ?
+答: 本地单元测试的时间是正常的，看起来是由于LeetCode错误地把环境初始化的时间算到了运行时间内。
