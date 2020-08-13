@@ -162,7 +162,7 @@
 132. [Palindrome Partitioning II][132-0] - [Code][132-1] / [Solution][132-2]
 133. [Clone Graph][133-0] - [Code][133-1] / [Solution][133-2]
 134. [Gas Station][134-0] - [Code][134-1] / [Solution][134-2]
-135. [][135-0] - [Code][135-1] / [Solution][135-2]
+135. [Candy][135-0] - [Code][135-1] / [Solution][135-2]
 136. [][136-0] - [Code][136-1] / [Solution][136-2]
 137. [][137-0] - [Code][137-1] / [Solution][137-2]
 138. [][138-0] - [Code][138-1] / [Solution][138-2]
@@ -705,9 +705,9 @@
 [134-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/GasStation.scala
 [134-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/GasStation.md
 
-[135-0]: 
-[135-1]: 
-[135-2]: 
+[135-0]: https://leetcode.com/problems/candy/
+[135-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/Candy.scala
+[135-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/Candy.md
 
 [136-0]: 
 [136-1]: 
