@@ -163,8 +163,8 @@
 133. [Clone Graph][133-0] - [Code][133-1] / [Solution][133-2]
 134. [Gas Station][134-0] - [Code][134-1] / [Solution][134-2]
 135. [Candy][135-0] - [Code][135-1] / [Solution][135-2]
-136. [][136-0] - [Code][136-1] / [Solution][136-2]
-137. [][137-0] - [Code][137-1] / [Solution][137-2]
+136. [Single Number][136-0] - [Code][136-1] / [Solution][136-2]
+137. [Single Number II][137-0] - [Code][137-1] / [Solution][137-2]
 138. [][138-0] - [Code][138-1] / [Solution][138-2]
 139. [][139-0] - [Code][139-1] / [Solution][139-2]
 140. [][140-0] - [Code][140-1] / [Solution][130-2]
@@ -709,13 +709,13 @@
 [135-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/Candy.scala
 [135-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/Candy.md
 
-[136-0]: 
-[136-1]: 
-[136-2]: 
+[136-0]: https://leetcode.com/problems/single-number/
+[136-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/SingleNumber.scala
+[136-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/SingleNumber.md
 
-[137-0]: 
-[137-1]: 
-[137-2]: 
+[137-0]: https://leetcode.com/problems/single-number-ii/
+[137-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/SingleNumber.scala
+[137-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/SingleNumber2.md
 
 [138-0]: 
 [138-1]: 
