@@ -165,7 +165,7 @@
 135. [Candy][135-0] - [Code][135-1] / [Solution][135-2]
 136. [Single Number][136-0] - [Code][136-1] / [Solution][136-2]
 137. [Single Number II][137-0] - [Code][137-1] / [Solution][137-2]
-138. [][138-0] - [Code][138-1] / [Solution][138-2]
+138. [Copy List with Random Pointer][138-0] - [Code][138-1] / [Solution][138-2]
 139. [][139-0] - [Code][139-1] / [Solution][139-2]
 140. [][140-0] - [Code][140-1] / [Solution][130-2]
 
@@ -714,12 +714,12 @@
 [136-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/SingleNumber.md
 
 [137-0]: https://leetcode.com/problems/single-number-ii/
-[137-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/SingleNumber.scala
+[137-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/SingleNumber2.scala
 [137-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/SingleNumber2.md
 
-[138-0]: 
-[138-1]: 
-[138-2]: 
+[138-0]: https://leetcode.com/problems/copy-list-with-random-pointer/
+[138-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/CopyRandomList.scala
+[138-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/CopyRandomList.md
 
 [139-0]: 
 [139-1]: 
