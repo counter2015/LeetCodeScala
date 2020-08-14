@@ -16,6 +16,11 @@ Strongly inspired by https://github.com/Leibnizhu/LeetcodeScala
 - Detailed solutions
 - Using multiple paradigms to solve problems, that's to say, imperative and functional either
 
+Why Scala?
+- Scala is concise
+- Scala is a statically typed 
+- Scala is functional and object-oriented language
+
 ## Test
 Using sbt.
 ```sbtshell
