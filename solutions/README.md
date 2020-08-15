@@ -166,7 +166,7 @@
 136. [Single Number][136-0] - [Code][136-1] / [Solution][136-2]
 137. [Single Number II][137-0] - [Code][137-1] / [Solution][137-2]
 138. [Copy List with Random Pointer][138-0] - [Code][138-1] / [Solution][138-2]
-139. [][139-0] - [Code][139-1] / [Solution][139-2]
+139. [Word Break][139-0] - [Code][139-1] / [Solution][139-2]
 140. [][140-0] - [Code][140-1] / [Solution][130-2]
 
 [1-0]: https://leetcode.com/problems/two-sum/
@@ -721,6 +721,46 @@
 [138-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/CopyRandomList.scala
 [138-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/CopyRandomList.md
 
-[139-0]: 
-[139-1]: 
-[139-2]: 
+[139-0]: https://leetcode.com/problems/word-break/
+[139-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/WordBreak.scala
+[139-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/WordBreak.md
+
+[140-0]: 
+[140-1]: 
+[140-2]: 
+
+[141-0]: 
+[141-1]: 
+[141-2]: 
+
+[142-0]: 
+[142-1]: 
+[142-2]: 
+
+[143-0]: 
+[143-1]: 
+[143-2]: 
+
+[144-0]: 
+[144-1]: 
+[144-2]: 
+
+[145-0]: 
+[145-1]: 
+[145-2]: 
+
+[146-0]: 
+[146-1]: 
+[146-2]: 
+
+[147-0]: 
+[147-1]: 
+[147-2]: 
+
+[148-0]: 
+[148-1]: 
+[148-2]: 
+
+[149-0]: 
+[149-1]: 
+[149-2]: 
