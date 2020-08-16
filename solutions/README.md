@@ -167,7 +167,31 @@
 137. [Single Number II][137-0] - [Code][137-1] / [Solution][137-2]
 138. [Copy List with Random Pointer][138-0] - [Code][138-1] / [Solution][138-2]
 139. [Word Break][139-0] - [Code][139-1] / [Solution][139-2]
-140. [][140-0] - [Code][140-1] / [Solution][130-2]
+140. [Word Break II][140-0] - [Code][140-1] / [Solution][140-2130-2]
+
+## 141~150
+141. [][131-0] - [Code][131-1] / [Solution][131-2]
+142. [][132-0] - [Code][132-1] / [Solution][132-2]
+143. [][133-0] - [Code][133-1] / [Solution][133-2]
+144. [][134-0] - [Code][134-1] / [Solution][134-2]
+145. [][135-0] - [Code][135-1] / [Solution][135-2]
+146. [][136-0] - [Code][136-1] / [Solution][136-2]
+147. [][137-0] - [Code][137-1] / [Solution][137-2]
+148. [][138-0] - [Code][138-1] / [Solution][138-2]
+149. [][139-0] - [Code][139-1] / [Solution][139-2]
+150. [][140-0] - [Code][140-1] / [Solution][130-2]
+
+## 151~160
+151. [][131-0] - [Code][131-1] / [Solution][131-2]
+152. [][132-0] - [Code][132-1] / [Solution][132-2]
+153. [][133-0] - [Code][133-1] / [Solution][133-2]
+154. [][134-0] - [Code][134-1] / [Solution][134-2]
+155. [][135-0] - [Code][135-1] / [Solution][135-2]
+156. [][136-0] - [Code][136-1] / [Solution][136-2]
+157. [][137-0] - [Code][137-1] / [Solution][137-2]
+158. [][138-0] - [Code][138-1] / [Solution][138-2]
+159. [][139-0] - [Code][139-1] / [Solution][139-2]
+160. [][140-0] - [Code][140-1] / [Solution][130-2]
 
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
@@ -725,9 +749,9 @@
 [139-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/WordBreak.scala
 [139-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/WordBreak.md
 
-[140-0]: 
-[140-1]: 
-[140-2]: 
+[140-0]: https://leetcode.com/problems/word-break-ii/
+[140-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/basic/WordBreak2.scala
+[140-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/WordBreak2.md
 
 [141-0]: 
 [141-1]: 
