@@ -171,7 +171,7 @@
 
 ## 141~150
 141. [Linked List Cycle][141-0] - [Code][141-1] / [Solution][141-2]
-142. [][142-0] - [Code][142-1] / [Solution][142-2]
+142. [Linked List Cycle II][142-0] - [Code][142-1] / [Solution][142-2]
 143. [][143-0] - [Code][143-1] / [Solution][143-2]
 144. [][144-0] - [Code][144-1] / [Solution][144-2]
 145. [][145-0] - [Code][145-1] / [Solution][145-2]
@@ -757,9 +757,9 @@
 [141-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/ListCycle.scala
 [141-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/141-150/ListCycle.md
 
-[142-0]: 
-[142-1]: 
-[142-2]: 
+[142-0]: https://leetcode.com/problems/linked-list-cycle-ii/
+[142-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/ListCycle2.scala
+[142-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/141-150/ListCycle2.md
 
 [143-0]: 
 [143-1]: 
