@@ -26,4 +26,14 @@ trait ListNodeTest {
       a.x == b.x && sameElement(a.next, b.next)
     } else false
   }
+
+  def generateCycleListNodesWithData(arr: Array[Int], index: Int): ListNode = {
+    if (index == -1) return generateListNodesWithData(arr)
+    if (arr.length == 0) return null
+    val l = arr.map(new ListNode(_))
+    for (i <- 1 until arr.length)
+      l(i - 1).next = l(i)
+    l.last.next = l(index)
+    l.head
+  }
 }

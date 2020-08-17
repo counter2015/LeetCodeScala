@@ -170,28 +170,28 @@
 140. [Word Break II][140-0] - [Code][140-1] / [Solution][140-2130-2]
 
 ## 141~150
-141. [][131-0] - [Code][131-1] / [Solution][131-2]
-142. [][132-0] - [Code][132-1] / [Solution][132-2]
-143. [][133-0] - [Code][133-1] / [Solution][133-2]
-144. [][134-0] - [Code][134-1] / [Solution][134-2]
-145. [][135-0] - [Code][135-1] / [Solution][135-2]
-146. [][136-0] - [Code][136-1] / [Solution][136-2]
-147. [][137-0] - [Code][137-1] / [Solution][137-2]
-148. [][138-0] - [Code][138-1] / [Solution][138-2]
-149. [][139-0] - [Code][139-1] / [Solution][139-2]
-150. [][140-0] - [Code][140-1] / [Solution][130-2]
+141. [Linked List Cycle][141-0] - [Code][141-1] / [Solution][141-2]
+142. [][142-0] - [Code][142-1] / [Solution][142-2]
+143. [][143-0] - [Code][143-1] / [Solution][143-2]
+144. [][144-0] - [Code][144-1] / [Solution][144-2]
+145. [][145-0] - [Code][145-1] / [Solution][145-2]
+146. [][146-0] - [Code][146-1] / [Solution][146-2]
+147. [][147-0] - [Code][147-1] / [Solution][147-2]
+148. [][148-0] - [Code][148-1] / [Solution][148-2]
+149. [][149-0] - [Code][149-1] / [Solution][149-2]
+150. [][150-0] - [Code][150-1] / [Solution][150-2]
 
 ## 151~160
-151. [][131-0] - [Code][131-1] / [Solution][131-2]
-152. [][132-0] - [Code][132-1] / [Solution][132-2]
-153. [][133-0] - [Code][133-1] / [Solution][133-2]
-154. [][134-0] - [Code][134-1] / [Solution][134-2]
-155. [][135-0] - [Code][135-1] / [Solution][135-2]
-156. [][136-0] - [Code][136-1] / [Solution][136-2]
-157. [][137-0] - [Code][137-1] / [Solution][137-2]
-158. [][138-0] - [Code][138-1] / [Solution][138-2]
-159. [][139-0] - [Code][139-1] / [Solution][139-2]
-160. [][140-0] - [Code][140-1] / [Solution][130-2]
+151. [][151-0] - [Code][151-1] / [Solution][151-2]
+152. [][152-0] - [Code][152-1] / [Solution][152-2]
+153. [][153-0] - [Code][153-1] / [Solution][153-2]
+154. [][154-0] - [Code][154-1] / [Solution][154-2]
+155. [][155-0] - [Code][155-1] / [Solution][155-2]
+156. [][156-0] - [Code][156-1] / [Solution][156-2]
+157. [][157-0] - [Code][157-1] / [Solution][157-2]
+158. [][158-0] - [Code][158-1] / [Solution][158-2]
+159. [][159-0] - [Code][159-1] / [Solution][159-2]
+160. [][160-0] - [Code][160-1] / [Solution][160-2]
 
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
@@ -746,16 +746,16 @@
 [138-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/CopyRandomList.md
 
 [139-0]: https://leetcode.com/problems/word-break/
-[139-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/WordBreak.scala
+[139-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/string/WordBreak.scala
 [139-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/WordBreak.md
 
 [140-0]: https://leetcode.com/problems/word-break-ii/
-[140-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/basic/WordBreak2.scala
+[140-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/string/WordBreak2.scala
 [140-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/131-140/WordBreak2.md
 
-[141-0]: 
-[141-1]: 
-[141-2]: 
+[141-0]: https://leetcode.com/problems/linked-list-cycle/
+[141-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/ListCycle.scala
+[141-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/141-150/ListCycle.md
 
 [142-0]: 
 [142-1]: 
