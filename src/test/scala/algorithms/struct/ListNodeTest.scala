@@ -1,14 +1,19 @@
 package algorithms.struct
 
 trait ListNodeTest {
-  def printListNodesData(node: ListNode): Unit = {
+
+  def elements(node: ListNode): List[Int] = {
     val a = Array.empty[Int].toBuffer
     var n = node
     while (n != null) {
       a += n.x
       n = n.next
     }
-    println(a.mkString(" "))
+    a.toList
+  }
+
+  def printListNodesData(node: ListNode): Unit = {
+    println(elements(node).mkString(" "))
   }
 
   def generateListNodesWithData(arr: Array[Int]): ListNode = {
