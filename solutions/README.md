@@ -174,7 +174,7 @@
 142. [Linked List Cycle II][142-0] - [Code][142-1] / [Solution][142-2]
 143. [Reorder List][143-0] - [Code][143-1] / [Solution][143-2]
 144. [Binary Tree Preorder Traversal][144-0] - [Code][144-1] / [Solution][144-2]
-145. [][145-0] - [Code][145-1] / [Solution][145-2]
+145. [Binary Tree Postorder Traversal][145-0] - [Code][145-1] / [Solution][145-2]
 146. [][146-0] - [Code][146-1] / [Solution][146-2]
 147. [][147-0] - [Code][147-1] / [Solution][147-2]
 148. [][148-0] - [Code][148-1] / [Solution][148-2]
@@ -769,9 +769,9 @@
 [144-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/tree/PreorderTraversal.scala
 [144-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/141-150/PreorderTraversal.md
 
-[145-0]: 
-[145-1]: 
-[145-2]: 
+[145-0]: https://leetcode.com/problems/binary-tree-postorder-traversal/
+[145-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/tree/PostorderTraversal.scala
+[145-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/141-150/PostorderTraversal.md
 
 [146-0]: 
 [146-1]: 
