@@ -37,7 +37,7 @@ class LRUCache(_capacity: Int) {
     } else INF
   }
 
-  def put(key: Int, value: Int) {
+  def put(key: Int, value: Int): Unit = {
     val node = data.get(key) match {
       case Some(node) =>
         remove(node)
