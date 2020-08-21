@@ -177,7 +177,7 @@
 145. [Binary Tree Postorder Traversal][145-0] - [Code][145-1] / [Solution][145-2]
 146. [LRU Cache][146-0] - [Code][146-1] / [Solution][146-2]
 147. [Insertion Sort List][147-0] - [Code][147-1] / [Solution][147-2]
-148. [][148-0] - [Code][148-1] / [Solution][148-2]
+148. [Sort List][148-0] - [Code][148-1] / [Solution][148-2]
 149. [][149-0] - [Code][149-1] / [Solution][149-2]
 150. [][150-0] - [Code][150-1] / [Solution][150-2]
 
@@ -781,9 +781,9 @@
 [147-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/InsertionSortList.scala
 [147-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/141-150/InsertionSortList.md
 
-[148-0]: 
-[148-1]: 
-[148-2]: 
+[148-0]: https://leetcode.com/problems/sort-list/
+[148-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SortList.scala
+[148-2]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SortList.scala
 
 [149-0]: 
 [149-1]: 
