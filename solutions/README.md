@@ -182,7 +182,7 @@
 150. [Evaluate Reverse Polish Notation][150-0] - [Code][150-1] / [Solution][150-2]
 
 ## 151~160
-151. [][151-0] - [Code][151-1] / [Solution][151-2]
+151. [Reverse Words in a String][151-0] - [Code][151-1] / [Solution][151-2]
 152. [][152-0] - [Code][152-1] / [Solution][152-2]
 153. [][153-0] - [Code][153-1] / [Solution][153-2]
 154. [][154-0] - [Code][154-1] / [Solution][154-2]
@@ -793,9 +793,10 @@
 [150-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/EvalRPN.scala
 [150-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/141-150/EvalRPN.md
 
-[151-0]: 
-[151-1]: 
-[151-2]: 
+[151-0]: https://leetcode.com/problems/reverse-words-in-a-string/submissions/
+[151-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/string/ReverseWords.scala
+[151-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/141-150/ReverseWords.md
+
 [152-0]: 
 [152-1]: 
 [152-2]: 
