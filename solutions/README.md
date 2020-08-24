@@ -178,7 +178,7 @@
 146. [LRU Cache][146-0] - [Code][146-1] / [Solution][146-2]
 147. [Insertion Sort List][147-0] - [Code][147-1] / [Solution][147-2]
 148. [Sort List][148-0] - [Code][148-1] / [Solution][148-2]
-149. [][149-0] - [Code][149-1] / [Solution][149-2]
+149. [Max Points on a Line][149-0] - [Code][149-1] / [Solution][149-2]
 150. [][150-0] - [Code][150-1] / [Solution][150-2]
 
 ## 151~160
@@ -783,8 +783,39 @@
 
 [148-0]: https://leetcode.com/problems/sort-list/
 [148-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SortList.scala
-[148-2]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/SortList.scala
+[148-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/141-150/SortList.md
 
-[149-0]: 
-[149-1]: 
-[149-2]: 
+[149-0]: https://leetcode.com/problems/max-points-on-a-line/
+[149-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/MaxPoints.scala
+[149-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/141-150/MaxPoints.md
+
+[150-0]: 
+[150-1]: 
+[150-2]: 
+[151-0]: 
+[151-1]: 
+[151-2]: 
+[152-0]: 
+[152-1]: 
+[152-2]: 
+[153-0]: 
+[153-1]: 
+[153-2]: 
+[154-0]: 
+[154-1]: 
+[154-2]: 
+[155-0]: 
+[155-1]: 
+[155-2]: 
+[156-0]: 
+[156-1]: 
+[156-2]: 
+[157-0]: 
+[157-1]: 
+[157-2]: 
+[158-0]: 
+[158-1]: 
+[158-2]: 
+[159-0]: 
+[159-1]: 
+[159-2]: 
