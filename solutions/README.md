@@ -183,7 +183,7 @@
 
 ## 151~160
 151. [Reverse Words in a String][151-0] - [Code][151-1] / [Solution][151-2]
-152. [][152-0] - [Code][152-1] / [Solution][152-2]
+152. [Maximum Product Subarray][152-0] - [Code][152-1] / [Solution][152-2]
 153. [][153-0] - [Code][153-1] / [Solution][153-2]
 154. [][154-0] - [Code][154-1] / [Solution][154-2]
 155. [][155-0] - [Code][155-1] / [Solution][155-2]
@@ -795,11 +795,12 @@
 
 [151-0]: https://leetcode.com/problems/reverse-words-in-a-string/submissions/
 [151-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/string/ReverseWords.scala
-[151-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/141-150/ReverseWords.md
+[151-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/ReverseWords.md
 
-[152-0]: 
-[152-1]: 
-[152-2]: 
+[152-0]: https://leetcode.com/problems/maximum-product-subarray/
+[152-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/implementation/MaxProductscala
+[152-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/MaxProduct.md
+
 [153-0]: 
 [153-1]: 
 [153-2]: 
