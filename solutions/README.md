@@ -185,7 +185,7 @@
 151. [Reverse Words in a String][151-0] - [Code][151-1] / [Solution][151-2]
 152. [Maximum Product Subarray][152-0] - [Code][152-1] / [Solution][152-2]
 153. [Find Minimum in Rotated Sorted Array][153-0] - [Code][153-1] / [Solution][153-2]
-154. [][154-0] - [Code][154-1] / [Solution][154-2]
+154. [Find Minimum in Rotated Sorted Array II][154-0] - [Code][154-1] / [Solution][154-2]
 155. [][155-0] - [Code][155-1] / [Solution][155-2]
 156. [][156-0] - [Code][156-1] / [Solution][156-2]
 157. [][157-0] - [Code][157-1] / [Solution][157-2]
@@ -805,9 +805,10 @@
 [153-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/MinRotatedArray.scala
 [153-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/MinRotatedArray.md
 
-[154-0]: 
-[154-1]: 
-[154-2]: 
+[154-0]: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+[154-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/search/MinRotatedArray2.scala
+[154-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/MinRotatedArray2.md
+
 [155-0]: 
 [155-1]: 
 [155-2]: 
