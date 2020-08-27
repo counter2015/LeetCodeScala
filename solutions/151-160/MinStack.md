@@ -1,7 +1,7 @@
-# Find Minimum in Rotated Sorted Array II
+# Min Stack
 
 ## Problem link
-https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
+https://leetcode.com/problems/min-stack/
 
 ## Description
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
