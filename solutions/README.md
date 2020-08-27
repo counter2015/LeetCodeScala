@@ -186,7 +186,7 @@
 152. [Maximum Product Subarray][152-0] - [Code][152-1] / [Solution][152-2]
 153. [Find Minimum in Rotated Sorted Array][153-0] - [Code][153-1] / [Solution][153-2]
 154. [Find Minimum in Rotated Sorted Array II][154-0] - [Code][154-1] / [Solution][154-2]
-155. [][155-0] - [Code][155-1] / [Solution][155-2]
+155. [Min Stack][155-0] - [Code][155-1] / [Solution][155-2]
 156. [][156-0] - [Code][156-1] / [Solution][156-2]
 157. [][157-0] - [Code][157-1] / [Solution][157-2]
 158. [][158-0] - [Code][158-1] / [Solution][158-2]
@@ -809,9 +809,10 @@
 [154-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/search/MinRotatedArray2.scala
 [154-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/MinRotatedArray2.md
 
-[155-0]: 
-[155-1]: 
-[155-2]: 
+[155-0]: https://leetcode.com/problems/min-stack/
+[155-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/MinStack.scala
+[155-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/MinStack.md
+
 [156-0]: 
 [156-1]: 
 [156-2]: 
