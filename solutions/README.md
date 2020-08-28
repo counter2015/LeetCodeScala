@@ -187,11 +187,43 @@
 153. [Find Minimum in Rotated Sorted Array][153-0] - [Code][153-1] / [Solution][153-2]
 154. [Find Minimum in Rotated Sorted Array II][154-0] - [Code][154-1] / [Solution][154-2]
 155. [Min Stack][155-0] - [Code][155-1] / [Solution][155-2]
+<<<<<<< HEAD
 156. [][156-0] - [Code][156-1] / [Solution][156-2]
 157. [][157-0] - [Code][157-1] / [Solution][157-2]
 158. [][158-0] - [Code][158-1] / [Solution][158-2]
 159. [][159-0] - [Code][159-1] / [Solution][159-2]
 160. [][160-0] - [Code][160-1] / [Solution][160-2]
+=======
+156. [TODO: LOCKED][156-0] - [Code][156-1] / [Solution][156-2]
+157. [TODO: LOCKED][157-0] - [Code][157-1] / [Solution][157-2]
+158. [TODO: LOCKED][158-0] - [Code][158-1] / [Solution][158-2]
+159. [TODO: LOCKED][159-0] - [Code][159-1] / [Solution][159-2]
+160. [Intersection of Two Linked Lists][160-0] - [Code][160-1] / [Solution][160-2]
+
+## 161~170
+161. [][161-0] - [Code][161-1] / [Solution][161-2]
+162. [][162-0] - [Code][162-1] / [Solution][162-2]
+163. [][163-0] - [Code][163-1] / [Solution][163-2]
+164. [][164-0] - [Code][164-1] / [Solution][164-2]
+165. [][165-0] - [Code][165-1] / [Solution][165-2]
+166. [][156-0] - [Code][166-1] / [Solution][166-2]
+167. [][167-0] - [Code][167-1] / [Solution][167-2]
+168. [][168-0] - [Code][168-1] / [Solution][168-2]
+169. [][169-0] - [Code][169-1] / [Solution][169-2]
+170. [][170-0] - [Code][170-1] / [Solution][170-2]
+
+## 171~180
+171. [][171-0] - [Code][171-1] / [Solution][171-2]
+172. [][172-0] - [Code][172-1] / [Solution][172-2]
+173. [][173-0] - [Code][173-1] / [Solution][173-2]
+174. [][174-0] - [Code][174-1] / [Solution][174-2]
+175. [][175-0] - [Code][175-1] / [Solution][175-2]
+176. [][176-0] - [Code][176-1] / [Solution][176-2]
+177. [][177-0] - [Code][177-1] / [Solution][177-2]
+178. [][178-0] - [Code][178-1] / [Solution][178-2]
+179. [][179-0] - [Code][179-1] / [Solution][179-2]
+180. [][180-0] - [Code][180-1] / [Solution][180-2]
+>>>>>>> batch-1
 
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
@@ -809,19 +841,51 @@
 [154-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/search/MinRotatedArray2.scala
 [154-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/MinRotatedArray2.md
 
+<<<<<<< HEAD
 [155-0]: https://leetcode.com/problems/min-stack/
 [155-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/MinStack.scala
 [155-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/MinStack.md
+[156-0]: TODO: LOCKED
+[156-1]: TODO: LOCKED
+[156-2]: TODO: LOCKED
+[157-0]: TODO: LOCKED
+[157-1]: TODO: LOCKED
+[157-2]: TODO: LOCKED
+[158-0]: TODO: LOCKED
+[158-1]: TODO: LOCKED
+[158-2]: TODO: LOCKED
+[159-0]: TODO: LOCKED
+[159-1]: TODO: LOCKED
+[159-2]: TODO: LOCKED
 
-[156-0]: 
-[156-1]: 
-[156-2]: 
-[157-0]: 
-[157-1]: 
-[157-2]: 
-[158-0]: 
-[158-1]: 
-[158-2]: 
-[159-0]: 
-[159-1]: 
-[159-2]: 
+[160-0]: https://leetcode.com/problems/intersection-of-two-linked-lists/
+[160-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/InsertionNode.scala
+[160-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/InsertionNode.md
+
+[161-0]: 
+[161-1]: 
+[161-2]: 
+[162-0]: 
+[162-1]: 
+[162-2]: 
+[163-0]: 
+[163-1]: 
+[163-2]: 
+[164-0]: 
+[164-1]: 
+[164-2]: 
+[165-0]: 
+[165-1]: 
+[165-2]: 
+[166-0]: 
+[166-1]: 
+[166-2]: 
+[167-0]: 
+[167-1]: 
+[167-2]: 
+[168-0]: 
+[168-1]: 
+[168-2]: 
+[169-0]: 
+[169-1]: 
+[169-2]: 
