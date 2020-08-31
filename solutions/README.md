@@ -187,13 +187,6 @@
 153. [Find Minimum in Rotated Sorted Array][153-0] - [Code][153-1] / [Solution][153-2]
 154. [Find Minimum in Rotated Sorted Array II][154-0] - [Code][154-1] / [Solution][154-2]
 155. [Min Stack][155-0] - [Code][155-1] / [Solution][155-2]
-<<<<<<< HEAD
-156. [][156-0] - [Code][156-1] / [Solution][156-2]
-157. [][157-0] - [Code][157-1] / [Solution][157-2]
-158. [][158-0] - [Code][158-1] / [Solution][158-2]
-159. [][159-0] - [Code][159-1] / [Solution][159-2]
-160. [][160-0] - [Code][160-1] / [Solution][160-2]
-=======
 156. [TODO: LOCKED][156-0] - [Code][156-1] / [Solution][156-2]
 157. [TODO: LOCKED][157-0] - [Code][157-1] / [Solution][157-2]
 158. [TODO: LOCKED][158-0] - [Code][158-1] / [Solution][158-2]
@@ -201,9 +194,9 @@
 160. [Intersection of Two Linked Lists][160-0] - [Code][160-1] / [Solution][160-2]
 
 ## 161~170
-161. [][161-0] - [Code][161-1] / [Solution][161-2]
-162. [][162-0] - [Code][162-1] / [Solution][162-2]
-163. [][163-0] - [Code][163-1] / [Solution][163-2]
+161. [TODO: LOCKED][161-0] - [Code][161-1] / [Solution][161-2]
+162. [Find Peak Element][162-0] - [Code][162-1] / [Solution][162-2]
+163. [TODO: LOCKED][163-0] - [Code][163-1] / [Solution][163-2]
 164. [][164-0] - [Code][164-1] / [Solution][164-2]
 165. [][165-0] - [Code][165-1] / [Solution][165-2]
 166. [][156-0] - [Code][166-1] / [Solution][166-2]
@@ -841,7 +834,6 @@
 [154-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/search/MinRotatedArray2.scala
 [154-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/MinRotatedArray2.md
 
-<<<<<<< HEAD
 [155-0]: https://leetcode.com/problems/min-stack/
 [155-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/implementation/MinStack.scala
 [155-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/MinStack.md
@@ -862,15 +854,18 @@
 [160-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/InsertionNode.scala
 [160-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/151-160/InsertionNode.md
 
-[161-0]: 
-[161-1]: 
-[161-2]: 
-[162-0]: 
-[162-1]: 
-[162-2]: 
-[163-0]: 
-[163-1]: 
-[163-2]: 
+[161-0]: TODO: LOCKED
+[161-1]: TODO: LOCKED
+[161-2]: TODO: LOCKED
+
+[162-0]: https://leetcode.com/problems/find-peak-element/
+[162-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/FindPeakElement..scala
+[162-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/161-170/FindPeakElement.md
+
+[163-0]: TODO: LOCKED
+[163-1]: TODO: LOCKED
+[163-2]: TODO: LOCKED
+
 [164-0]: 
 [164-1]: 
 [164-2]: 
