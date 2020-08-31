@@ -197,7 +197,7 @@
 161. [TODO: LOCKED][161-0] - [Code][161-1] / [Solution][161-2]
 162. [Find Peak Element][162-0] - [Code][162-1] / [Solution][162-2]
 163. [TODO: LOCKED][163-0] - [Code][163-1] / [Solution][163-2]
-164. [][164-0] - [Code][164-1] / [Solution][164-2]
+164. [Maximum Gap][164-0] - [Code][164-1] / [Solution][164-2]
 165. [][165-0] - [Code][165-1] / [Solution][165-2]
 166. [][156-0] - [Code][166-1] / [Solution][166-2]
 167. [][167-0] - [Code][167-1] / [Solution][167-2]
@@ -859,17 +859,18 @@
 [161-2]: TODO: LOCKED
 
 [162-0]: https://leetcode.com/problems/find-peak-element/
-[162-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/FindPeakElement..scala
+[162-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/search/FindPeakElement.scala
 [162-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/161-170/FindPeakElement.md
 
 [163-0]: TODO: LOCKED
 [163-1]: TODO: LOCKED
 [163-2]: TODO: LOCKED
 
-[164-0]: 
-[164-1]: 
-[164-2]: 
-[165-0]: 
+[164-0]: https://leetcode.com/problems/maximum-gap/
+[164-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/search/MaximumGap.scala
+[164-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/161-170/MaximumGap.md
+
+[165-0]:
 [165-1]: 
 [165-2]: 
 [166-0]: 
