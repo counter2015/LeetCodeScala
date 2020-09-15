@@ -25,12 +25,12 @@ object MaximumSubarray {
     * @return max subarray sum
     */
   def maxSubArrayImperative(nums: Array[Int]): Int = {
-    var max: Long = nums(0)
-    var cur: Long = nums(0)
+    var max = nums(0)
+    var cur = nums(0)
     for (i <- 1 until nums.length) {
-      cur = Math.max(cur + nums(i), nums(i))
+      cur = if (cur > 0) cur + nums(i) else nums(i)
       max = Math.max(max, cur)
     }
-    max.toInt
+    max
   }
 }

@@ -548,7 +548,7 @@
 
 [83-0]: https://leetcode.com/problems/remove-duplicates-from-sorted-list/ 
 [83-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/RemoveDuplicatesList.scala
-[83-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/81-90/RemoveDuplicatesList.md
+[83-2]: https://github.cwom/counter2015/LeetCodeScala/blob/master/solutions/81-90/RemoveDuplicatesList.md
 
 [84-0]: https://leetcode.com/problems/largest-rectangle-in-histogram/ 
 [84-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/hard/implementation/LargestRectangleHistogram.scala 

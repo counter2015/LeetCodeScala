@@ -14,13 +14,13 @@ object CompareVersion {
       version.split("\\.").map(_.toInt).toList
     }
 
-    implicit def orderingList[A](implicit ord: Ordering[A]): Ordering[List[A]] =
-      new Ordering[List[A]] {
+    implicit val orderingList: Ordering[List[Int]] =
+      new Ordering[List[Int]] {
         @scala.annotation.tailrec
-        def compare(xs: List[A], ys: List[A]): Int =
+        def compare(xs: List[Int], ys: List[Int]): Int =
           (xs, ys) match {
             case (x :: xsTail, y :: ysTail) =>
-              val c = ord.compare(x, y)
+              val c = Ordering[Int].compare(x, y)
               if (c != 0) c else compare(xsTail, ysTail)
             case (Nil, Nil) => 0
             case (r, Nil) => if (r.forall(_ == 0)) 0 else 1
