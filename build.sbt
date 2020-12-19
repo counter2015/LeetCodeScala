@@ -4,7 +4,7 @@ organization := "com.counter2015"
 
 version := "1.0"
 
-scalaVersion := "2.13.3"
+scalaVersion := "2.13.4"
 
 
 libraryDependencies ++= Seq(
