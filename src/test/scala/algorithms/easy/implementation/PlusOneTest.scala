@@ -21,4 +21,8 @@ class PlusOneTest extends AnyFunSuite with Matchers {
   test("test3: zero") {
     solve(Array(0)) shouldBe Array(1)
   }
+
+  test("test4: leading zero") {
+    solve(Array(0, 0, 0, 0, 0)) shouldBe Array(0, 0, 0, 0, 1)
+  }
 }
