@@ -4,7 +4,8 @@ organization := "com.counter2015"
 
 version := "1.0"
 
-scalaVersion := "2.13.4"
+// same version to leetcode.com
+scalaVersion := "2.13.10"
 
 
 libraryDependencies ++= Seq(
@@ -25,4 +26,5 @@ scalacOptions ++= Seq(
    -D - show all durations
    -F - show full stack traces
  */
-testOptions in Test += Tests.Argument("-oD")
+Test / testOptions += Tests.Argument("-oD")
+Global / onChangedBuildSource := ReloadOnSourceChanges

@@ -26,6 +26,6 @@ object Pow {
       }
     }
 
-    run(x, 1.0, n).formatted("%.5f").toDouble
+    "%.5f".format(run(x, 1.0, n)).toDouble
   }
 }

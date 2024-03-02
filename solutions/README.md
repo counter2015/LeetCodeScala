@@ -199,7 +199,7 @@
 163. [TODO: LOCKED][163-0] - [Code][163-1] / [Solution][163-2]
 164. [Maximum Gap][164-0] - [Code][164-1] / [Solution][164-2]
 165. [Compare Version Numbers][165-0] - [Code][165-1] / [Solution][165-2]
-166. [][156-0] - [Code][166-1] / [Solution][166-2]
+166. [Fraction to Recurring Decimal][156-0] - [Code][166-1] / [Solution][166-2]
 167. [][167-0] - [Code][167-1] / [Solution][167-2]
 168. [][168-0] - [Code][168-1] / [Solution][168-2]
 169. [][169-0] - [Code][169-1] / [Solution][169-2]
@@ -874,9 +874,10 @@
 [165-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/CompareVersion.scala
 [165-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/161-170/CompareVersion.md
 
-[166-0]: 
-[166-1]: 
-[166-2]: 
+[166-0]: https://leetcode.com/problems/fraction-to-recurring-decimal/description/ 
+[166-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/math/RecurringDecimal.scala
+[166-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/161-170/RecurringDecimal.md
+
 [167-0]: 
 [167-1]: 
 [167-2]: 
