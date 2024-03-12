@@ -199,11 +199,11 @@
 163. [TODO: LOCKED][163-0] - [Code][163-1] / [Solution][163-2]
 164. [Maximum Gap][164-0] - [Code][164-1] / [Solution][164-2]
 165. [Compare Version Numbers][165-0] - [Code][165-1] / [Solution][165-2]
-166. [Fraction to Recurring Decimal][156-0] - [Code][166-1] / [Solution][166-2]
-167. [][167-0] - [Code][167-1] / [Solution][167-2]
-168. [][168-0] - [Code][168-1] / [Solution][168-2]
+166. [Fraction to Recurring Decimal][166-0] - [Code][166-1] / [Solution][166-2]
+167. [Two Sum II - Input Array Is Sorted][167-0] - [Code][167-1] / [Solution][167-2]
+168. [Excel Sheet Column Title][168-0] - [Code][168-1] / [Solution][168-2]
 169. [][169-0] - [Code][169-1] / [Solution][169-2]
-170. [][170-0] - [Code][170-1] / [Solution][170-2]
+170. [TODO: LOCKED][170-0] - [Code][170-1] / [Solution][170-2]
 
 ## 171~180
 171. [][171-0] - [Code][171-1] / [Solution][171-2]
@@ -216,7 +216,7 @@
 178. [][178-0] - [Code][178-1] / [Solution][178-2]
 179. [][179-0] - [Code][179-1] / [Solution][179-2]
 180. [][180-0] - [Code][180-1] / [Solution][180-2]
->>>>>>> batch-1
+
 
 [1-0]: https://leetcode.com/problems/two-sum/
 [1-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/TwoSum.scala
@@ -878,12 +878,46 @@
 [166-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/math/RecurringDecimal.scala
 [166-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/161-170/RecurringDecimal.md
 
-[167-0]: 
-[167-1]: 
-[167-2]: 
-[168-0]: 
-[168-1]: 
-[168-2]: 
+[167-0]: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+[167-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/medium/basic/TwoSum2.scala
+[167-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/161-170/TwoSum2.md
+
+[168-0]: https://leetcode.com/problems/excel-sheet-column-title/description/
+[168-1]: https://github.com/counter2015/LeetCodeScala/blob/master/src/main/scala/algorithms/easy/basic/ExcelSheetColumnTitle.scala
+[168-2]: https://github.com/counter2015/LeetCodeScala/blob/master/solutions/161-170/ExcelSheetColumnTitle.md
+
 [169-0]: 
 [169-1]: 
 [169-2]: 
+
+[170-0]: TODO: LOCKED
+[170-1]: TODO: LOCKED
+[170-2]: TODO: LOCKED
+
+[171-0]:
+[171-1]:
+[171-2]:
+[172-0]:
+[172-1]:
+[172-2]:
+[173-0]:
+[173-1]:
+[173-2]:
+[174-0]:
+[174-1]:
+[174-2]:
+[175-0]:
+[175-1]:
+[175-2]:
+[176-0]:
+[176-1]:
+[176-2]:
+[177-0]:
+[177-1]:
+[177-2]:
+[178-0]:
+[178-1]:
+[178-2]:
+[179-0]:
+[179-1]:
+[179-2]:

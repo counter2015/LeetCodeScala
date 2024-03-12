@@ -36,7 +36,7 @@ Input: numerator = 4, denominator = 333
 Output: "0.(012)"
 ```
 
-##Constraints:
+## Constraints:
 
 -2^31 <= numerator, denominator <= 2^31 - 1
 denominator != 0
