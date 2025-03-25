@@ -6,11 +6,12 @@ import scala.collection.mutable
 
 object CloneGraph {
 
-  /** RunTime Info:
-    * 552 ms, 52.9 MB
+  /** RunTime Info: 552 ms, 52.9 MB
     *
-    * @param graph the graph
-    * @return a new cloned graph
+    * @param graph
+    *   the graph
+    * @return
+    *   a new cloned graph
     */
   def cloneGraph(graph: Node): Node = {
     if (graph == null) return null

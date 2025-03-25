@@ -15,7 +15,6 @@ class LRUCache(_capacity: Int) {
 
   case class Node(key: Int, value: Int, var pre: Node = null, var next: Node = null)
 
-
   private def insertToHead(n: Node): Unit = {
     head.next.pre = n
     n.next = head.next

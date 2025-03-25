@@ -2,17 +2,16 @@ package algorithms.medium.basic
 
 object LetterCombinations {
 
-  /** RunTime Info:
-    * 240 ms, 44.8 MB
+  /** RunTime Info: 240 ms, 44.8 MB
     *
     * the phone number and character show as following:
     *
-    * 1  2  3          "null"  abc   def
-    * 4  5  6    -----> ghi    jkl   mno
-    * 7  8  9           oprs   tuv   wxyz
+    * 1 2 3 "null" abc def 4 5 6 -----> ghi jkl mno 7 8 9 oprs tuv wxyz
     *
-    * @param digits input digits on the phone
-    * @return all the string according to the input digits
+    * @param digits
+    *   input digits on the phone
+    * @return
+    *   all the string according to the input digits
     */
   def letterCombinations(digits: String): List[String] = {
     def convert(c: Char): String = c match {
@@ -31,14 +30,13 @@ object LetterCombinations {
 
     var res = List[String]()
 
-    def travel(str: Array[String], headStr: String): Unit = {
+    def travel(str: Array[String], headStr: String): Unit =
       if (str.length == 0) {
         res = headStr :: res
       } else {
         for (c <- str.head)
           travel(str.tail, headStr + c)
       }
-    }
 
     travel(str, "")
 

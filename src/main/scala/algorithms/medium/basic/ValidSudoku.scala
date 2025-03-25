@@ -3,11 +3,12 @@ package algorithms.medium.basic
 // scalastyle:off magic.number
 object ValidSudoku {
 
-  /** RunTime Info:
-    * 440 ms, 59.2 MB
+  /** RunTime Info: 440 ms, 59.2 MB
     *
-    * @param board sudoku board
-    * @return check the board valid or not
+    * @param board
+    *   sudoku board
+    * @return
+    *   check the board valid or not
     */
   def isValidSudoku(board: Array[Array[Char]]): Boolean = {
     val n = 9
@@ -23,12 +24,13 @@ object ValidSudoku {
 
     def blockValid: Boolean = {
       val block = Array.fill(9)("")
-      for (i <- 0 until n;
-           j <- 0 until n
-           if board(i)(j) != '.') {
+      for (
+        i <- 0 until n;
+        j <- 0 until n
+        if board(i)(j) != '.'
+      )
         block((i / 3) * 3 + j / 3) += board(i)(j)
 
-      }
       block.map(_.toSeq).forall(block => block.distinct.length == block.length)
     }
 

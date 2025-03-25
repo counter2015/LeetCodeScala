@@ -2,11 +2,12 @@ package algorithms.medium.regex
 
 object StringToInteger {
 
-  /** RunTime Info:
-    * 320 ms, 47 MB
+  /** RunTime Info: 320 ms, 47 MB
     *
-    * @param str a crazy input string
-    * @return 0, Integer.MAX_VALUE, Integer.MIN_VALUE or a Integer depends your crazy input
+    * @param str
+    *   a crazy input string
+    * @return
+    *   0, Integer.MAX_VALUE, Integer.MIN_VALUE or a Integer depends your crazy input
     */
   def myAtoi(str: String): Int = {
     val pattern = " *([+-])?(\\d+).*".r

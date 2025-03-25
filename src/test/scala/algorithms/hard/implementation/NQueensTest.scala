@@ -8,16 +8,8 @@ class NQueensTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
     val res = List(
-      List(
-        ".Q..",
-        "...Q",
-        "Q...",
-        "..Q."),
-
-      List("..Q.",
-        "Q...",
-        "...Q",
-        ".Q..")
+      List(".Q..", "...Q", "Q...", "..Q."),
+      List("..Q.", "Q...", "...Q", ".Q..")
     )
 
     solve(4) should contain theSameElementsAs res

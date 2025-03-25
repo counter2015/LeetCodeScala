@@ -1,13 +1,13 @@
 package algorithms.medium.string
 
-
 object LongestPalindrome {
 
-  /** RunTime Info:
-    * 288ms, 50.6MB
+  /** RunTime Info: 288ms, 50.6MB
     *
-    * @param s input string
-    * @return the longest palindrome substring of s
+    * @param s
+    *   input string
+    * @return
+    *   the longest palindrome substring of s
     */
   def longestPalindrome(s: String): String = {
 
@@ -33,17 +33,16 @@ object LongestPalindrome {
     res
   }
 
-  /** RunTime Info:
-    * 276ms, 49.7MB
-    * Manacher's Algorithm imperative implementation
+  /** RunTime Info: 276ms, 49.7MB Manacher's Algorithm imperative implementation
     *
-    * @param s input string
-    * @return the longest palindrome substring of s
+    * @param s
+    *   input string
+    * @return
+    *   the longest palindrome substring of s
     */
   def manachersAlgorithm(s: String): String = {
 
     import scala.collection.mutable.ArrayBuffer
-
 
     if (s.length <= 1) return s
 
@@ -56,9 +55,11 @@ object LongestPalindrome {
     for (i <- t.indices) {
 
       var res = if (r > i) math.min(p(2 * c - i), r - i) else 0
-      while ((i + res) < t.length
+      while (
+        (i + res) < t.length
         && (i - res) >= 0
-        && t(i + res) == t(i - res))
+        && t(i + res) == t(i - res)
+      )
         res += 1
 
       if (r < i + res) {
@@ -77,4 +78,3 @@ object LongestPalindrome {
   }
 
 }
-

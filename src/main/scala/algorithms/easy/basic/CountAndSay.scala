@@ -2,11 +2,12 @@ package algorithms.easy.basic
 
 object CountAndSay {
 
-  /** RunTime Info:
-    * 268 ms, 48.6 MB
+  /** RunTime Info: 268 ms, 48.6 MB
     *
-    * @param n the nth String of `CountAndSay`
-    * @return the spell string
+    * @param n
+    *   the nth String of `CountAndSay`
+    * @return
+    *   the spell string
     */
   def countAndSay(n: Int): String = {
 

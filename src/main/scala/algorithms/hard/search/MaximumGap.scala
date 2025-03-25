@@ -2,11 +2,12 @@ package algorithms.hard.search
 
 object MaximumGap {
 
-  /** RunTime Info:
-    * 464 ms, 50.9 MB
+  /** RunTime Info: 464 ms, 50.9 MB
     *
-    * @param nums the array of numbers
-    * @return the maximum difference between adjacent nums
+    * @param nums
+    *   the array of numbers
+    * @return
+    *   the maximum difference between adjacent nums
     */
   def maximumGap(nums: Array[Int]): Int = {
     val n = nums.length

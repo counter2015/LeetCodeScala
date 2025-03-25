@@ -2,10 +2,10 @@ package algorithms.medium.implementation
 
 object NextPermutation {
 
-  /** RunTime Info:
-    * 308 ms, 51.6 MB
+  /** RunTime Info: 308 ms, 51.6 MB
     *
-    * @param nums input array
+    * @param nums
+    *   input array
     */
   def nextPermutation(nums: Array[Int]): Unit = {
 
@@ -16,12 +16,11 @@ object NextPermutation {
     }
 
     @scala.annotation.tailrec
-    def reverse(l: Int, r: Int): Unit = {
+    def reverse(l: Int, r: Int): Unit =
       if (l < r) {
         swap(l, r)
         reverse(l + 1, r - 1)
       }
-    }
 
     val n = nums.length
     val index = n - 1 - (n - 2 to 0 by -1).takeWhile(i => nums(i) >= nums(i + 1)).length

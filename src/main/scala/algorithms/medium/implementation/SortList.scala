@@ -4,11 +4,12 @@ import algorithms.struct.ListNode
 
 object SortList {
 
-  /** RunTime Info:
-    * 796 ms, 53 MB
+  /** RunTime Info: 796 ms, 53 MB
     *
-    * @param head the head node of list
-    * @return sorted list
+    * @param head
+    *   the head node of list
+    * @return
+    *   sorted list
     */
   def sortList(head: ListNode): ListNode = {
     if (head == null || head.next == null) return head
@@ -25,7 +26,7 @@ object SortList {
     var r = sortList(right)
     val dummy = new ListNode(0)
     var h = dummy
-    while (l != null && r != null) {
+    while (l != null && r != null)
       if (l.x <= r.x) {
         h.next = l
         l = l.next
@@ -35,7 +36,6 @@ object SortList {
         r = r.next
         h = h.next
       }
-    }
     h.next = if (l == null) r else l
     dummy.next
   }
@@ -47,7 +47,7 @@ object SortList {
     val key = head.x
     var node = head.next
     head.next = null
-    while (node != null) {
+    while (node != null)
       if (key < node.x) {
         r.next = node
         node = node.next
@@ -59,7 +59,6 @@ object SortList {
         l = l.next
         l.next = null
       }
-    }
     l.next = head
     val left = sortList2(ld.next)
     val right = sortList2(rd.next)

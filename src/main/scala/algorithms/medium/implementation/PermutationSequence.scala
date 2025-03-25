@@ -2,12 +2,14 @@ package algorithms.medium.implementation
 
 object PermutationSequence {
 
-  /** RunTime Info:
-    * 260 ms, 40.8 MB
+  /** RunTime Info: 260 ms, 40.8 MB
     *
-    * @param n the total numbers of sequence
-    * @param k the index of list
-    * @return kth list of n's permutation
+    * @param n
+    *   the total numbers of sequence
+    * @param k
+    *   the index of list
+    * @return
+    *   kth list of n's permutation
     */
   def getPermutation(n: Int, k: Int): String = {
 
@@ -24,8 +26,7 @@ object PermutationSequence {
       val b = k % x
       if (b != 0) {
         travel(remain.patch(a, Nil, 1), res :+ remain(a), b)
-      }
-      else {
+      } else {
         (res :+ remain(a - 1)) ++ remain.patch(a - 1, Nil, 1).reverse
       }
     }

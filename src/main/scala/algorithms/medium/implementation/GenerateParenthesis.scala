@@ -1,13 +1,13 @@
 package algorithms.medium.implementation
 
-
 object GenerateParenthesis {
 
-  /** RunTime Info:
-    * 280 ms, 50.9 MB
+  /** RunTime Info: 280 ms, 50.9 MB
     *
-    * @param n the number of parenthesis
-    * @return all combinations of well-formed parentheses.
+    * @param n
+    *   the number of parenthesis
+    * @return
+    *   all combinations of well-formed parentheses.
     */
   def generateParenthesis(n: Int): List[String] = {
     import scala.collection.mutable.ArrayBuffer

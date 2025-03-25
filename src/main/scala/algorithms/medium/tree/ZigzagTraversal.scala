@@ -4,11 +4,12 @@ import algorithms.struct.TreeNode
 
 object ZigzagTraversal {
 
-  /** RunTime Info:
-    * 496 ms, 51.2 MB
+  /** RunTime Info: 496 ms, 51.2 MB
     *
-    * @param root the root node of the tree
-    * @return the zigzagLevelOrder traversal result
+    * @param root
+    *   the root node of the tree
+    * @return
+    *   the zigzagLevelOrder traversal result
     */
   def zigzagLevelOrder(root: TreeNode): List[List[Int]] = {
     def visit(level: List[TreeNode], isOddLevel: Boolean = false): List[List[Int]] = {

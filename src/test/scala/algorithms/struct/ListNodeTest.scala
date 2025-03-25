@@ -12,9 +12,8 @@ trait ListNodeTest {
     a.toList
   }
 
-  def printListNodesData(node: ListNode): Unit = {
+  def printListNodesData(node: ListNode): Unit =
     println(elements(node).mkString(" "))
-  }
 
   def generateListNodesWithData(arr: Array[Int]): ListNode = {
     if (arr.length == 0) return null
@@ -25,12 +24,11 @@ trait ListNodeTest {
     l.head
   }
 
-  def sameElement(a: ListNode, b: ListNode): Boolean = {
+  def sameElement(a: ListNode, b: ListNode): Boolean =
     if (a == null && b == null) true
     else if (a != null && b != null) {
       a.x == b.x && sameElement(a.next, b.next)
     } else false
-  }
 
   def generateCycleListNodesWithData(arr: Array[Int], index: Int): ListNode = {
     if (index == -1) return generateListNodesWithData(arr)

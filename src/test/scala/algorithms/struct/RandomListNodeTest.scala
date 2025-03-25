@@ -8,21 +8,18 @@ trait RandomListNodeTest {
   def generate(data: List[(Int, Option[Int])]): RandomListNode = {
     val map = mutable.Map[Int, RandomListNode]().withDefaultValue(null)
 
-    for (((v, _), i) <- data.zipWithIndex) {
+    for (((v, _), i) <- data.zipWithIndex)
       map(i) = new RandomListNode(v)
-    }
 
-    for (((_, n), i) <- data.zipWithIndex) {
+    for (((_, n), i) <- data.zipWithIndex)
       n match {
         case Some(next) =>
           map(i).random = map(next)
         case None => ()
       }
-    }
 
-    for (i <- 0 until map.size - 1) {
+    for (i <- 0 until map.size - 1)
       map(i).next = map(i + 1)
-    }
     map(0)
   }
 
@@ -30,7 +27,6 @@ trait RandomListNodeTest {
     case class Data(var value: Int, var random: Int = -1)
     val res = ListBuffer[Data]()
     var node = head
-
 
     while (node != null) {
       res += Data(node.value)
@@ -52,8 +48,6 @@ trait RandomListNodeTest {
       i += 1
       node = node.next
     }
-    res.toList.map(r => {
-      r.value -> (if (r.random == -1) None else Some(r.random))
-    })
+    res.toList.map(r => r.value -> (if (r.random == -1) None else Some(r.random)))
   }
 }

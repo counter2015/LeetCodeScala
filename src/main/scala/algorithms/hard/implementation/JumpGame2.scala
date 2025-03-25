@@ -2,11 +2,12 @@ package algorithms.hard.implementation
 
 object JumpGame2 {
 
-  /** RunTime Info:
-    * 320 ms, 50.8 MB
+  /** RunTime Info: 320 ms, 50.8 MB
     *
-    * @param nums integer array
-    * @return minimum jump steps
+    * @param nums
+    *   integer array
+    * @return
+    *   minimum jump steps
     */
   def jump(nums: Array[Int]): Int = {
     var (ans, last, cur) = (0, 0, 0)

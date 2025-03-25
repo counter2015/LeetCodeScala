@@ -2,11 +2,12 @@ package algorithms.medium.string
 
 object LengthOfLongestSubstring {
 
-  /** RunTime Info:
-    * 876 ms, 53.5 MB
+  /** RunTime Info: 876 ms, 53.5 MB
     *
-    * @param s input string
-    * @return the length of longest substring which contains no same character.
+    * @param s
+    *   input string
+    * @return
+    *   the length of longest substring which contains no same character.
     */
   def lengthOfLongestSubstring(s: String): Int = {
 

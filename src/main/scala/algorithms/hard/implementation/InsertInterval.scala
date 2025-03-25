@@ -2,21 +2,22 @@ package algorithms.hard.implementation
 
 object InsertInterval {
 
-  /** RunTime Info:
-    * 388 ms, 61 MB
+  /** RunTime Info: 388 ms, 61 MB
     *
-    * @param intervals   [l, r] Array
-    * @param newInterval [l, r]
+    * @param intervals
+    *   [l, r] Array
+    * @param newInterval
+    *   [l, r]
     * @return
     */
-  def insert(intervals: Array[Array[Int]], newInterval: Array[Int]): Array[Array[Int]] = {
+  def insert(intervals: Array[Array[Int]], newInterval: Array[Int]): Array[Array[Int]] =
 
     if (newInterval.length == 0) {
       intervals
     } else if (intervals.flatten.length == 0) {
       Array(newInterval)
     } else {
-      def insertIt(data: List[List[Int]], insert: List[Int]): List[List[Int]] = {
+      def insertIt(data: List[List[Int]], insert: List[Int]): List[List[Int]] =
         data match {
           case Nil => List(List(insert.head, insert.last))
           case head :: tail =>
@@ -31,9 +32,7 @@ object InsertInterval {
               insertIt(data.tail, newInsert)
             }
         }
-      }
 
       insertIt(intervals.toList.map(_.toList), newInterval.toList).map(_.toArray).toArray
     }
-  }
 }

@@ -2,12 +2,12 @@ package algorithms.medium.math
 
 object RecurringDecimal {
 
-  /** RunTime Info:
-    * 536 ms, 54.6 MB
+  /** RunTime Info: 536 ms, 54.6 MB
     *
     * @param numerator
     * @param denominator
-    * @return the (recurring) decimal string
+    * @return
+    *   the (recurring) decimal string
     */
   def fractionToDecimal(numerator: Int, denominator: Int): String = {
     val sign = if (numerator.toLong * denominator.toLong < 0) "-" else ""
@@ -16,9 +16,8 @@ object RecurringDecimal {
 
     var n = math.abs(numerator.toLong) % d
 
-    def insertOnString(str: String, index: Int, newString: String): String = {
+    def insertOnString(str: String, index: Int, newString: String): String =
       str.substring(0, index) + newString + str.substring(index)
-    }
 
     val decimalMap = collection.mutable.Map.empty[Long, Int]
     var pointRightPart = ""
@@ -40,11 +39,11 @@ object RecurringDecimal {
 
       n %= d
 
-
     }
 
-    val res = if (pointRightPart == "") pointLeftPart.toString
-    else s"$pointLeftPart.$pointRightPart"
+    val res =
+      if (pointRightPart == "") pointLeftPart.toString
+      else s"$pointLeftPart.$pointRightPart"
 
     sign + res
   }

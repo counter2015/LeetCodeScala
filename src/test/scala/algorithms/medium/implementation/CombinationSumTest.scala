@@ -4,7 +4,6 @@ import algorithms.medium.implementation.CombinationSum.{combinationSum => solve}
 import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers
 
-
 class CombinationSumTest extends AnyFunSuite with Matchers {
 
   test("test0: sample input") {
@@ -19,10 +18,7 @@ class CombinationSumTest extends AnyFunSuite with Matchers {
   test("test1: sample input") {
     val candidates = Array(2, 3, 5)
     val target = 8
-    val res = Seq(
-      Seq(2, 2, 2, 2),
-      Seq(2, 3, 3),
-      Seq(3, 5)).map(_.sorted)
+    val res = Seq(Seq(2, 2, 2, 2), Seq(2, 3, 3), Seq(3, 5)).map(_.sorted)
 
     val ans = solve(candidates, target).map(_.sorted)
 

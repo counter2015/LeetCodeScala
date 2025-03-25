@@ -20,11 +20,12 @@ object IsValidBST {
     res
   }
 
-  /** RunTime Info:
-    * 1420ms, 52.7MB
+  /** RunTime Info: 1420ms, 52.7MB
     *
-    * @param root the root node of Tree
-    * @return check whether the tree is valid BST
+    * @param root
+    *   the root node of Tree
+    * @return
+    *   check whether the tree is valid BST
     */
   def isValidBST(root: TreeNode): Boolean = {
     if (root == null) return true

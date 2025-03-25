@@ -8,12 +8,14 @@ import org.scalatest.matchers.should.Matchers
 class CloneGraphTest extends AnyFunSuite with Matchers with GraphNodeTest {
 
   test("test0: sample input") {
-    val g = generateGraphFormEdges(List(
-      (1, 2),
-      (1, 4),
-      (2, 3),
-      (3, 4)
-    ))
+    val g = generateGraphFormEdges(
+      List(
+        (1, 2),
+        (1, 4),
+        (2, 3),
+        (3, 4)
+      )
+    )
     val ng = solve(g)
 
     graphToEdges(g) should contain theSameElementsInOrderAs graphToEdges(ng)
@@ -35,9 +37,11 @@ class CloneGraphTest extends AnyFunSuite with Matchers with GraphNodeTest {
   }
 
   test("test3: sample input") {
-    val g = generateGraphFormEdges(List(
-      (1, 2)
-    ))
+    val g = generateGraphFormEdges(
+      List(
+        (1, 2)
+      )
+    )
     val ng = solve(g)
 
     graphToEdges(g) should contain theSameElementsInOrderAs graphToEdges(ng)

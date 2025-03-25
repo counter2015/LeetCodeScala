@@ -16,5 +16,4 @@ class MinimumPathSumTest extends AnyFunSuite with Matchers {
     solve(grids) shouldBe 7
   }
 
-
 }

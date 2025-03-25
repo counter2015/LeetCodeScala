@@ -2,17 +2,17 @@ package algorithms.medium.basic
 
 object ThreeSum {
 
-  /** RunTime Info:
-    * 6548 ms, 88.3 MB
+  /** RunTime Info: 6548 ms, 88.3 MB
     *
-    * @param nums input integer array
-    * @return the result list tuple(a,b,c) that a + b + c == 0
+    * @param nums
+    *   input integer array
+    * @return
+    *   the result list tuple(a,b,c) that a + b + c == 0
     */
   def threeSum(nums: Array[Int]): List[List[Int]] = {
     import scala.collection.mutable.ArrayBuffer
 
     val arr = nums.sorted
-
 
     var res = ArrayBuffer.empty[List[Int]]
     var a = 0

@@ -2,14 +2,14 @@ package algorithms.medium.basic
 
 object SortColors {
 
-  /** RunTime Info:
-    * 272 ms, 46.4 MB
+  /** RunTime Info: 272 ms, 46.4 MB
     *
-    * @param nums integer array only contains 0, 1, 2
+    * @param nums
+    *   integer array only contains 0, 1, 2
     */
   def sortColors(nums: Array[Int]): Unit = {
     var (l, cur, r, temp) = (0, 0, nums.length - 1, 0)
-    while (cur <= r) {
+    while (cur <= r)
       nums(cur) match {
         case 0 =>
           temp = nums(l)
@@ -25,6 +25,5 @@ object SortColors {
           nums(r) = temp
           r -= 1
       }
-    }
   }
 }

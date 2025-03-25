@@ -12,7 +12,7 @@ trait TreeNodeTest {
     var root: TreeNode = null
     val n = arr.length
 
-    def insert(node: TreeNode, i: Int): Unit = {
+    def insert(node: TreeNode, i: Int): Unit =
       if (i < n) {
         val leftIndex = i * 2 + 1
         val rightIndex = i * 2 + 2
@@ -37,7 +37,6 @@ trait TreeNodeTest {
           }
         }
       }
-    }
 
     arr.headOption match {
       case Some(x) =>
@@ -52,21 +51,19 @@ trait TreeNodeTest {
     root
   }
 
-  def sameElement(a: TreeNode, b: TreeNode): Boolean = {
+  def sameElement(a: TreeNode, b: TreeNode): Boolean =
     if (a == null && b == null) true
     else if (a != null && b != null) {
       a.value == b.value && sameElement(a.left, b.left) && sameElement(a.right, b.right)
     } else false
-  }
 
   def elements(root: TreeNode): List[Int] = {
     import algorithms.medium.tree.InorderTraversal.inorderTraversal
     inorderTraversal(root)
   }
 
-  def isSored(root: TreeNode)(implicit ordering: Ordering[Int]): Boolean = {
+  def isSored(root: TreeNode)(implicit ordering: Ordering[Int]): Boolean =
     elements(root).sliding(2).forall { case Seq(a, b) => ordering.lteq(a, b) }
-  }
 
   def cloneTreeNode(root: TreeNode): TreeNode = {
     val node = new TreeNode()
@@ -88,6 +85,6 @@ trait TreeNodeTest {
       isBalanced(root.left) &&
         isBalanced(root.right) &&
         (depth(root.left) - depth(root.right)).abs <= 1
-      )
+    )
   }
 }

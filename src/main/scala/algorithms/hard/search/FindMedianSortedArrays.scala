@@ -1,12 +1,13 @@
 package algorithms.hard.search
 
-
 object FindMedianSortedArrays {
-  /** RunTime Info:
-    * 440ms, 62.5MB
+
+  /** RunTime Info: 440ms, 62.5MB
     *
-    * @param nums1 first input array
-    * @param nums2 second input array
+    * @param nums1
+    *   first input array
+    * @param nums2
+    *   second input array
     * @return
     */
   def findMedianSortedArrays(nums1: Array[Int], nums2: Array[Int]): Double = {

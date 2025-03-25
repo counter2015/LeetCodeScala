@@ -16,7 +16,8 @@ class SovleSudokuTest extends AnyFunSuite with Matchers {
       Array('7', '.', '.', '.', '2', '.', '.', '.', '6'),
       Array('.', '6', '.', '.', '.', '.', '2', '8', '.'),
       Array('.', '.', '.', '4', '1', '9', '.', '.', '5'),
-      Array('.', '.', '.', '.', '8', '.', '.', '7', '9'))
+      Array('.', '.', '.', '.', '8', '.', '.', '7', '9')
+    )
 
     val res = Array(
       Array('5', '3', '4', '6', '7', '8', '9', '1', '2'),
@@ -27,7 +28,8 @@ class SovleSudokuTest extends AnyFunSuite with Matchers {
       Array('7', '1', '3', '9', '2', '4', '8', '5', '6'),
       Array('9', '6', '1', '5', '3', '7', '2', '8', '4'),
       Array('2', '8', '7', '4', '1', '9', '6', '3', '5'),
-      Array('3', '4', '5', '2', '8', '6', '1', '7', '9'))
+      Array('3', '4', '5', '2', '8', '6', '1', '7', '9')
+    )
 
     solve(arr)
     arr.flatten.mkString shouldBe res.flatten.mkString
@@ -43,8 +45,8 @@ class SovleSudokuTest extends AnyFunSuite with Matchers {
       Array('.', '9', '8', '.', '.', '.', '3', '.', '.'),
       Array('.', '.', '.', '8', '.', '3', '.', '2', '.'),
       Array('.', '.', '.', '.', '.', '.', '.', '.', '6'),
-      Array('.', '.', '.', '2', '7', '5', '9', '.', '.'))
-
+      Array('.', '.', '.', '2', '7', '5', '9', '.', '.')
+    )
 
     val res = Array(
       Array('5', '1', '9', '7', '4', '8', '6', '3', '2'),
@@ -55,7 +57,8 @@ class SovleSudokuTest extends AnyFunSuite with Matchers {
       Array('1', '9', '8', '5', '2', '4', '3', '6', '7'),
       Array('9', '7', '5', '8', '6', '3', '1', '2', '4'),
       Array('8', '3', '2', '4', '9', '1', '7', '5', '6'),
-      Array('6', '4', '1', '2', '7', '5', '9', '8', '3'))
+      Array('6', '4', '1', '2', '7', '5', '9', '8', '3')
+    )
 
     solve(arr)
     arr.flatten.mkString shouldBe res.flatten.mkString

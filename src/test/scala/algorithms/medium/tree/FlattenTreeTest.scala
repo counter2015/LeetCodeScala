@@ -6,13 +6,12 @@ import org.scalatest.funsuite.AnyFunSuite
 import org.scalatest.matchers.should.Matchers
 
 class FlattenTreeTest extends AnyFunSuite with Matchers with TreeNodeTest {
-  def rightLeanTree(arr: Array[Int]): TreeNode = {
+  def rightLeanTree(arr: Array[Int]): TreeNode =
     if (arr.nonEmpty) {
       val root = new TreeNode(arr.head)
       root.right = rightLeanTree(arr.tail)
       root
     } else null
-  }
 
   test("test0: sample input") {
     val arr: Array[Either[String, Int]] = Array(1, 2, 5, 3, 4, "null", 6)

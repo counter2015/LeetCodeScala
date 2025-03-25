@@ -2,14 +2,16 @@ package algorithms.hard.regex
 
 object RegularExpressionMatching {
 
-  /** RunTime Info:
-    * 688 ms, 53.4 MB
+  /** RunTime Info: 688 ms, 53.4 MB
     *
-    * @param s target string
-    * @param p patter of regex to match
-    * @return whether `s` is the pattern of `p`
+    * @param s
+    *   target string
+    * @param p
+    *   patter of regex to match
+    * @return
+    *   whether `s` is the pattern of `p`
     */
-  def isMatch(s: String, p: String): Boolean = {
+  def isMatch(s: String, p: String): Boolean =
 
     if (p.length == 0) {
       s.length == 0
@@ -24,7 +26,5 @@ object RegularExpressionMatching {
         a || b
       }
     }
-
-  }
 
 }

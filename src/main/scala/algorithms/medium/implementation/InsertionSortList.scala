@@ -4,11 +4,12 @@ import algorithms.struct.ListNode
 
 object InsertionSortList {
 
-  /** RunTime Info:
-    * 604 ms, 51.8 MB
+  /** RunTime Info: 604 ms, 51.8 MB
     *
-    * @param head the head node of list
-    * @return sorted list
+    * @param head
+    *   the head node of list
+    * @return
+    *   sorted list
     */
   def insertionSortList(head: ListNode): ListNode = {
     if (head == null || head.next == null) return head
@@ -19,9 +20,8 @@ object InsertionSortList {
     while (insert != null) {
       var i = h
       val n = insert.next
-      while (i.next != insert && i.next.x <= insert.x) {
+      while (i.next != insert && i.next.x <= insert.x)
         i = i.next
-      }
       if (i.next != insert) {
         preInsert.next = insert.next
         insert.next = i.next
@@ -34,6 +34,5 @@ object InsertionSortList {
     }
     h.next
   }
-
 
 }

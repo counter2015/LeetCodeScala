@@ -4,11 +4,12 @@ import algorithms.struct.ListNode
 
 object ListCycle2 {
 
-  /** RunTime Info:
-    * 516 ms, 50.9 MB
+  /** RunTime Info: 516 ms, 50.9 MB
     *
-    * @param head the head node of the list
-    * @return the gate node of cycle
+    * @param head
+    *   the head node of the list
+    * @return
+    *   the gate node of cycle
     */
   def detectCycle(head: ListNode): ListNode = {
     if (head == null) return null

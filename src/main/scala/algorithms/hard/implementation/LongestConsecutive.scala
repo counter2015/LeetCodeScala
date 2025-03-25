@@ -2,17 +2,18 @@ package algorithms.hard.implementation
 
 object LongestConsecutive {
 
-  /** RunTime Info:
-    * 892 ms, 67.9 MB
+  /** RunTime Info: 892 ms, 67.9 MB
     *
-    * @param nums the integer array
-    * @return longest consecutive sequence length
+    * @param nums
+    *   the integer array
+    * @return
+    *   longest consecutive sequence length
     */
   def longestConsecutive(nums: Array[Int]): Int = {
     import scala.collection.mutable
     val set = mutable.Set(nums.toIndexedSeq: _*)
     var res = 0
-    for (n <- nums) {
+    for (n <- nums)
       if (set.contains(n)) {
         var temp = 1
         var (i, j) = (n - 1, n + 1)
@@ -33,7 +34,6 @@ object LongestConsecutive {
         }
         res = res max temp
       }
-    }
     res
   }
 }

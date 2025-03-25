@@ -2,11 +2,12 @@ package algorithms.easy.basic
 
 object SellStock {
 
-  /** RunTime Info:
-    * 492 ms, 50.9 MB
+  /** RunTime Info: 492 ms, 50.9 MB
     *
-    * @param prices the prices of days
-    * @return the max profit with one transaction
+    * @param prices
+    *   the prices of days
+    * @return
+    *   the max profit with one transaction
     */
   def maxProfit(prices: Array[Int]): Int = {
     val n = prices.length

@@ -2,11 +2,12 @@ package algorithms.easy.basic
 
 object PascalTriangle {
 
-  /** RunTime Info:
-    * 684 ms, 59.8 MB
+  /** RunTime Info: 684 ms, 59.8 MB
     *
-    * @param numRows the size of pascal triangle
-    * @return the triangle
+    * @param numRows
+    *   the size of pascal triangle
+    * @return
+    *   the triangle
     */
   def generate(numRows: Int): List[List[Int]] = {
 
@@ -20,23 +21,21 @@ object PascalTriangle {
     }
 
     val arr = Array.fill(numRows, numRows)(0)
-    for (i <- 0 until numRows) {
-      for (j <- 0 to i) {
+    for (i <- 0 until numRows)
+      for (j <- 0 to i)
         arr(i)(j) = c(i, j)
-      }
-    }
 
     arr.map(_.takeWhile(_ > 0).toList).toList
 
   }
 
-  /** RunTime Info:
-    * 584 ms, 65.1 MB
+  /** RunTime Info: 584 ms, 65.1 MB
     *
-    * @param numRows the size of pascal triangle
-    * @return the triangle
+    * @param numRows
+    *   the size of pascal triangle
+    * @return
+    *   the triangle
     */
-  def generateF(numRows: Int): List[List[Int]] = {
+  def generateF(numRows: Int): List[List[Int]] =
     LazyList.iterate(Vector(1))(v => (0 +: v :+ 0).sliding(2).map(_.sum).toVector).take(numRows).toList.map(_.toList)
-  }
 }

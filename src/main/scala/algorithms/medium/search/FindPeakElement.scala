@@ -2,11 +2,12 @@ package algorithms.medium.search
 
 object FindPeakElement {
 
-  /** RunTime Info:
-    * 704 ms, 50.5 MB
+  /** RunTime Info: 704 ms, 50.5 MB
     *
-    * @param nums the array of numbers
-    * @return the peak index
+    * @param nums
+    *   the array of numbers
+    * @return
+    *   the peak index
     */
   def findPeakElement(nums: Array[Int]): Int = {
     var left = 0

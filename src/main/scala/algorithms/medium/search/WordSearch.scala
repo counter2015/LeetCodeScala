@@ -1,14 +1,15 @@
 package algorithms.medium.search
 
-
 object WordSearch {
 
-  /** RunTime Info:
-    * 488 ms, 59.3 MB
+  /** RunTime Info: 488 ms, 59.3 MB
     *
-    * @param board the character board
-    * @param word  the string to search
-    * @return whether the string can be find in the board or not
+    * @param board
+    *   the character board
+    * @param word
+    *   the string to search
+    * @return
+    *   whether the string can be find in the board or not
     */
   def exist(board: Array[Array[Char]], word: String): Boolean = {
     val m = board.length

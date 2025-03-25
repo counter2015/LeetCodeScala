@@ -4,10 +4,10 @@ import algorithms.struct.ListNode
 
 object ReorderList {
 
-  /** RunTime Info:
-    * 892 ms, 53.6 MB
+  /** RunTime Info: 892 ms, 53.6 MB
     *
-    * @param head the head node of list
+    * @param head
+    *   the head node of list
     */
   def reorderList(head: ListNode): Unit = {
     if (head == null || head.next == null || head.next.next == null) return

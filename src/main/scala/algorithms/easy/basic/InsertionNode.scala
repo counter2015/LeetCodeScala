@@ -4,17 +4,18 @@ import algorithms.struct.ListNode
 
 object InsertionNode {
 
-  /** RunTime Info:
-    * 556 ms, 55.3 MB
+  /** RunTime Info: 556 ms, 55.3 MB
     *
-    * @param headA head of list node A
-    * @param headB head of list node B
-    * @return the insertion node or null
+    * @param headA
+    *   head of list node A
+    * @param headB
+    *   head of list node B
+    * @return
+    *   the insertion node or null
     */
   def getIntersectionNode(headA: ListNode, headB: ListNode): ListNode = {
-    def listLength(l: ListNode): Int = {
+    def listLength(l: ListNode): Int =
       if (l == null) 0 else 1 + listLength(l.next)
-    }
 
     val (a, b) = (listLength(headA), listLength(headB))
     var (x, y) = (headA, headB)

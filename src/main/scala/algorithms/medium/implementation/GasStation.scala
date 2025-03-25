@@ -2,12 +2,14 @@ package algorithms.medium.implementation
 
 object GasStation {
 
-  /** RunTime Info:
-    * 644 ms, 51 MB
+  /** RunTime Info: 644 ms, 51 MB
     *
-    * @param gas  the gas volume of each station
-    * @param cost cost of each edge between neighbor gas station
-    * @return the start index of gas station
+    * @param gas
+    *   the gas volume of each station
+    * @param cost
+    *   cost of each edge between neighbor gas station
+    * @return
+    *   the start index of gas station
     */
   def canCompleteCircuit(gas: Array[Int], cost: Array[Int]): Int = {
     val arr = gas.zip(cost).map(x => x._1 - x._2)
@@ -25,9 +27,8 @@ object GasStation {
       true
     }
 
-    for (i <- 0 until n if arr(i) >= 0) {
+    for (i <- 0 until n if arr(i) >= 0)
       if (travel(i)) res = i
-    }
     res
   }
 }

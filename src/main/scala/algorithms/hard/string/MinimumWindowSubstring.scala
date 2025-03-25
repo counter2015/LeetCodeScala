@@ -2,12 +2,14 @@ package algorithms.hard.string
 
 object MinimumWindowSubstring {
 
-  /** RunTime Info:
-    * 436 ms, 54.9 MB
+  /** RunTime Info: 436 ms, 54.9 MB
     *
-    * @param s source string
-    * @param t target string
-    * @return the minimum length window string
+    * @param s
+    *   source string
+    * @param t
+    *   target string
+    * @return
+    *   the minimum length window string
     */
   def minWindow(s: String, t: String): String = {
     if (s.length == 0 || t.length == 0) return ""

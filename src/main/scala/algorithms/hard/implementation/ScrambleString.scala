@@ -2,14 +2,16 @@ package algorithms.hard.implementation
 
 object ScrambleString {
 
-  /** RunTime Info:
-    * 312 ms, 53.8 MB
+  /** RunTime Info: 312 ms, 53.8 MB
     *
-    * @param s1 first string
-    * @param s2 second string
-    * @return whether the s1, s2 is co-scramble
+    * @param s1
+    *   first string
+    * @param s2
+    *   second string
+    * @return
+    *   whether the s1, s2 is co-scramble
     */
-  def isScramble(s1: String, s2: String): Boolean = {
+  def isScramble(s1: String, s2: String): Boolean =
     if (s1.length != s2.length || s1.toSeq.sorted.unwrap != s2.toSeq.sorted.unwrap) {
       false
     } else if (s1 == s2 || s1.length == 0) {
@@ -27,5 +29,4 @@ object ScrambleString {
       }
       false
     }
-  }
 }

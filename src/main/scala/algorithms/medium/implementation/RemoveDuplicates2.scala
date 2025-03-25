@@ -2,11 +2,12 @@ package algorithms.medium.implementation
 
 object RemoveDuplicates2 {
 
-  /** RunTime Info:
-    * 308 ms, 51.1 MB
+  /** RunTime Info: 308 ms, 51.1 MB
     *
-    * @param nums a integer array with duplicates
-    * @return the array after remove duplicates which don't contain more than two same element
+    * @param nums
+    *   a integer array with duplicates
+    * @return
+    *   the array after remove duplicates which don't contain more than two same element
     */
   def removeDuplicates(nums: Array[Int]): Int = {
     val n = nums.length
@@ -14,7 +15,7 @@ object RemoveDuplicates2 {
       n
     } else {
       var (res, state, num) = (0, 0, 0)
-      for (i <- 0 until n) {
+      for (i <- 0 until n)
         if (i == 0) {
           num = nums(i)
           nums(res) = nums(i)
@@ -34,7 +35,6 @@ object RemoveDuplicates2 {
             res += 1
           }
         }
-      }
       res
     }
   }

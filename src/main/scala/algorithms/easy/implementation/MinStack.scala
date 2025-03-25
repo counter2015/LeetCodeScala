@@ -10,18 +10,15 @@ class MinStack {
     s.push((x, min))
   }
 
-  def pop(): Unit = {
+  def pop(): Unit =
     if (s.isEmpty) throw new java.util.NoSuchElementException
     else s.pop()
-  }
 
-  def top(): Int = {
+  def top(): Int =
     if (s.isEmpty) throw new java.util.NoSuchElementException
     else s.top._1
-  }
 
-  def getMin: Int = {
+  def getMin: Int =
     if (s.isEmpty) throw new java.util.NoSuchElementException
     else s.top._2
-  }
 }

@@ -4,13 +4,16 @@ import algorithms.struct.ListNode
 
 object ReverseBetween {
 
-  /** RunTime Info:
-    * 272 ms, 49.1 MB
+  /** RunTime Info: 272 ms, 49.1 MB
     *
-    * @param head the list node head
-    * @param m    start index
-    * @param n    end index
-    * @return reverse list node from m to n
+    * @param head
+    *   the list node head
+    * @param m
+    *   start index
+    * @param n
+    *   end index
+    * @return
+    *   reverse list node from m to n
     */
   def reverseBetween(head: ListNode, m: Int, n: Int): ListNode = {
     val newHead = new ListNode(0)

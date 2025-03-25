@@ -2,11 +2,12 @@ package algorithms.hard.search
 
 object MinRotatedArray2 {
 
-  /** RunTime Info:
-    * 480 ms, 50.8 MB
+  /** RunTime Info: 480 ms, 50.8 MB
     *
-    * @param nums the number of rotated array
-    * @return the minimum number
+    * @param nums
+    *   the number of rotated array
+    * @return
+    *   the minimum number
     */
   def findMin(nums: Array[Int]): Int = {
     var left = 0

@@ -11,9 +11,7 @@ class WordLadder2Test extends AnyFunSuite with Matchers {
     val endWord = "cog"
     val wordList = List("hot", "dot", "dog", "lot", "log", "cog")
     val res = solve(beginWord, endWord, wordList)
-    val ans = List(
-      List("hit", "hot", "dot", "dog", "cog"),
-      List("hit", "hot", "lot", "log", "cog"))
+    val ans = List(List("hit", "hot", "dot", "dog", "cog"), List("hit", "hot", "lot", "log", "cog"))
 
     res.sortBy(_.mkString) should contain theSameElementsInOrderAs ans.sortBy(_.mkString)
   }
@@ -32,26 +30,110 @@ class WordLadder2Test extends AnyFunSuite with Matchers {
     val endWord = "c"
     val wordList = List("a", "b", "c")
     val res = solve(beginWord, endWord, wordList)
-    val ans = List(
-      List("a", "c"))
+    val ans = List(List("a", "c"))
     res should contain theSameElementsInOrderAs ans
   }
-
 
   test("test3: complex input") {
     val beginWord = "qa"
     val endWord = "sq"
     val wordList = List(
-      "si", "go", "se", "cm", "so", "ph", "mt", "db", "mb", "sb",
-      "kr", "ln", "tm", "le", "av", "sm", "ar", "ci", "ca", "br",
-      "ti", "ba", "to", "ra", "fa", "yo", "ow", "sn", "ya", "cr",
-      "po", "fe", "ho", "ma", "re", "or", "rn", "au", "ur", "rh",
-      "sr", "tc", "lt", "lo", "as", "fr", "nb", "yb", "if", "pb",
-      "ge", "th", "pm", "rb", "sh", "co", "ga", "li", "ha", "hz",
-      "no", "bi", "di", "hi", "qa", "pi", "os", "uh", "wm", "an",
-      "me", "mo", "na", "la", "st", "er", "sc", "ne", "mn", "mi",
-      "am", "ex", "pt", "io", "be", "fm", "ta", "tb", "ni", "mr",
-      "pa", "he", "lr", "sq", "ye")
+      "si",
+      "go",
+      "se",
+      "cm",
+      "so",
+      "ph",
+      "mt",
+      "db",
+      "mb",
+      "sb",
+      "kr",
+      "ln",
+      "tm",
+      "le",
+      "av",
+      "sm",
+      "ar",
+      "ci",
+      "ca",
+      "br",
+      "ti",
+      "ba",
+      "to",
+      "ra",
+      "fa",
+      "yo",
+      "ow",
+      "sn",
+      "ya",
+      "cr",
+      "po",
+      "fe",
+      "ho",
+      "ma",
+      "re",
+      "or",
+      "rn",
+      "au",
+      "ur",
+      "rh",
+      "sr",
+      "tc",
+      "lt",
+      "lo",
+      "as",
+      "fr",
+      "nb",
+      "yb",
+      "if",
+      "pb",
+      "ge",
+      "th",
+      "pm",
+      "rb",
+      "sh",
+      "co",
+      "ga",
+      "li",
+      "ha",
+      "hz",
+      "no",
+      "bi",
+      "di",
+      "hi",
+      "qa",
+      "pi",
+      "os",
+      "uh",
+      "wm",
+      "an",
+      "me",
+      "mo",
+      "na",
+      "la",
+      "st",
+      "er",
+      "sc",
+      "ne",
+      "mn",
+      "mi",
+      "am",
+      "ex",
+      "pt",
+      "io",
+      "be",
+      "fm",
+      "ta",
+      "tb",
+      "ni",
+      "mr",
+      "pa",
+      "he",
+      "lr",
+      "sq",
+      "ye"
+    )
     val res = solve(beginWord, endWord, wordList)
     val ans = List(
       List("qa", "ca", "cm", "sm", "sq"),
@@ -104,7 +186,8 @@ class WordLadder2Test extends AnyFunSuite with Matchers {
       List("qa", "pa", "pb", "sb", "sq"),
       List("qa", "pa", "pm", "sm", "sq"),
       List("qa", "pa", "pi", "si", "sq"),
-      List("qa", "pa", "pt", "st", "sq"))
+      List("qa", "pa", "pt", "st", "sq")
+    )
     res.sortBy(_.mkString) should contain theSameElementsInOrderAs ans.sortBy(_.mkString)
   }
 }

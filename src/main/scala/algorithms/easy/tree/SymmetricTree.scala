@@ -4,28 +4,29 @@ import algorithms.struct.TreeNode
 
 object SymmetricTree {
 
-  /** RunTime Info:
-    * 516 ms, 51 MB
+  /** RunTime Info: 516 ms, 51 MB
     *
-    * @param root the root node of the tree
-    * @return whether the tree is symmetric
+    * @param root
+    *   the root node of the tree
+    * @return
+    *   whether the tree is symmetric
     */
   def isSymmetric(root: TreeNode): Boolean = {
-    def check(node1: TreeNode, node2: TreeNode): Boolean = {
+    def check(node1: TreeNode, node2: TreeNode): Boolean =
       if (node1 == null && node2 == null) true
       else if (node1 == null || node2 == null) false
       else if (node1.value != node2.value) false
       else check(node1.left, node2.right) && check(node1.right, node2.left)
-    }
 
     check(root, root)
   }
 
-  /** RunTime Info:
-    * 484 ms, 53 MB
+  /** RunTime Info: 484 ms, 53 MB
     *
-    * @param root the root node of the tree
-    * @return whether the tree is symmetric
+    * @param root
+    *   the root node of the tree
+    * @return
+    *   whether the tree is symmetric
     */
   def isSymmetric2(root: TreeNode): Boolean = {
     def check(node1: TreeNode, node2: TreeNode): Boolean = {

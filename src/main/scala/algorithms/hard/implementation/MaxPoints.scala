@@ -2,11 +2,12 @@ package algorithms.hard.implementation
 
 object MaxPoints {
 
-  /** RunTime Info:
-    * 700 ms, 51 MB
+  /** RunTime Info: 700 ms, 51 MB
     *
-    * @param points teh points
-    * @return the max points number in one line
+    * @param points
+    *   teh points
+    * @return
+    *   the max points number in one line
     */
   def maxPoints(points: Array[Array[Int]]): Int = {
     case class Point(_x: Int, _y: Int) {
@@ -21,9 +22,8 @@ object MaxPoints {
 
     var res = 0
     val ps = for (p <- points if p.length == 2) yield Point(p(0), p(1))
-    for (i <- ps; j <- ps if i != j) {
+    for (i <- ps; j <- ps if i != j)
       res = res max ps.count(p => oneLine(i, j, p))
-    }
     if (res == 0) {
       if (ps.distinct.length == 1) ps.length else 2 min ps.length
     } else res

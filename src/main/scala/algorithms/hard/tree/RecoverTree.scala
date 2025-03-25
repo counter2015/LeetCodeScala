@@ -4,43 +4,40 @@ import algorithms.struct.TreeNode
 
 import scala.collection.mutable.ArrayBuffer
 
-
 object RecoverTree {
 
-  /** Run TimeInfo:
-    * 592 ms, 54.1 MB
+  /** Run TimeInfo: 592 ms, 54.1 MB
     *
-    * @param root the root node of the tree
+    * @param root
+    *   the root node of the tree
     */
   def recoverTree(root: TreeNode): Unit = {
     var values: ArrayBuffer[Int] = ArrayBuffer.empty[Int]
     var index = 0
 
-    def visit(node: TreeNode): Unit = {
+    def visit(node: TreeNode): Unit =
       if (node != null) {
         visit(node.left)
         values += node.value
         visit(node.right)
       }
-    }
 
-    def set(node: TreeNode, values: ArrayBuffer[Int]): Unit = {
+    def set(node: TreeNode, values: ArrayBuffer[Int]): Unit =
       if (node != null) {
         set(node.left, values)
         node.value = values(index)
         index += 1
         set(node.right, values)
       }
-    }
 
     visit(root)
     set(root, values.sorted)
   }
 
-  /** RunTime Info:
-    * 628 ms, 52.4 MB
+  /** RunTime Info: 628 ms, 52.4 MB
     *
-    * @param root the root node of the tree
+    * @param root
+    *   the root node of the tree
     */
   def morrisSolution(root: TreeNode): Unit = {
     var first, second, cur: TreeNode = root
@@ -56,7 +53,7 @@ object RecoverTree {
         n
       }
 
-      def check(): Unit = {
+      def check(): Unit =
         if (pre != null && cur != null && pre.value > cur.value) {
           if (isFisrtMeet) {
             isFisrtMeet = !isFisrtMeet
@@ -64,8 +61,6 @@ object RecoverTree {
             second = cur
           } else second = cur
         }
-      }
-
 
       if (node != null) {
         if (node.left == null) {

@@ -4,11 +4,12 @@ import algorithms.struct.ListNode
 
 object RemoveDuplicatesList {
 
-  /** RunTime Info:
-    * 296 ms, 51.2 MB
+  /** RunTime Info: 296 ms, 51.2 MB
     *
-    * @param head first node the list
-    * @return the distinct ListNode
+    * @param head
+    *   first node the list
+    * @return
+    *   the distinct ListNode
     */
   def deleteDuplicates(head: ListNode): ListNode = {
     var h = head

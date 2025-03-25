@@ -4,11 +4,12 @@ import algorithms.struct.TreeNode
 
 object SumTreePath {
 
-  /** RunTime Info:
-    * 488 ms, 50.4 MB
+  /** RunTime Info: 488 ms, 50.4 MB
     *
-    * @param root the root of the tree
-    * @return the sum of all paths
+    * @param root
+    *   the root of the tree
+    * @return
+    *   the sum of all paths
     */
   def sumNumbers(root: TreeNode): Int = {
     def sum(node: TreeNode, parents: List[Int]): List[Int] = {

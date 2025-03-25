@@ -1,6 +1,5 @@
 package algorithms.hard.implementation
 
-
 import algorithms.hard.implementation.ReverseKGroup.{reverseKGroup => solve}
 import algorithms.struct.ListNodeTest
 import org.scalatest.funsuite.AnyFunSuite
@@ -31,6 +30,4 @@ class ReverseKGroupTest extends AnyFunSuite with ListNodeTest {
     assert(sameElement(solve(arr, 3), res))
   }
 
-
 }
-

@@ -2,12 +2,14 @@ package algorithms.medium.search
 
 object SearchRotatedArray {
 
-  /** RunTime Info:
-    * 276 ms, 46.8 MB
+  /** RunTime Info: 276 ms, 46.8 MB
     *
-    * @param nums   a rotated array after sorted
-    * @param target the integer to find
-    * @return the index if find otherwise -1
+    * @param nums
+    *   a rotated array after sorted
+    * @param target
+    *   the integer to find
+    * @return
+    *   the index if find otherwise -1
     */
   def search(nums: Array[Int], target: Int): Int = {
     if (nums.length == 0) return -1
@@ -33,12 +35,14 @@ object SearchRotatedArray {
     travel(0, n - 1)
   }
 
-  /** RunTime Info:
-    * 280 ms, 45.1 MB
+  /** RunTime Info: 280 ms, 45.1 MB
     *
-    * @param nums   a rotated array after sorted
-    * @param target the integer to find
-    * @return the index if find otherwise -1
+    * @param nums
+    *   a rotated array after sorted
+    * @param target
+    *   the integer to find
+    * @return
+    *   the index if find otherwise -1
     */
   def searchWTF(nums: Array[Int], target: Int): Int = nums.indexOf(target)
 }

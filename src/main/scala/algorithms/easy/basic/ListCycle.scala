@@ -4,13 +4,14 @@ import algorithms.struct.ListNode
 
 object ListCycle {
 
-  /** RunTime Info:
-    * 484 ms, 50.7 MB
+  /** RunTime Info: 484 ms, 50.7 MB
     *
-    * @param head the head node of list
-    * @return whether the list nodes have cycle
+    * @param head
+    *   the head node of list
+    * @return
+    *   whether the list nodes have cycle
     */
-  def hasCycle(head: ListNode): Boolean = {
+  def hasCycle(head: ListNode): Boolean =
     if (head == null) false
     else {
       var fast = head
@@ -22,5 +23,4 @@ object ListCycle {
       }
       false
     }
-  }
 }

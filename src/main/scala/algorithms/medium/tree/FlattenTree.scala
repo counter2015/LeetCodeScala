@@ -4,18 +4,17 @@ import algorithms.struct.TreeNode
 
 object FlattenTree {
 
-  /** RunTime Info:
-    * 520 ms, 51 MB
+  /** RunTime Info: 520 ms, 51 MB
     *
-    * @param root the root node of the tree
+    * @param root
+    *   the root node of the tree
     */
   def flatten(root: TreeNode): Unit = {
     @scala.annotation.tailrec
-    def rightMostNode(node: TreeNode): TreeNode = {
+    def rightMostNode(node: TreeNode): TreeNode =
       if (node == null) null
       else if (node.right != null) rightMostNode(node.right)
       else node
-    }
 
     if (root == null || (root.left == null && root.right == null))
       ()

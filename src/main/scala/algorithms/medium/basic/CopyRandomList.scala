@@ -5,11 +5,13 @@ import algorithms.struct.{RandomListNode => Node}
 import scala.collection.mutable
 
 object CopyRandomList {
-  /** RunTime Info:
-    * 500 ms, 52.1 MB
+
+  /** RunTime Info: 500 ms, 52.1 MB
     *
-    * @param head node of random list
-    * @return deep copy of original list
+    * @param head
+    *   node of random list
+    * @return
+    *   deep copy of original list
     */
   def copyRandomList(head: Node): Node = {
     if (head == null) return null

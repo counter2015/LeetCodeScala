@@ -4,22 +4,23 @@ import algorithms.struct.TreeNode
 
 object PostorderTraversal {
 
-  /** RunTime Info:
-    * 908 ms, 62.3 MB
+  /** RunTime Info: 908 ms, 62.3 MB
     *
-    * @param root the root node of the tree
-    * @return the post order of the tree
+    * @param root
+    *   the root node of the tree
+    * @return
+    *   the post order of the tree
     */
-  def postorderTraversal(root: TreeNode): List[Int] = {
+  def postorderTraversal(root: TreeNode): List[Int] =
     if (root == null) Nil
     else postorderTraversal(root.left) ++ postorderTraversal(root.right) :+ root.value
-  }
 
-  /** RunTime Info:
-    * 792 ms, 66.3 MB
+  /** RunTime Info: 792 ms, 66.3 MB
     *
-    * @param root the root node of the tree
-    * @return the post order of the tree
+    * @param root
+    *   the root node of the tree
+    * @return
+    *   the post order of the tree
     */
   def postorderTraversal2(root: TreeNode): List[Int] = {
     import scala.collection.mutable

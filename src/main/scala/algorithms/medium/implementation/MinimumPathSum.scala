@@ -2,11 +2,12 @@ package algorithms.medium.implementation
 
 object MinimumPathSum {
 
-  /** RunTime Info:
-    * 300 ms, 58 MB
+  /** RunTime Info: 300 ms, 58 MB
     *
-    * @param grid the grids states
-    * @return minimum path sum of grids
+    * @param grid
+    *   the grids states
+    * @return
+    *   minimum path sum of grids
     */
   def minPathSum(grid: Array[Array[Int]]): Int = {
 

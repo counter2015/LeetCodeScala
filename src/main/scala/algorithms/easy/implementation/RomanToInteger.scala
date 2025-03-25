@@ -2,11 +2,12 @@ package algorithms.easy.implementation
 
 object RomanToInteger {
 
-  /** RunTime Info:
-    * 284 ms, 51.9 MB
+  /** RunTime Info: 284 ms, 51.9 MB
     *
-    * @param s input Roman string
-    * @return the integer which stand for input Roman string
+    * @param s
+    *   input Roman string
+    * @return
+    *   the integer which stand for input Roman string
     */
   def romanToInt(s: String): Int = {
     // scalastyle:off magic.number
@@ -21,7 +22,7 @@ object RomanToInteger {
     }
     // scalastyle:on magic.number
 
-    def travel(s: String): Int = {
+    def travel(s: String): Int =
       if (s.length == 0) {
         0
       } else if (s.length == 1) {
@@ -30,7 +31,6 @@ object RomanToInteger {
         val (a, b) = (convert(s(0)), convert(s(1)))
         if (a < b) travel(s.substring(2)) + b - a else travel(s.substring(1)) + a
       }
-    }
 
     travel(s)
   }

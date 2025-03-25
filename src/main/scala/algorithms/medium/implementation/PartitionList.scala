@@ -4,12 +4,14 @@ import algorithms.struct.ListNode
 
 object PartitionList {
 
-  /** RunTime Info:
-    * 300 ms, 49.5 MB
+  /** RunTime Info: 300 ms, 49.5 MB
     *
-    * @param head first node
-    * @param x    the partition value
-    * @return partitioned nodes
+    * @param head
+    *   first node
+    * @param x
+    *   the partition value
+    * @return
+    *   partitioned nodes
     */
   def partition(head: ListNode, x: Int): ListNode = {
     if (head == null) return head

@@ -2,11 +2,12 @@ package algorithms.hard.implementation
 
 object NQueens2 {
 
-  /** RunTime Info:
-    * 276 ms, 49.1 MB
+  /** RunTime Info: 276 ms, 49.1 MB
     *
-    * @param n the board size
-    * @return solution number of n-queens
+    * @param n
+    *   the board size
+    * @return
+    *   solution number of n-queens
     */
   def totalNQueens(n: Int): Int = {
     def underAttack(a: (Int, Int), b: (Int, Int)): Boolean =
@@ -15,7 +16,7 @@ object NQueens2 {
     def isSafe(queen: (Int, Int), queens: List[(Int, Int)]): Boolean =
       queens.forall(!underAttack(queen, _))
 
-    def place(n: Int, size: Int): List[List[(Int, Int)]] = {
+    def place(n: Int, size: Int): List[List[(Int, Int)]] =
       n match {
         case 0 => List(List())
         case _ =>
@@ -26,7 +27,6 @@ object NQueens2 {
             if isSafe(queen, queens)
           } yield queen :: queens
       }
-    }
 
     place(n, n).length
   }

@@ -2,11 +2,12 @@ package algorithms.medium.implementation
 
 object MaxProduct {
 
-  /** RunTime Info:
-    * 472 ms, 50.5 MB
+  /** RunTime Info: 472 ms, 50.5 MB
     *
-    * @param nums the array
-    * @return max product of the sub array
+    * @param nums
+    *   the array
+    * @return
+    *   max product of the sub array
     */
   def maxProduct(nums: Array[Int]): Int = {
     var mi, ma, res = nums(0)

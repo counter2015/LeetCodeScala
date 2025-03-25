@@ -4,14 +4,16 @@ import algorithms.struct.TreeNode
 
 object PreInOrderBuild {
 
-  /** RunTime Info:
-    * 668 ms, 80.1 MB
+  /** RunTime Info: 668 ms, 80.1 MB
     *
-    * @param preorder the preorder of the tree
-    * @param inorder  the inorder of the tree
-    * @return the tree
+    * @param preorder
+    *   the preorder of the tree
+    * @param inorder
+    *   the inorder of the tree
+    * @return
+    *   the tree
     */
-  def buildTree(preorder: Array[Int], inorder: Array[Int]): TreeNode = {
+  def buildTree(preorder: Array[Int], inorder: Array[Int]): TreeNode =
     if (preorder.isEmpty || inorder.isEmpty) null
     else {
       val root = new TreeNode(preorder.head)
@@ -22,5 +24,4 @@ object PreInOrderBuild {
       root.right = buildTree(preorder.slice(1 + leftLength, preorder.length), rightInorder)
       root
     }
-  }
 }

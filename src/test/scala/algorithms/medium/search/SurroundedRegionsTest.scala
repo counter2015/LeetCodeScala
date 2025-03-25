@@ -17,7 +17,6 @@ class SurroundedRegionsTest extends AnyFunSuite with Matchers {
         |X X O X
         |X O X X""".stripMargin.trim
 
-
     val bs = toCharSeqs(board)
 
     solve(bs)

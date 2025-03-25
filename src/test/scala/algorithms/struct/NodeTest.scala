@@ -11,7 +11,7 @@ trait NodeTest {
     var root: Node = null
     val n = arr.length
 
-    def insert(node: Node, i: Int): Unit = {
+    def insert(node: Node, i: Int): Unit =
       if (i < n) {
         val leftIndex = i * 2 + 1
         val rightIndex = i * 2 + 2
@@ -36,7 +36,6 @@ trait NodeTest {
           }
         }
       }
-    }
 
     arr.headOption match {
       case Some(x) =>
@@ -51,7 +50,7 @@ trait NodeTest {
     root
   }
 
-  def isConnected(node: Node, index: Int = 0): Boolean = {
+  def isConnected(node: Node, index: Int = 0): Boolean =
     if (node == null) true
     else {
       @scala.annotation.tailrec
@@ -66,7 +65,7 @@ trait NodeTest {
         }
       }
 
-      def isLeverConnected(nodes: List[Node]): Boolean = {
+      def isLeverConnected(nodes: List[Node]): Boolean =
         if (nodes.isEmpty) true
         else {
           var i = 0
@@ -76,10 +75,7 @@ trait NodeTest {
           }
           true
         }
-      }
 
       levelTraversal(List(node), isLeverConnected)
     }
-  }
 }
-

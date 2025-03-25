@@ -2,12 +2,14 @@ package algorithms.hard.string
 
 object EditDistance {
 
-  /** RunTime info:
-    * 292 ms, 48.4 MB
+  /** RunTime info: 292 ms, 48.4 MB
     *
-    * @param word1 string
-    * @param word2 string
-    * @return the distance of the two string
+    * @param word1
+    *   string
+    * @param word2
+    *   string
+    * @return
+    *   the distance of the two string
     */
   def minDistance(word1: String, word2: String): Int = {
 

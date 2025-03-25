@@ -4,7 +4,6 @@ organization := "com.counter2015"
 
 version := "1.0"
 
-// same version to leetcode.com
 scalaVersion := "2.13.16"
 
 
@@ -28,3 +27,6 @@ scalacOptions ++= Seq(
  */
 Test / testOptions += Tests.Argument("-oD")
 Global / onChangedBuildSource := ReloadOnSourceChanges
+
+scalafmtOnCompile := true
+semanticdbEnabled := true

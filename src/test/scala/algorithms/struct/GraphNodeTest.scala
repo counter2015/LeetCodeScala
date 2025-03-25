@@ -15,16 +15,15 @@ trait GraphNodeTest {
       if (!res(j).neighbors.contains(i)) res(j).neighbors = res(j).neighbors :+ res(i)
     }
 
-    for ((a, b) <- data) {
+    for ((a, b) <- data)
       setOrUpdate(a, b)
-    }
     res.head._2
   }
 
   def graphToEdges(g: GraphNode): List[(Int, Int)] = {
     val res = mutable.Map[Int, mutable.ListBuffer[Int]]().withDefaultValue(null)
 
-    def visit(node: GraphNode): Unit = {
+    def visit(node: GraphNode): Unit =
       if (node != null && node.neighbors != null)
         for (neighbor <- node.neighbors) {
           if (res(node.value) == null) {
@@ -32,13 +31,11 @@ trait GraphNodeTest {
           } else res(node.value) += neighbor.value
           if (res(neighbor.value) == null) visit(neighbor)
         }
-    }
 
     visit(g)
     val ans = mutable.ListBuffer[(Int, Int)]()
-    for ((k, vs) <- res; v <- vs if k < v) {
+    for ((k, vs) <- res; v <- vs if k < v)
       ans.+=((k, v))
-    }
     ans.toList.sortBy(_._1).distinct
   }
 

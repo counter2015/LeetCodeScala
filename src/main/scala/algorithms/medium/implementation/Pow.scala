@@ -2,17 +2,19 @@ package algorithms.medium.implementation
 
 object Pow {
 
-  /** RunTime Info:
-    * 248 ms, 41.8 MB
+  /** RunTime Info: 248 ms, 41.8 MB
     *
-    * @param x a double
-    * @param n a integer
-    * @return the result of `x^n`
+    * @param x
+    *   a double
+    * @param n
+    *   a integer
+    * @return
+    *   the result of `x^n`
     */
   def myPow(x: Double, n: Int): Double = {
 
     @scala.annotation.tailrec
-    def run(x: Double, y: Double, n: Long): Double = {
+    def run(x: Double, y: Double, n: Long): Double =
       if (n < 0) {
         run(1.0 / x, 1.0 / y, -n)
       } else if (n > 0) {
@@ -24,7 +26,6 @@ object Pow {
       } else {
         y
       }
-    }
 
     "%.5f".format(run(x, 1.0, n)).toDouble
   }

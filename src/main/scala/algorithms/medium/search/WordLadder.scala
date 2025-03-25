@@ -2,13 +2,16 @@ package algorithms.medium.search
 
 object WordLadder {
 
-  /** RunTime Info:
-    * 2024 ms, 58.7 MB
+  /** RunTime Info: 2024 ms, 58.7 MB
     *
-    * @param beginWord the word begin
-    * @param endWord   the word end
-    * @param wordList  the word list
-    * @return minimum transform action steps from begin word to end word
+    * @param beginWord
+    *   the word begin
+    * @param endWord
+    *   the word end
+    * @param wordList
+    *   the word list
+    * @return
+    *   minimum transform action steps from begin word to end word
     */
   def ladderLength(beginWord: String, endWord: String, wordList: List[String]): Int = {
     import scala.collection.mutable

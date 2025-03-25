@@ -2,12 +2,14 @@ package algorithms.medium.basic
 
 object ZigZagConversion {
 
-  /** RunTime Info:
-    * 388 ms, 52.7MB
+  /** RunTime Info: 388 ms, 52.7MB
     *
-    * @param s       input string
-    * @param numRows the zig zag row number
-    * @return converted string
+    * @param s
+    *   input string
+    * @param numRows
+    *   the zig zag row number
+    * @return
+    *   converted string
     */
   def convert(s: String, numRows: Int): String = {
     if (numRows == 1) return s

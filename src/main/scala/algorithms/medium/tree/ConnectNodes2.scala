@@ -4,11 +4,12 @@ import algorithms.struct.Node
 
 object ConnectNodes2 {
 
-  /** RunTime Info:
-    * 760 ms, 70.2 MB
+  /** RunTime Info: 760 ms, 70.2 MB
     *
-    * @param root the root node
-    * @return connected nodes
+    * @param root
+    *   the root node
+    * @return
+    *   connected nodes
     */
   def connect(root: Node): Node = {
     @scala.annotation.tailrec
@@ -24,12 +25,11 @@ object ConnectNodes2 {
       }
     }
 
-    def connectLevel(nodes: List[Node]): Unit = {
-      nodes.reduceLeft((a, b) => {
+    def connectLevel(nodes: List[Node]): Unit =
+      nodes.reduceLeft { (a, b) =>
         a.next = b
         b
-      })
-    }
+      }
 
     if (root != null) levelTraversal(List(root), connectLevel)
 

@@ -2,12 +2,14 @@ package algorithms.medium.basic
 
 object FourSum {
 
-  /** RunTime Info:
-    * 360 ms, 53.7MB
+  /** RunTime Info: 360 ms, 53.7MB
     *
-    * @param nums   integer array
-    * @param target integer
-    * @return the result list tuple(a,b,c,d) that a + b + c + d == target
+    * @param nums
+    *   integer array
+    * @param target
+    *   integer
+    * @return
+    *   the result list tuple(a,b,c,d) that a + b + c + d == target
     */
   def fourSum(nums: Array[Int], target: Int): List[List[Int]] = {
 

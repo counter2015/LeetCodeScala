@@ -13,7 +13,7 @@ class CombinationsTest extends AnyFunSuite with Matchers {
       List(2, 3),
       List(1, 2),
       List(1, 3),
-      List(1, 4),
+      List(1, 4)
     )
     solve(4, 2) should contain theSameElementsAs res
     solve2(4, 2) should contain theSameElementsAs res

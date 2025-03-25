@@ -2,11 +2,12 @@ package algorithms.medium.search
 
 object MinRotatedArray {
 
-  /** RunTime Info:
-    * 692 ms, 64.1 MB
+  /** RunTime Info: 692 ms, 64.1 MB
     *
-    * @param nums the number of rotated array
-    * @return the minimum number
+    * @param nums
+    *   the number of rotated array
+    * @return
+    *   the minimum number
     */
   def findMin(nums: Array[Int]): Int = {
     var left = 0

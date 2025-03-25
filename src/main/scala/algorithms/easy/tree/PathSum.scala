@@ -4,14 +4,16 @@ import algorithms.struct.TreeNode
 
 object PathSum {
 
-  /** RunTime Info:
-    * 548 ms, 52 MB
+  /** RunTime Info: 548 ms, 52 MB
     *
-    * @param root the root node of the tree
-    * @param sum  the sum value in tree path
-    * @return whether exist such a path whose sum equals input
+    * @param root
+    *   the root node of the tree
+    * @param sum
+    *   the sum value in tree path
+    * @return
+    *   whether exist such a path whose sum equals input
     */
-  def hasPathSum(root: TreeNode, sum: Int): Boolean = {
+  def hasPathSum(root: TreeNode, sum: Int): Boolean =
     if (root == null) false
     else {
       (root.left, root.right) match {
@@ -25,5 +27,4 @@ object PathSum {
           hasPathSum(left, sum - root.value) || hasPathSum(right, sum - root.value)
       }
     }
-  }
 }

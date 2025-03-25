@@ -2,12 +2,14 @@ package algorithms.medium.basic
 
 object ThreeSumClosest {
 
-  /** RunTime Info:
-    * 328 ms, 46.7 MB
+  /** RunTime Info: 328 ms, 46.7 MB
     *
-    * @param nums   input integer array
-    * @param target input integer number
-    * @return the sum of three element of `nums`, which is nearest to `target`
+    * @param nums
+    *   input integer array
+    * @param target
+    *   input integer number
+    * @return
+    *   the sum of three element of `nums`, which is nearest to `target`
     */
   def threeSumClosest(nums: Array[Int], target: Int): Int = {
 

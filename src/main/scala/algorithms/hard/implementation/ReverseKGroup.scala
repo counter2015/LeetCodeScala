@@ -4,12 +4,14 @@ import algorithms.struct.ListNode
 
 object ReverseKGroup {
 
-  /** RunTime Info:
-    * 484 ms, 53.6 MB
+  /** RunTime Info: 484 ms, 53.6 MB
     *
-    * @param head head node of ListNode
-    * @param k    the number to reverse
-    * @return ListNode reversed by number `k`
+    * @param head
+    *   head node of ListNode
+    * @param k
+    *   the number to reverse
+    * @return
+    *   ListNode reversed by number `k`
     */
   def reverseKGroup(head: ListNode, k: Int): ListNode = {
     val dummy = new ListNode(0)

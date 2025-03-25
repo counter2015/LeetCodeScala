@@ -16,7 +16,8 @@ class ValidSudokuTest extends AnyFunSuite with Matchers {
       Array('7', '.', '.', '.', '2', '.', '.', '.', '6'),
       Array('.', '6', '.', '.', '.', '.', '2', '8', '.'),
       Array('.', '.', '.', '4', '1', '9', '.', '.', '5'),
-      Array('.', '.', '.', '.', '8', '.', '.', '7', '9'))
+      Array('.', '.', '.', '.', '8', '.', '.', '7', '9')
+    )
 
     solve(boards) shouldBe true
 
@@ -32,7 +33,8 @@ class ValidSudokuTest extends AnyFunSuite with Matchers {
       Array('7', '.', '.', '.', '2', '.', '.', '.', '6'),
       Array('.', '6', '.', '.', '.', '.', '2', '8', '.'),
       Array('.', '.', '.', '4', '1', '9', '.', '.', '5'),
-      Array('.', '.', '.', '.', '8', '.', '.', '7', '9'))
+      Array('.', '.', '.', '.', '8', '.', '.', '7', '9')
+    )
 
     solve(boards) shouldBe false
   }

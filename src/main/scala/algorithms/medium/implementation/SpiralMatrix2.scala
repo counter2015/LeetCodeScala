@@ -2,11 +2,12 @@ package algorithms.medium.implementation
 
 object SpiralMatrix2 {
 
-  /** RunTime Info:
-    * 204 ms, 44.3 MB
+  /** RunTime Info: 204 ms, 44.3 MB
     *
-    * @param n the matrix size
-    * @return the spiral matrix
+    * @param n
+    *   the matrix size
+    * @return
+    *   the spiral matrix
     */
   def generateMatrix(n: Int): Array[Array[Int]] = {
     if (n == 0) return Array(Array.empty[Int])

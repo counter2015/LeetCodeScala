@@ -4,12 +4,14 @@ import algorithms.struct.ListNode
 
 object RotateList {
 
-  /** RunTime Info:
-    * 316 ms, 51.2 MB
+  /** RunTime Info: 316 ms, 51.2 MB
     *
-    * @param head the head of ListNodes
-    * @param k    the rotate number
-    * @return the rotated ListNodes
+    * @param head
+    *   the head of ListNodes
+    * @param k
+    *   the rotate number
+    * @return
+    *   the rotated ListNodes
     */
   def rotateRight(head: ListNode, k: Int): ListNode = {
     import scala.collection.mutable.ArrayBuffer

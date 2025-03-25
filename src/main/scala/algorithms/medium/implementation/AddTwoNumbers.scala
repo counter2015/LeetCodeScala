@@ -4,12 +4,14 @@ import algorithms.struct.ListNode
 
 object AddTwoNumbers {
 
-  /** RunTime Info:
-    * 368 ms, 55.8 MB
+  /** RunTime Info: 368 ms, 55.8 MB
     *
-    * @param l1 first input listnode which stand the reverse number
-    * @param l2 second input listnode which stand the reverse number
-    * @return listnode which stand the reverse number of the sum
+    * @param l1
+    *   first input listnode which stand the reverse number
+    * @param l2
+    *   second input listnode which stand the reverse number
+    * @return
+    *   listnode which stand the reverse number of the sum
     */
   def addTwoNumbers(l1: ListNode, l2: ListNode): ListNode = {
     var head = new ListNode(0)
@@ -38,4 +40,3 @@ object AddTwoNumbers {
     res.next
   }
 }
-
