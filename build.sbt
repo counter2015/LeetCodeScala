@@ -5,7 +5,7 @@ organization := "com.counter2015"
 version := "1.0"
 
 // same version to leetcode.com
-scalaVersion := "2.13.10"
+scalaVersion := "2.13.16"
 
 
 libraryDependencies ++= Seq(
