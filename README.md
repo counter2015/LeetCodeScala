@@ -1,7 +1,6 @@
 # LeetCode Scala
-[![Build Status](https://travis-ci.com/counter2015/LeetCodeScala.svg?branch=master)](https://travis-ci.com/counter2015/LeetCodeScala)
 [![CodeFactor](https://www.codefactor.io/repository/github/counter2015/leetcodescala/badge)](https://www.codefactor.io/repository/github/counter2015/leetcodescala)
-[![Github Action Status](https://img.shields.io/github/workflow/status/counter2015/LeetcodeScala/Scala%20CI?color=green&label=actions&logo=github&logoColor=orange
+[![Github Action Status](https://img.shields.io/github/workflow/status/counter2015/LeetcodeScala/scala.yml?branch=master?color=green&label=actions&logo=github&logoColor=orange
 )](https://img.shields.io/github/workflow/status/counter2015/LeetcodeScala/Scala%20CI?color=green&label=actions&logo=github&logoColor=orange
 )
 [![codecov](https://codecov.io/gh/counter2015/LeetCodeScala/branch/master/graph/badge.svg)](https://codecov.io/gh/counter2015/LeetCodeScala)
