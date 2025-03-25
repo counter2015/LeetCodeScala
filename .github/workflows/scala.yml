@@ -22,7 +22,7 @@ jobs:
       - name: Install sbt
         uses: sbt/setup-sbt@v1
       - name: Run tests
-        run: sbt coverage test coverageReport
+        run: sbt clean coverage test coverageReport
       - uses: codecov/codecov-action@v4
         with:
           fail_ci_if_error: true
